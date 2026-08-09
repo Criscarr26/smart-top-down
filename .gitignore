@@ -1,0 +1,14 @@
+# Cache del editor de Godot: se regenera solo, no debe versionarse.
+.godot/
+*.translation
+
+# Exportaciones
+build/
+export_presets.cfg
+
+# Python del analisis
+__pycache__/
+*.pyc
+
+# NOTA: results/ SI se versiona. Los CSV, las curvas y los genomas del
+# benchmark son parte del entregable del informe, no artefactos temporales.

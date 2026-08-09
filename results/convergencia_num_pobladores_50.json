@@ -1,0 +1,802 @@
+[
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 0,
+    "medio": 25.30254,
+    "mejor": 75.81,
+    "peor": -30.041
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 1,
+    "medio": 36.55588,
+    "mejor": 50.718,
+    "peor": -29.901
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 2,
+    "medio": 33.62202,
+    "mejor": 153.313,
+    "peor": -29.459
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 3,
+    "medio": 42.67564,
+    "mejor": 148.255,
+    "peor": -31.379
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 4,
+    "medio": 36.77658,
+    "mejor": 119.181,
+    "peor": -31.534
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 5,
+    "medio": 36.77572,
+    "mejor": 147.313,
+    "peor": -31.066
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 6,
+    "medio": 61.95066,
+    "mejor": 148.255,
+    "peor": 9.326
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 7,
+    "medio": 40.6413,
+    "mejor": 62.718,
+    "peor": -31.534
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 8,
+    "medio": 58.39386,
+    "mejor": 99.981,
+    "peor": -5.017
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 9,
+    "medio": 53.1819,
+    "mejor": 148.255,
+    "peor": -28.904
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 10,
+    "medio": 43.0785,
+    "mejor": 62.718,
+    "peor": -25.68
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 11,
+    "medio": 59.7535,
+    "mejor": 147.313,
+    "peor": -29.422
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 12,
+    "medio": 75.48494,
+    "mejor": 148.255,
+    "peor": 27.266
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 13,
+    "medio": 47.90636,
+    "mejor": 80.519,
+    "peor": 36.335
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 14,
+    "medio": 70.30798,
+    "mejor": 148.08,
+    "peor": -29.956
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 15,
+    "medio": 70.94982,
+    "mejor": 148.255,
+    "peor": 9.302
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 16,
+    "medio": 43.04712,
+    "mejor": 76.389,
+    "peor": -25.68
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 17,
+    "medio": 82.82114,
+    "mejor": 287.375,
+    "peor": -13.023
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 18,
+    "medio": 77.9787,
+    "mejor": 173.507,
+    "peor": -30.86
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 19,
+    "medio": 49.12138,
+    "mejor": 170.718,
+    "peor": -1.534
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 20,
+    "medio": 69.95204,
+    "mejor": 287.375,
+    "peor": -29.422
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 21,
+    "medio": 50.9777,
+    "mejor": 173.507,
+    "peor": -29.439
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 22,
+    "medio": 56.01496,
+    "mejor": 181.683,
+    "peor": -22.511
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 23,
+    "medio": 73.05094,
+    "mejor": 287.375,
+    "peor": -31.141
+  },
+  {
+    "etapa": "vs_tipo_A",
+    "etapa_idx": 0,
+    "generacion": 24,
+    "medio": 50.15464,
+    "mejor": 173.507,
+    "peor": -29.897
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 0,
+    "medio": 63.36182,
+    "mejor": 193.516,
+    "peor": -7.8
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 1,
+    "medio": 56.3143,
+    "mejor": 193.564,
+    "peor": -7.8
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 2,
+    "medio": 73.25636,
+    "mejor": 193.552,
+    "peor": -7.8
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 3,
+    "medio": 57.67836,
+    "mejor": 193.516,
+    "peor": -9.843
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 4,
+    "medio": 83.5261,
+    "mejor": 193.564,
+    "peor": -7.8
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 5,
+    "medio": 77.24508,
+    "mejor": 193.552,
+    "peor": -7.8
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 6,
+    "medio": 61.62642,
+    "mejor": 193.516,
+    "peor": -15.263
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 7,
+    "medio": 74.68328,
+    "mejor": 196.421,
+    "peor": -11.029
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 8,
+    "medio": 73.72846,
+    "mejor": 193.552,
+    "peor": -7.8
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 9,
+    "medio": 55.92276,
+    "mejor": 193.516,
+    "peor": -20.576
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 10,
+    "medio": 63.95112,
+    "mejor": 193.564,
+    "peor": -13.605
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 11,
+    "medio": 76.238,
+    "mejor": 193.552,
+    "peor": -7.8
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 12,
+    "medio": 63.3405,
+    "mejor": 193.516,
+    "peor": -8.7
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 13,
+    "medio": 81.73562,
+    "mejor": 196.135,
+    "peor": -9.716
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 14,
+    "medio": 79.10942,
+    "mejor": 196.891,
+    "peor": -7.8
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 15,
+    "medio": 70.61698,
+    "mejor": 196.57,
+    "peor": -10.954
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 16,
+    "medio": 92.0254,
+    "mejor": 196.135,
+    "peor": -10.894
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 17,
+    "medio": 91.32042,
+    "mejor": 199.865,
+    "peor": -21.499
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 18,
+    "medio": 64.03616,
+    "mejor": 198.582,
+    "peor": -9.574
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 19,
+    "medio": 77.30482,
+    "mejor": 201.154,
+    "peor": -22.809
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 20,
+    "medio": 88.73388,
+    "mejor": 201.97,
+    "peor": -18.966
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 21,
+    "medio": 83.26904,
+    "mejor": 201.22,
+    "peor": -11.152
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 22,
+    "medio": 103.87872,
+    "mejor": 201.826,
+    "peor": -23.619
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 23,
+    "medio": 109.45252,
+    "mejor": 201.97,
+    "peor": -14.434
+  },
+  {
+    "etapa": "vs_tipo_B",
+    "etapa_idx": 1,
+    "generacion": 24,
+    "medio": 98.01932,
+    "mejor": 201.22,
+    "peor": -12.228
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 0,
+    "medio": 31.15286,
+    "mejor": 173.882,
+    "peor": -27.352
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 1,
+    "medio": 58.26164,
+    "mejor": 196.402,
+    "peor": -27.772
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 2,
+    "medio": 71.77972,
+    "mejor": 216.663,
+    "peor": -25.009
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 3,
+    "medio": 70.87068,
+    "mejor": 217.997,
+    "peor": -23.301
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 4,
+    "medio": 68.8784,
+    "mejor": 213.895,
+    "peor": -28.389
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 5,
+    "medio": 63.9784,
+    "mejor": 189.686,
+    "peor": -24.406
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 6,
+    "medio": 71.83522,
+    "mejor": 201.188,
+    "peor": -26.191
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 7,
+    "medio": 73.02058,
+    "mejor": 215.677,
+    "peor": -29.805
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 8,
+    "medio": 67.44834,
+    "mejor": 225.76,
+    "peor": -26.871
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 9,
+    "medio": 81.65992,
+    "mejor": 210.514,
+    "peor": -22.648
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 10,
+    "medio": 73.04736,
+    "mejor": 220.337,
+    "peor": -26.083
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 11,
+    "medio": 87.42932,
+    "mejor": 217.95,
+    "peor": -33.698
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 12,
+    "medio": 73.60748,
+    "mejor": 217.217,
+    "peor": -26.256
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 13,
+    "medio": 107.84134,
+    "mejor": 226.015,
+    "peor": -27.558
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 14,
+    "medio": 89.73148,
+    "mejor": 222.324,
+    "peor": -13.729
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 15,
+    "medio": 87.64586,
+    "mejor": 264.272,
+    "peor": -24.056
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 16,
+    "medio": 115.81316,
+    "mejor": 237.037,
+    "peor": -26.806
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 17,
+    "medio": 87.8508,
+    "mejor": 205.424,
+    "peor": -24.484
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 18,
+    "medio": 76.85182,
+    "mejor": 225.822,
+    "peor": -27.717
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 19,
+    "medio": 107.32422,
+    "mejor": 246.417,
+    "peor": -27.558
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 20,
+    "medio": 97.05508,
+    "mejor": 271.41,
+    "peor": -24.406
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 21,
+    "medio": 92.76806,
+    "mejor": 229.399,
+    "peor": 5.601
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 22,
+    "medio": 127.22104,
+    "mejor": 262.693,
+    "peor": 28.292
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 23,
+    "medio": 94.33094,
+    "mejor": 210.616,
+    "peor": -4.976
+  },
+  {
+    "etapa": "vs_tipo_C",
+    "etapa_idx": 2,
+    "generacion": 24,
+    "medio": 89.77904,
+    "mejor": 204.703,
+    "peor": -19.598
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 0,
+    "medio": 3.41146,
+    "mejor": 136.766,
+    "peor": -23.678
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 1,
+    "medio": 7.13312,
+    "mejor": 126.116,
+    "peor": -24.683
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 2,
+    "medio": 32.00248,
+    "mejor": 156.276,
+    "peor": -27.161
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 3,
+    "medio": 11.79168,
+    "mejor": 107.76,
+    "peor": -16.516
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 4,
+    "medio": 7.66052,
+    "mejor": 122.589,
+    "peor": -21.527
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 5,
+    "medio": 29.93544,
+    "mejor": 157.03,
+    "peor": -27.105
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 6,
+    "medio": 10.41772,
+    "mejor": 143.125,
+    "peor": -22.927
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 7,
+    "medio": -4.04912,
+    "mejor": 58.487,
+    "peor": -22.394
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 8,
+    "medio": 18.18718,
+    "mejor": 169.21,
+    "peor": -28.681
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 9,
+    "medio": 3.62182,
+    "mejor": 132.855,
+    "peor": -24.215
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 10,
+    "medio": 2.12424,
+    "mejor": 124.045,
+    "peor": -19.268
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 11,
+    "medio": 27.97414,
+    "mejor": 162.114,
+    "peor": -28.645
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 12,
+    "medio": 10.91934,
+    "mejor": 118.393,
+    "peor": -22.871
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 13,
+    "medio": 3.60606,
+    "mejor": 60.081,
+    "peor": -19.063
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 14,
+    "medio": 36.04896,
+    "mejor": 126.142,
+    "peor": -27.161
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 15,
+    "medio": 19.99432,
+    "mejor": 126.142,
+    "peor": -22.555
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 16,
+    "medio": 4.4394,
+    "mejor": 58.77,
+    "peor": -18.983
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 17,
+    "medio": 29.85928,
+    "mejor": 135.214,
+    "peor": -16.107
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 18,
+    "medio": 15.7023,
+    "mejor": 117.576,
+    "peor": -22.497
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 19,
+    "medio": 7.08476,
+    "mejor": 130.253,
+    "peor": -21.231
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 20,
+    "medio": 39.57064,
+    "mejor": 141.187,
+    "peor": -23.774
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 21,
+    "medio": 10.9208,
+    "mejor": 133.792,
+    "peor": -22.946
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 22,
+    "medio": 16.09018,
+    "mejor": 124.408,
+    "peor": -18.658
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 23,
+    "medio": 36.22476,
+    "mejor": 161.795,
+    "peor": -24.836
+  },
+  {
+    "etapa": "vs_humano_bot",
+    "etapa_idx": 3,
+    "generacion": 24,
+    "medio": 12.78764,
+    "mejor": 126.383,
+    "peor": -22.514
+  }
+]

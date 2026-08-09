@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://game/level.gd" id="1_level"]
+
+[node name="Level02" type="Node2D"]
+script = ExtResource("1_level")
+level_name = "level_02"
+enemies_type_a = 2
+enemies_type_b = 2
+enemies_type_c = 2
+trained_agents = 1
