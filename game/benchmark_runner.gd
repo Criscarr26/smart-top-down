@@ -160,6 +160,13 @@ func _evaluate(config: GAConfig, genome: Genome, variable: String, value: String
 
 
 func _write_outputs() -> void:
+	# La mezcla de acciones se reparte en columnas ANTES de guardar nada, para
+	# que el CSV, el JSON y el Excel tengan la misma forma. Cuando el CSV
+	# guardaba un JSON dentro de una celda y el Excel columnas sueltas, verificar
+	# en el CSV una observacion del informe obligaba a parsear a mano.
+	var expandidas := _expand_action_mix(_recorder.rows)
+	_recorder.replace_rows(expandidas)
+
 	_recorder.save_csv("%s/benchmark.csv" % out_dir)
 	_recorder.save_json("%s/benchmark.json" % out_dir)
 	var report := QualitativeReport.generate(_recorder.rows)
@@ -190,7 +197,7 @@ const INT_COLUMNS := [
 ## Excel de cuatro hojas, con estilos, listo para el informe.
 func _write_xlsx() -> void:
 	var w := XlsxWriter.new()
-	_add_sheet(w, "Datos", _expand_action_mix(_recorder.rows))
+	_add_sheet(w, "Datos", _recorder.rows)
 	_add_sheet(w, "Resumen por escenario", BenchmarkTables.per_scenario(_recorder.rows))
 	_add_sheet(w, "Efecto de variables", BenchmarkTables.per_variable(_recorder.rows))
 

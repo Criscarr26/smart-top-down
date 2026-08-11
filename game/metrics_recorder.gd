@@ -29,6 +29,15 @@ func clear() -> void:
 	_columns.clear()
 
 
+## Sustituye las filas por otras ya transformadas, recalculando las columnas.
+## Lo usa el runner para repartir la mezcla de acciones en columnas sueltas
+## antes de escribir, de modo que CSV, JSON y Excel salgan con la misma forma.
+func replace_rows(new_rows: Array) -> void:
+	clear()
+	for r in new_rows:
+		add(r)
+
+
 func save_csv(path: String) -> bool:
 	_ensure_dir(path)
 	var f := FileAccess.open(path, FileAccess.WRITE)

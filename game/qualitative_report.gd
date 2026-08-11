@@ -172,17 +172,36 @@ static func _observations(by_scenario: Dictionary) -> Array:
 				% verb + "(%.2f vs %.2f con un solo agente)." % [many_agents, one_agent])
 
 	# Escenario mas dificil.
+	#
+	# Varios escenarios pueden empatar a 0% de victorias, asi que quedarse con el
+	# primero que aparezca elige uno al azar y la afirmacion no se sostiene. Se
+	# desempata por TIEMPO DE VIDA del agente: entre dos escenarios que pierde
+	# siempre, el mas duro es en el que aguanta menos.
 	var worst_id := ""
 	var worst_rate := 2.0
+	var worst_life := INF
+	var tied: Array = []
 	for sid in by_scenario:
 		var wr := _win_rate(by_scenario[sid])
-		if wr < worst_rate:
+		var life := _mean(by_scenario[sid], "tiempo_vida_agente_s")
+		if wr < worst_rate or (is_equal_approx(wr, worst_rate) and life < worst_life):
 			worst_rate = wr
+			worst_life = life
 			worst_id = str(sid)
+	for sid in by_scenario:
+		if is_equal_approx(_win_rate(by_scenario[sid]), worst_rate):
+			tied.append(str(sid))
+
 	if worst_id != "":
 		var label := str((by_scenario[worst_id][0] as Dictionary).get("escenario_label", worst_id))
-		obs.append("El escenario mas duro fue \"%s\", con %.0f%% de victorias del agente."
-				% [label, worst_rate * 100.0])
+		var frase := "El escenario mas duro fue \"%s\": %.0f%% de victorias y el agente " \
+				% [label, worst_rate * 100.0] \
+				+ "aguanta solo %.1f s de media." % worst_life
+		if tied.size() > 1:
+			frase += " Hay %d escenarios empatados a ese %.0f%% de victorias; " \
+					% [tied.size(), worst_rate * 100.0] \
+					+ "se desempata por tiempo de vida."
+		obs.append(frase)
 
 	# Inactividad (thresholding por umbral).
 	var idle_total := 0.0
