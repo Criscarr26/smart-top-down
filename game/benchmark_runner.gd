@@ -201,8 +201,33 @@ func _write_xlsx() -> void:
 		cross_fmt.append(XlsxWriter.FMT_PERCENT)
 	w.add_sheet("Escenario x variable", cross[0], cross[1], cross_fmt)
 
+	# Hoja 5: el informe cualitativo. Va dentro del Excel y no solo suelto en un
+	# .md para que el entregable sea UN archivo: quien abra el libro encuentra
+	# ahi mismo la lectura de los numeros que acaba de ver.
+	_add_qualitative_sheet(w)
+
 	if not w.save("%s/benchmark.xlsx" % out_dir):
 		push_warning("No se pudo escribir el Excel; el CSV si esta.")
+
+
+## Las observaciones y las limitaciones salen de QualitativeReport, la misma
+## fuente que genera el .md. Si el Excel las reprodujera por su cuenta, los dos
+## entregables podrian acabar diciendo cosas distintas de la misma corrida.
+func _add_qualitative_sheet(w: XlsxWriter) -> void:
+	var rows: Array = []
+	for obs in QualitativeReport.observations(_recorder.rows):
+		rows.append(["Observación", str(obs)])
+	for lim in QualitativeReport.limitations():
+		rows.append(["Limitación conocida", str(lim)])
+	if rows.is_empty():
+		return
+	w.add_sheet(
+		"Cualitativo",
+		["Tipo", "Detalle"],
+		rows,
+		[XlsxWriter.FMT_TEXT, XlsxWriter.FMT_WRAP],
+		[22.0, 110.0],
+	)
 
 
 ## Convierte una lista de diccionarios en hoja, con los formatos por columna.

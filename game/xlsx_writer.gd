@@ -23,6 +23,7 @@ enum {
 	FMT_DECIMAL = 2,  ## 0.00
 	FMT_PERCENT = 3,  ## 0.0 %  (el valor debe venir como fraccion 0..1)
 	FMT_INT = 4,      ## 0
+	FMT_WRAP = 5,     ## texto con ajuste de linea, para parrafos largos
 }
 
 ## Cada hoja: name, columns, rows, formats (uno por columna), widths.
@@ -32,16 +33,22 @@ var _sheets: Array = []
 ## `formats` lleva un FMT_* por columna. Si se omite, se deduce del primer valor
 ## no vacio de cada columna.
 func add_sheet(sheet_name: String, columns: Array, rows: Array,
-		formats: Array = []) -> void:
+		formats: Array = [], widths: Array = []) -> void:
 	var fmts: Array = formats.duplicate()
 	if fmts.size() != columns.size():
 		fmts = _infer_formats(columns, rows)
+	# Los anchos se pueden fijar a mano: el calculo automatico se topa a 46 para
+	# que una celda larga no haga una columna gigante, pero una hoja de parrafos
+	# necesita justo lo contrario.
+	var w: Array = widths.duplicate()
+	if w.size() != columns.size():
+		w = _column_widths(columns, rows)
 	_sheets.append({
 		"name": _sanitize_name(sheet_name),
 		"columns": columns.duplicate(),
 		"rows": rows,
 		"formats": fmts,
-		"widths": _column_widths(columns, rows),
+		"widths": w,
 	})
 
 
@@ -213,13 +220,15 @@ func _styles_xml() -> String:
 		+ '</fills>' \
 		+ '<borders count="1"><border><left/><right/><top/><bottom/><diagonal/></border></borders>' \
 		+ '<cellStyleXfs count="1"><xf numFmtId="0" fontId="0" fillId="0" borderId="0"/></cellStyleXfs>' \
-		+ '<cellXfs count="5">' \
+		+ '<cellXfs count="6">' \
 		+ '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0"/>' \
 		+ '<xf numFmtId="0" fontId="1" fillId="2" borderId="0" xfId="0" applyFont="1" applyFill="1" applyAlignment="1">' \
 		+ '<alignment horizontal="center" vertical="center" wrapText="1"/></xf>' \
 		+ '<xf numFmtId="164" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>' \
 		+ '<xf numFmtId="165" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>' \
 		+ '<xf numFmtId="1" fontId="0" fillId="0" borderId="0" xfId="0" applyNumberFormat="1"/>' \
+		+ '<xf numFmtId="0" fontId="0" fillId="0" borderId="0" xfId="0" applyAlignment="1">' \
+		+ '<alignment vertical="top" wrapText="1"/></xf>' \
 		+ '</cellXfs>' \
 		+ '<cellStyles count="1"><cellStyle name="Normal" xfId="0" builtinId="0"/></cellStyles>' \
 		+ '</styleSheet>'

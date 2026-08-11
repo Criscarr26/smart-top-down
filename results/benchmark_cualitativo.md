@@ -19,7 +19,7 @@ Generado automaticamente a partir de 800 corridas registradas.
 
 ## Observaciones
 
-- El agente huyo mas del Tipo A (0%) que del Tipo C (0%), lo que sugiere que aprendio a evitar el combate cuerpo a cuerpo.
+- El agente practicamente no uso la huida en los duelos 1v1 (0.4% contra el Tipo A y 0.2% contra el Tipo C de sus decisiones): su politica es plantarse y pelear, sin importar el tipo de rival.
 - El agente apenas uso la defensa contra el Tipo B (15%): prefirio cerrar distancia antes que bloquear proyectiles.
 - La tasa de exito cae de 0.27 en los duelos 1v1 a 0.08 contra varios oponentes, que es la prueba de estres que pide la seccion 3.3.2 del PDF.
 - Con varios agentes contra el grupo mixto la tasa de exito mejora (0.21 vs 0.00 con un solo agente).
@@ -29,3 +29,4 @@ Generado automaticamente a partir de 800 corridas registradas.
 
 - Los escenarios con "jugador humano" (s04_humano_1v1, s10_humano_varios) se corrieron contra el bot sustituto `ScriptedBot`, no contra una persona. Un humano no puede meterse en un barrido automatizado de miles de partidas. Estos resultados miden al agente frente a un oponente HUMANO-SIMULADO de reglas fijas y deben reportarse como tales; complementarlos con partidas manuales contra humano real.
 - El barrido de variables es OFAT (una variable a la vez desde una configuracion base), no factorial completo. Mide efectos marginales; no detecta interacciones entre variables.
+- El agente recibe distancia y angulo al objetivo aunque no lo vea; la oclusion va aparte en el sensor de linea de vision. Es la lista de sensores que fija el PDF, pero implica que el agente no tiene que resolver busqueda con informacion parcial.

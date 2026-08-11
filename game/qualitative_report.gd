@@ -49,18 +49,46 @@ static func generate(rows: Array, bot_scenarios: Array = []) -> String:
 	# --- Limitaciones ---------------------------------------------------------
 	lines.append("## Limitaciones conocidas")
 	lines.append("")
-	lines.append("- Los escenarios con \"jugador humano\" (%s) se corrieron contra "
-			% ", ".join(bot_scenarios if not bot_scenarios.is_empty()
-					else ScenarioCatalog.bot_substituted_ids())
-			+ "el bot sustituto `ScriptedBot`, no contra una persona. Un humano no puede "
-			+ "meterse en un barrido automatizado de miles de partidas. Estos resultados "
-			+ "miden al agente frente a un oponente HUMANO-SIMULADO de reglas fijas y deben "
-			+ "reportarse como tales; complementarlos con partidas manuales contra humano real.")
-	lines.append("- El barrido de variables es OFAT (una variable a la vez desde una "
-			+ "configuracion base), no factorial completo. Mide efectos marginales; no "
-			+ "detecta interacciones entre variables.")
+	for lim in limitations(bot_scenarios):
+		lines.append("- %s" % lim)
 	lines.append("")
 	return "\n".join(lines)
+
+
+## Observaciones deducidas de los datos, como lista.
+##
+## Publica para que el Excel y el informe en Markdown salgan de la MISMA fuente.
+## Si el Excel reprodujera el texto por su cuenta, los dos entregables podrian
+## acabar diciendo cosas distintas sobre la misma corrida.
+static func observations(rows: Array) -> Array:
+	if rows.is_empty():
+		return []
+	return _observations(_group_by(rows, "escenario"))
+
+
+## Limitaciones metodologicas, como lista.
+static func limitations(bot_scenarios: Array = []) -> Array:
+	var ids: Array = bot_scenarios if not bot_scenarios.is_empty() \
+			else ScenarioCatalog.bot_substituted_ids()
+	return [
+		"Los escenarios con \"jugador humano\" (%s) se corrieron contra el bot " % ", ".join(ids)
+			+ "sustituto `ScriptedBot`, no contra una persona. Un humano no puede meterse en "
+			+ "un barrido automatizado de miles de partidas. Estos resultados miden al agente "
+			+ "frente a un oponente HUMANO-SIMULADO de reglas fijas y deben reportarse como "
+			+ "tales; complementarlos con partidas manuales contra humano real.",
+		"El barrido de variables es OFAT (una variable a la vez desde una configuracion base), "
+			+ "no factorial completo. Mide efectos marginales; no detecta interacciones entre "
+			+ "variables.",
+		"El agente recibe distancia y angulo al objetivo aunque no lo vea; la oclusion va "
+			+ "aparte en el sensor de linea de vision. Es la lista de sensores que fija el PDF, "
+			+ "pero implica que el agente no tiene que resolver busqueda con informacion parcial.",
+	]
+
+
+## Por debajo de esta fraccion de decisiones, una accion se considera anecdotica
+## y no se compara con otra: los cocientes entre numeros casi nulos disparan
+## conclusiones falsas.
+const _MIN_RELEVANT_SHARE := 0.02
 
 
 static func _observations(by_scenario: Dictionary) -> Array:
@@ -70,7 +98,16 @@ static func _observations(by_scenario: Dictionary) -> Array:
 	var flee_a := _mean_action(by_scenario, "s01_A_1v1", "Huir")
 	var flee_c := _mean_action(by_scenario, "s03_C_1v1", "Huir")
 	if flee_a >= 0.0 and flee_c >= 0.0:
-		if flee_c > flee_a * 1.15:
+		# Comparar en proporcion cuando los dos valores son casi cero produce
+		# frases sin sentido del tipo "huyo mas del Tipo A (0%) que del Tipo C
+		# (0%)": una diferencia entre 0.4% y 0.1% es del triple en proporcion,
+		# pero no significa nada. Por debajo de este umbral no se compara.
+		if flee_a < _MIN_RELEVANT_SHARE and flee_c < _MIN_RELEVANT_SHARE:
+			obs.append("El agente practicamente no uso la huida en los duelos 1v1 "
+					+ "(%.1f%% contra el Tipo A y %.1f%% contra el Tipo C de sus decisiones): "
+					% [flee_a * 100.0, flee_c * 100.0]
+					+ "su politica es plantarse y pelear, sin importar el tipo de rival.")
+		elif flee_c > flee_a * 1.15:
 			obs.append("Contra el enemigo Tipo C el agente huyo mas que contra el Tipo A "
 					+ "(%.0f%% vs %.0f%% de sus decisiones): el kiter lo obliga a ceder "
 					% [flee_c * 100.0, flee_a * 100.0]
