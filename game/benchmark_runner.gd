@@ -183,6 +183,7 @@ const INT_COLUMNS := [
 	"episodios_por_individuo", "tam_torneo", "semilla", "ticks",
 	"kills_agente", "pociones_agente", "agentes_vivos", "oponentes_vivos",
 	"oponentes_total", "ticks_inactivo", "ticks_en_combate",
+	"agentes_total", "agentes", "oponentes",
 ]
 
 

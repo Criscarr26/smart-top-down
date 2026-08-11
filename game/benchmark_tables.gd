@@ -25,6 +25,11 @@ static func per_scenario(rows: Array) -> Array:
 			"escenario": sid,
 			"descripcion": str((g[0] as Dictionary).get("escenario_label", sid)),
 			"corridas": g.size(),
+			# Cuantos agentes y cuantos oponentes entraban en cada corrida. Sin
+			# esto no se distingue en la tabla "1 agente contra varios enemigos"
+			# de "varios agentes de los que sobrevivio uno".
+			"agentes": int((g[0] as Dictionary).get("agentes_total", 1)),
+			"oponentes": int((g[0] as Dictionary).get("oponentes_total", 0)),
 			"ratio_victorias": _win_rate(g),
 			"tiempo_vida_agente_s": _mean(g, "tiempo_vida_agente_s"),
 			"tiempo_vida_oponente_s": _mean(g, "tiempo_vida_oponente_s"),

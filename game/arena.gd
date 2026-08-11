@@ -489,6 +489,11 @@ func build_result() -> Dictionary:
 		"dano_recibido_agente": agent_taken,
 		"kills_agente": agent_kills,
 		"pociones_agente": agent_potions,
+		# Cuantos agentes ENTRARON al combate, no solo cuantos quedan vivos. Sin
+		# esta columna no se puede distinguir en la tabla un escenario de un
+		# agente de uno de varios en el que murieron casi todos: en ambos casos
+		# "agentes_vivos" acaba en 1 o en 0.
+		"agentes_total": agents.size(),
 		"agentes_vivos": agents_alive,
 		"oponentes_vivos": opponents_alive,
 		"oponentes_total": opponents.size(),

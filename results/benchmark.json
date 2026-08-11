@@ -1,5 +1,6 @@
 [
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 88.0,
@@ -51,6 +52,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -102,6 +104,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 0.0,
@@ -153,6 +156,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 64.0,
@@ -204,6 +208,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -255,6 +260,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 130.0,
@@ -306,6 +312,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 96.0,
@@ -357,6 +364,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -408,6 +416,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 240.0,
     "dano_recibido_agente": 244.0,
@@ -459,6 +468,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 240.0,
@@ -510,6 +520,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 88.0,
@@ -561,6 +572,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -612,6 +624,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 0.0,
@@ -663,6 +676,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 64.0,
@@ -714,6 +728,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -765,6 +780,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 130.0,
@@ -816,6 +832,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 96.0,
@@ -867,6 +884,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -918,6 +936,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 240.0,
     "dano_recibido_agente": 244.0,
@@ -969,6 +988,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 240.0,
@@ -1020,6 +1040,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 88.0,
@@ -1071,6 +1092,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -1122,6 +1144,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 0.0,
@@ -1173,6 +1196,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 64.0,
@@ -1224,6 +1248,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -1275,6 +1300,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 130.0,
@@ -1326,6 +1352,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 96.0,
@@ -1377,6 +1404,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -1428,6 +1456,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 240.0,
     "dano_recibido_agente": 244.0,
@@ -1479,6 +1508,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 240.0,
@@ -1530,6 +1560,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 88.0,
@@ -1581,6 +1612,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -1632,6 +1664,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 0.0,
@@ -1683,6 +1716,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 64.0,
@@ -1734,6 +1768,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -1785,6 +1820,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 130.0,
@@ -1836,6 +1872,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 96.0,
@@ -1887,6 +1924,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -1938,6 +1976,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 240.0,
     "dano_recibido_agente": 244.0,
@@ -1989,6 +2028,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 240.0,
@@ -2040,6 +2080,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 88.0,
@@ -2091,6 +2132,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -2142,6 +2184,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 0.0,
@@ -2193,6 +2236,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 64.0,
@@ -2244,6 +2288,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -2295,6 +2340,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 130.0,
@@ -2346,6 +2392,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 96.0,
@@ -2397,6 +2444,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -2448,6 +2496,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 240.0,
     "dano_recibido_agente": 244.0,
@@ -2499,6 +2548,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 240.0,
@@ -2550,6 +2600,7 @@
     "variable_barrida": "base"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -2601,6 +2652,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -2652,6 +2704,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -2703,6 +2756,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -2754,6 +2808,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -2805,6 +2860,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -2856,6 +2912,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -2907,6 +2964,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -2958,6 +3016,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 245.0,
@@ -3009,6 +3068,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -3060,6 +3120,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -3111,6 +3172,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -3162,6 +3224,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -3213,6 +3276,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -3264,6 +3328,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -3315,6 +3380,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -3366,6 +3432,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -3417,6 +3484,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -3468,6 +3536,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 245.0,
@@ -3519,6 +3588,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -3570,6 +3640,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -3621,6 +3692,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -3672,6 +3744,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -3723,6 +3796,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -3774,6 +3848,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -3825,6 +3900,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -3876,6 +3952,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -3927,6 +4004,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -3978,6 +4056,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 245.0,
@@ -4029,6 +4108,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -4080,6 +4160,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -4131,6 +4212,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -4182,6 +4264,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -4233,6 +4316,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -4284,6 +4368,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -4335,6 +4420,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -4386,6 +4472,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -4437,6 +4524,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -4488,6 +4576,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 245.0,
@@ -4539,6 +4628,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -4590,6 +4680,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -4641,6 +4732,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -4692,6 +4784,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -4743,6 +4836,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -4794,6 +4888,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -4845,6 +4940,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -4896,6 +4992,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -4947,6 +5044,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -4998,6 +5096,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 245.0,
@@ -5049,6 +5148,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -5100,6 +5200,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 0.0,
@@ -5151,6 +5252,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -5202,6 +5304,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 67.2,
@@ -5253,6 +5356,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 96.0,
@@ -5304,6 +5408,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 128.0,
     "dano_recibido_agente": 105.6,
@@ -5355,6 +5460,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 117.6,
     "dano_recibido_agente": 91.0,
@@ -5406,6 +5512,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 96.0,
@@ -5457,6 +5564,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 88.0,
     "dano_recibido_agente": 88.0,
@@ -5508,6 +5616,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 252.0,
     "dano_recibido_agente": 282.2,
@@ -5559,6 +5668,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 153.6,
@@ -5610,6 +5720,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 0.0,
@@ -5661,6 +5772,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -5712,6 +5824,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 67.2,
@@ -5763,6 +5876,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 96.0,
@@ -5814,6 +5928,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 128.0,
     "dano_recibido_agente": 105.6,
@@ -5865,6 +5980,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 117.6,
     "dano_recibido_agente": 91.0,
@@ -5916,6 +6032,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 96.0,
@@ -5967,6 +6084,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 88.0,
     "dano_recibido_agente": 88.0,
@@ -6018,6 +6136,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 252.0,
     "dano_recibido_agente": 282.2,
@@ -6069,6 +6188,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 153.6,
@@ -6120,6 +6240,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 0.0,
@@ -6171,6 +6292,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -6222,6 +6344,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 67.2,
@@ -6273,6 +6396,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 96.0,
@@ -6324,6 +6448,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 128.0,
     "dano_recibido_agente": 105.6,
@@ -6375,6 +6500,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 117.6,
     "dano_recibido_agente": 91.0,
@@ -6426,6 +6552,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 96.0,
@@ -6477,6 +6604,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 88.0,
     "dano_recibido_agente": 88.0,
@@ -6528,6 +6656,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 252.0,
     "dano_recibido_agente": 282.2,
@@ -6579,6 +6708,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 153.6,
@@ -6630,6 +6760,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 0.0,
@@ -6681,6 +6812,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -6732,6 +6864,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 67.2,
@@ -6783,6 +6916,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 96.0,
@@ -6834,6 +6968,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 128.0,
     "dano_recibido_agente": 105.6,
@@ -6885,6 +7020,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 117.6,
     "dano_recibido_agente": 91.0,
@@ -6936,6 +7072,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 96.0,
@@ -6987,6 +7124,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 88.0,
     "dano_recibido_agente": 88.0,
@@ -7038,6 +7176,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 252.0,
     "dano_recibido_agente": 282.2,
@@ -7089,6 +7228,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 153.6,
@@ -7140,6 +7280,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 0.0,
@@ -7191,6 +7332,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -7242,6 +7384,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 67.2,
@@ -7293,6 +7436,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 96.0,
@@ -7344,6 +7488,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 128.0,
     "dano_recibido_agente": 105.6,
@@ -7395,6 +7540,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 117.6,
     "dano_recibido_agente": 91.0,
@@ -7446,6 +7592,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 96.0,
@@ -7497,6 +7644,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 88.0,
     "dano_recibido_agente": 88.0,
@@ -7548,6 +7696,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 252.0,
     "dano_recibido_agente": 282.2,
@@ -7599,6 +7748,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 153.6,
@@ -7650,6 +7800,7 @@
     "variable_barrida": "num_pobladores"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -7701,6 +7852,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -7752,6 +7904,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -7803,6 +7956,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -7854,6 +8008,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -7905,6 +8060,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -7956,6 +8112,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -8007,6 +8164,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -8058,6 +8216,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 156.0,
     "dano_recibido_agente": 245.0,
@@ -8109,6 +8268,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 192.0,
@@ -8160,6 +8320,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -8211,6 +8372,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -8262,6 +8424,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -8313,6 +8476,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -8364,6 +8528,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -8415,6 +8580,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -8466,6 +8632,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -8517,6 +8684,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -8568,6 +8736,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 156.0,
     "dano_recibido_agente": 245.0,
@@ -8619,6 +8788,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 192.0,
@@ -8670,6 +8840,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -8721,6 +8892,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -8772,6 +8944,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -8823,6 +8996,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -8874,6 +9048,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -8925,6 +9100,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -8976,6 +9152,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -9027,6 +9204,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -9078,6 +9256,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 156.0,
     "dano_recibido_agente": 245.0,
@@ -9129,6 +9308,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 192.0,
@@ -9180,6 +9360,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -9231,6 +9412,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -9282,6 +9464,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -9333,6 +9516,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -9384,6 +9568,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -9435,6 +9620,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -9486,6 +9672,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -9537,6 +9724,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -9588,6 +9776,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 156.0,
     "dano_recibido_agente": 245.0,
@@ -9639,6 +9828,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 192.0,
@@ -9690,6 +9880,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -9741,6 +9932,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -9792,6 +9984,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -9843,6 +10036,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 96.0,
@@ -9894,6 +10088,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -9945,6 +10140,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 65.0,
@@ -9996,6 +10192,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -10047,6 +10244,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -10098,6 +10296,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 156.0,
     "dano_recibido_agente": 245.0,
@@ -10149,6 +10348,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 120.0,
     "dano_recibido_agente": 192.0,
@@ -10200,6 +10400,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 88.0,
@@ -10251,6 +10452,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 85.8,
@@ -10302,6 +10504,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 76.0,
@@ -10353,6 +10556,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 38.4,
@@ -10404,6 +10608,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -10455,6 +10660,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 16.8,
     "dano_recibido_agente": 13.0,
@@ -10506,6 +10712,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 92.0,
@@ -10557,6 +10764,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 90.0,
@@ -10608,6 +10816,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 278.0,
@@ -10659,6 +10868,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 0.0,
@@ -10710,6 +10920,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 88.0,
@@ -10761,6 +10972,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 85.8,
@@ -10812,6 +11024,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 76.0,
@@ -10863,6 +11076,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 38.4,
@@ -10914,6 +11128,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -10965,6 +11180,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 16.8,
     "dano_recibido_agente": 13.0,
@@ -11016,6 +11232,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 92.0,
@@ -11067,6 +11284,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 90.0,
@@ -11118,6 +11336,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 278.0,
@@ -11169,6 +11388,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 0.0,
@@ -11220,6 +11440,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 88.0,
@@ -11271,6 +11492,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 85.8,
@@ -11322,6 +11544,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 76.0,
@@ -11373,6 +11596,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 38.4,
@@ -11424,6 +11648,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -11475,6 +11700,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 16.8,
     "dano_recibido_agente": 13.0,
@@ -11526,6 +11752,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 92.0,
@@ -11577,6 +11804,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 90.0,
@@ -11628,6 +11856,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 278.0,
@@ -11679,6 +11908,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 0.0,
@@ -11730,6 +11960,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 88.0,
@@ -11781,6 +12012,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 85.8,
@@ -11832,6 +12064,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 76.0,
@@ -11883,6 +12116,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 38.4,
@@ -11934,6 +12168,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -11985,6 +12220,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 16.8,
     "dano_recibido_agente": 13.0,
@@ -12036,6 +12272,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 92.0,
@@ -12087,6 +12324,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 90.0,
@@ -12138,6 +12376,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 278.0,
@@ -12189,6 +12428,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 0.0,
@@ -12240,6 +12480,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 88.0,
@@ -12291,6 +12532,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 85.8,
@@ -12342,6 +12584,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 76.0,
@@ -12393,6 +12636,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 38.4,
@@ -12444,6 +12688,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -12495,6 +12740,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 16.8,
     "dano_recibido_agente": 13.0,
@@ -12546,6 +12792,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 92.0,
@@ -12597,6 +12844,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 90.0,
@@ -12648,6 +12896,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 278.0,
@@ -12699,6 +12948,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 0.0,
@@ -12750,6 +13000,7 @@
     "variable_barrida": "tasa_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 88.0,
@@ -12801,6 +13052,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -12852,6 +13104,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 36.0,
@@ -12903,6 +13156,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -12954,6 +13208,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -13005,6 +13260,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 65.0,
@@ -13056,6 +13312,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -13107,6 +13364,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -13158,6 +13416,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 277.0,
@@ -13209,6 +13468,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 288.0,
@@ -13260,6 +13520,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 88.0,
@@ -13311,6 +13572,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -13362,6 +13624,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 36.0,
@@ -13413,6 +13676,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -13464,6 +13728,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -13515,6 +13780,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 65.0,
@@ -13566,6 +13832,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -13617,6 +13884,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -13668,6 +13936,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 277.0,
@@ -13719,6 +13988,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 288.0,
@@ -13770,6 +14040,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 88.0,
@@ -13821,6 +14092,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -13872,6 +14144,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 36.0,
@@ -13923,6 +14196,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -13974,6 +14248,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -14025,6 +14300,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 65.0,
@@ -14076,6 +14352,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -14127,6 +14404,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -14178,6 +14456,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 277.0,
@@ -14229,6 +14508,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 288.0,
@@ -14280,6 +14560,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 88.0,
@@ -14331,6 +14612,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -14382,6 +14664,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 36.0,
@@ -14433,6 +14716,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -14484,6 +14768,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -14535,6 +14820,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 65.0,
@@ -14586,6 +14872,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -14637,6 +14924,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -14688,6 +14976,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 277.0,
@@ -14739,6 +15028,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 288.0,
@@ -14790,6 +15080,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 88.0,
@@ -14841,6 +15132,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -14892,6 +15184,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 36.0,
@@ -14943,6 +15236,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -14994,6 +15288,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -15045,6 +15340,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 96.0,
     "dano_recibido_agente": 65.0,
@@ -15096,6 +15392,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 96.0,
@@ -15147,6 +15444,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -15198,6 +15496,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 204.0,
     "dano_recibido_agente": 277.0,
@@ -15249,6 +15548,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 288.0,
@@ -15300,6 +15600,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -15351,6 +15652,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -15402,6 +15704,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -15453,6 +15756,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -15504,6 +15808,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 101.2,
@@ -15555,6 +15860,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 96.2,
@@ -15606,6 +15912,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -15657,6 +15964,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.4,
@@ -15708,6 +16016,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 229.6,
@@ -15759,6 +16068,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -15810,6 +16120,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -15861,6 +16172,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -15912,6 +16224,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -15963,6 +16276,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16014,6 +16328,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 101.2,
@@ -16065,6 +16380,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 96.2,
@@ -16116,6 +16432,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -16167,6 +16484,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.4,
@@ -16218,6 +16536,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 229.6,
@@ -16269,6 +16588,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16320,6 +16640,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16371,6 +16692,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16422,6 +16744,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16473,6 +16796,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16524,6 +16848,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 101.2,
@@ -16575,6 +16900,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 96.2,
@@ -16626,6 +16952,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -16677,6 +17004,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.4,
@@ -16728,6 +17056,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 229.6,
@@ -16779,6 +17108,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16830,6 +17160,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16881,6 +17212,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16932,6 +17264,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -16983,6 +17316,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -17034,6 +17368,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 101.2,
@@ -17085,6 +17420,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 96.2,
@@ -17136,6 +17472,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -17187,6 +17524,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.4,
@@ -17238,6 +17576,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 229.6,
@@ -17289,6 +17628,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -17340,6 +17680,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -17391,6 +17732,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -17442,6 +17784,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -17493,6 +17836,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -17544,6 +17888,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 101.2,
@@ -17595,6 +17940,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 96.2,
@@ -17646,6 +17992,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -17697,6 +18044,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.4,
@@ -17748,6 +18096,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 229.6,
@@ -17799,6 +18148,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -17850,6 +18200,7 @@
     "variable_barrida": "pesos_iniciales"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -17901,6 +18252,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -17952,6 +18304,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -18003,6 +18356,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -18054,6 +18408,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 101.2,
@@ -18105,6 +18460,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 85.8,
@@ -18156,6 +18512,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -18207,6 +18564,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -18258,6 +18616,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 263.8,
@@ -18309,6 +18668,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 252.8,
@@ -18360,6 +18720,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -18411,6 +18772,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -18462,6 +18824,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -18513,6 +18876,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -18564,6 +18928,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 101.2,
@@ -18615,6 +18980,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 85.8,
@@ -18666,6 +19032,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -18717,6 +19084,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -18768,6 +19136,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 263.8,
@@ -18819,6 +19188,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 252.8,
@@ -18870,6 +19240,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -18921,6 +19292,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -18972,6 +19344,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -19023,6 +19396,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -19074,6 +19448,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 101.2,
@@ -19125,6 +19500,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 85.8,
@@ -19176,6 +19552,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -19227,6 +19604,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -19278,6 +19656,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 263.8,
@@ -19329,6 +19708,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 252.8,
@@ -19380,6 +19760,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -19431,6 +19812,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -19482,6 +19864,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -19533,6 +19916,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -19584,6 +19968,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 101.2,
@@ -19635,6 +20020,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 85.8,
@@ -19686,6 +20072,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -19737,6 +20124,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -19788,6 +20176,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 263.8,
@@ -19839,6 +20228,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 252.8,
@@ -19890,6 +20280,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -19941,6 +20332,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -19992,6 +20384,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -20043,6 +20436,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -20094,6 +20488,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 101.2,
@@ -20145,6 +20540,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 85.8,
@@ -20196,6 +20592,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -20247,6 +20644,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -20298,6 +20696,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 263.8,
@@ -20349,6 +20748,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 252.8,
@@ -20400,6 +20800,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 66.0,
@@ -20451,6 +20852,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -20502,6 +20904,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -20553,6 +20956,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -20604,6 +21008,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -20655,6 +21060,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 0.0,
@@ -20706,6 +21112,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 132.0,
@@ -20757,6 +21164,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -20808,6 +21216,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 282.0,
@@ -20859,6 +21268,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 144.0,
@@ -20910,6 +21320,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 66.0,
@@ -20961,6 +21372,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -21012,6 +21424,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -21063,6 +21476,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -21114,6 +21528,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -21165,6 +21580,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 0.0,
@@ -21216,6 +21632,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 132.0,
@@ -21267,6 +21684,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -21318,6 +21736,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 282.0,
@@ -21369,6 +21788,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 144.0,
@@ -21420,6 +21840,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 66.0,
@@ -21471,6 +21892,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -21522,6 +21944,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -21573,6 +21996,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -21624,6 +22048,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -21675,6 +22100,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 0.0,
@@ -21726,6 +22152,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 132.0,
@@ -21777,6 +22204,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -21828,6 +22256,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 282.0,
@@ -21879,6 +22308,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 144.0,
@@ -21930,6 +22360,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 66.0,
@@ -21981,6 +22412,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -22032,6 +22464,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -22083,6 +22516,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -22134,6 +22568,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -22185,6 +22620,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 0.0,
@@ -22236,6 +22672,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 132.0,
@@ -22287,6 +22724,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -22338,6 +22776,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 282.0,
@@ -22389,6 +22828,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 144.0,
@@ -22440,6 +22880,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 66.0,
@@ -22491,6 +22932,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -22542,6 +22984,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 88.0,
@@ -22593,6 +23036,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -22644,6 +23088,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -22695,6 +23140,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 4.8,
     "dano_recibido_agente": 0.0,
@@ -22746,6 +23192,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 132.0,
@@ -22797,6 +23244,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 132.0,
@@ -22848,6 +23296,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 84.0,
     "dano_recibido_agente": 282.0,
@@ -22899,6 +23348,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 144.0,
@@ -22950,6 +23400,7 @@
     "variable_barrida": "tasa_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23001,6 +23452,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23052,6 +23504,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23103,6 +23556,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23154,6 +23608,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -23205,6 +23660,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23256,6 +23712,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -23307,6 +23764,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -23358,6 +23816,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 319.0,
@@ -23409,6 +23868,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23460,6 +23920,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23511,6 +23972,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23562,6 +24024,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23613,6 +24076,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23664,6 +24128,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -23715,6 +24180,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23766,6 +24232,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -23817,6 +24284,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -23868,6 +24336,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 319.0,
@@ -23919,6 +24388,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -23970,6 +24440,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24021,6 +24492,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24072,6 +24544,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24123,6 +24596,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24174,6 +24648,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -24225,6 +24700,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24276,6 +24752,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -24327,6 +24804,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -24378,6 +24856,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 319.0,
@@ -24429,6 +24908,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24480,6 +24960,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24531,6 +25012,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24582,6 +25064,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24633,6 +25116,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24684,6 +25168,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -24735,6 +25220,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24786,6 +25272,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -24837,6 +25324,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -24888,6 +25376,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 319.0,
@@ -24939,6 +25428,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -24990,6 +25480,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -25041,6 +25532,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -25092,6 +25584,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -25143,6 +25636,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -25194,6 +25688,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -25245,6 +25740,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -25296,6 +25792,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 128.0,
@@ -25347,6 +25844,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 132.0,
@@ -25398,6 +25896,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 20.0,
     "dano_recibido_agente": 319.0,
@@ -25449,6 +25948,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -25500,6 +26000,7 @@
     "variable_barrida": "tecnica_mutacion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -25551,6 +26052,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -25602,6 +26104,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -25653,6 +26156,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 92.8,
@@ -25704,6 +26208,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 101.2,
@@ -25755,6 +26260,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.2,
@@ -25806,6 +26312,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -25857,6 +26364,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -25908,6 +26416,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 188.0,
     "dano_recibido_agente": 271.4,
@@ -25959,6 +26468,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 76.8,
@@ -26010,6 +26520,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -26061,6 +26572,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -26112,6 +26624,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -26163,6 +26676,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 92.8,
@@ -26214,6 +26728,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 101.2,
@@ -26265,6 +26780,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.2,
@@ -26316,6 +26832,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -26367,6 +26884,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -26418,6 +26936,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 188.0,
     "dano_recibido_agente": 271.4,
@@ -26469,6 +26988,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 76.8,
@@ -26520,6 +27040,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -26571,6 +27092,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -26622,6 +27144,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -26673,6 +27196,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 92.8,
@@ -26724,6 +27248,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 101.2,
@@ -26775,6 +27300,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.2,
@@ -26826,6 +27352,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -26877,6 +27404,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -26928,6 +27456,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 188.0,
     "dano_recibido_agente": 271.4,
@@ -26979,6 +27508,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 76.8,
@@ -27030,6 +27560,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -27081,6 +27612,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -27132,6 +27664,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -27183,6 +27716,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 92.8,
@@ -27234,6 +27768,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 101.2,
@@ -27285,6 +27820,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.2,
@@ -27336,6 +27872,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -27387,6 +27924,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -27438,6 +27976,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 188.0,
     "dano_recibido_agente": 271.4,
@@ -27489,6 +28028,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 76.8,
@@ -27540,6 +28080,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -27591,6 +28132,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -27642,6 +28184,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -27693,6 +28236,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 92.8,
@@ -27744,6 +28288,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 101.2,
@@ -27795,6 +28340,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.2,
@@ -27846,6 +28392,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 96.0,
@@ -27897,6 +28444,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 86.0,
@@ -27948,6 +28496,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 188.0,
     "dano_recibido_agente": 271.4,
@@ -27999,6 +28548,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 76.8,
@@ -28050,6 +28600,7 @@
     "variable_barrida": "tecnica_seleccion"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 44.0,
     "dano_recibido_agente": 92.4,
@@ -28101,6 +28652,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -28152,6 +28704,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -28203,6 +28756,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -28254,6 +28808,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 52.0,
     "dano_recibido_agente": 88.0,
@@ -28305,6 +28860,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 0.0,
@@ -28356,6 +28912,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 86.4,
@@ -28407,6 +28964,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 100.0,
@@ -28458,6 +29016,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 152.0,
     "dano_recibido_agente": 277.0,
@@ -28509,6 +29068,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 268.8,
@@ -28560,6 +29120,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 44.0,
     "dano_recibido_agente": 92.4,
@@ -28611,6 +29172,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -28662,6 +29224,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -28713,6 +29276,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -28764,6 +29328,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 52.0,
     "dano_recibido_agente": 88.0,
@@ -28815,6 +29380,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 0.0,
@@ -28866,6 +29432,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 86.4,
@@ -28917,6 +29484,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 100.0,
@@ -28968,6 +29536,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 152.0,
     "dano_recibido_agente": 277.0,
@@ -29019,6 +29588,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 268.8,
@@ -29070,6 +29640,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 44.0,
     "dano_recibido_agente": 92.4,
@@ -29121,6 +29692,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -29172,6 +29744,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -29223,6 +29796,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -29274,6 +29848,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 52.0,
     "dano_recibido_agente": 88.0,
@@ -29325,6 +29900,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 0.0,
@@ -29376,6 +29952,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 86.4,
@@ -29427,6 +30004,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 100.0,
@@ -29478,6 +30056,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 152.0,
     "dano_recibido_agente": 277.0,
@@ -29529,6 +30108,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 268.8,
@@ -29580,6 +30160,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 44.0,
     "dano_recibido_agente": 92.4,
@@ -29631,6 +30212,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -29682,6 +30264,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -29733,6 +30316,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -29784,6 +30368,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 52.0,
     "dano_recibido_agente": 88.0,
@@ -29835,6 +30420,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 0.0,
@@ -29886,6 +30472,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 86.4,
@@ -29937,6 +30524,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 100.0,
@@ -29988,6 +30576,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 152.0,
     "dano_recibido_agente": 277.0,
@@ -30039,6 +30628,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 268.8,
@@ -30090,6 +30680,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 44.0,
     "dano_recibido_agente": 92.4,
@@ -30141,6 +30732,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 39.0,
@@ -30192,6 +30784,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -30243,6 +30836,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 96.0,
@@ -30294,6 +30888,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 52.0,
     "dano_recibido_agente": 88.0,
@@ -30345,6 +30940,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 9.6,
     "dano_recibido_agente": 0.0,
@@ -30396,6 +30992,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 86.4,
@@ -30447,6 +31044,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 32.0,
     "dano_recibido_agente": 100.0,
@@ -30498,6 +31096,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 152.0,
     "dano_recibido_agente": 277.0,
@@ -30549,6 +31148,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 268.8,
@@ -30600,6 +31200,7 @@
     "variable_barrida": "tecnica_cruce"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -30651,6 +31252,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -30702,6 +31304,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -30753,6 +31356,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -30804,6 +31408,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -30855,6 +31460,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 13.0,
@@ -30906,6 +31512,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 94.4,
@@ -30957,6 +31564,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 100.0,
@@ -31008,6 +31616,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 268.0,
@@ -31059,6 +31668,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 168.0,
     "dano_recibido_agente": 272.0,
@@ -31110,6 +31720,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -31161,6 +31772,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -31212,6 +31824,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -31263,6 +31876,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -31314,6 +31928,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -31365,6 +31980,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 13.0,
@@ -31416,6 +32032,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 94.4,
@@ -31467,6 +32084,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 100.0,
@@ -31518,6 +32136,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 268.0,
@@ -31569,6 +32188,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 168.0,
     "dano_recibido_agente": 272.0,
@@ -31620,6 +32240,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -31671,6 +32292,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -31722,6 +32344,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -31773,6 +32396,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -31824,6 +32448,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -31875,6 +32500,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 13.0,
@@ -31926,6 +32552,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 94.4,
@@ -31977,6 +32604,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 100.0,
@@ -32028,6 +32656,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 268.0,
@@ -32079,6 +32708,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 168.0,
     "dano_recibido_agente": 272.0,
@@ -32130,6 +32760,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -32181,6 +32812,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -32232,6 +32864,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -32283,6 +32916,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -32334,6 +32968,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -32385,6 +33020,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 13.0,
@@ -32436,6 +33072,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 94.4,
@@ -32487,6 +33124,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 100.0,
@@ -32538,6 +33176,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 268.0,
@@ -32589,6 +33228,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 168.0,
     "dano_recibido_agente": 272.0,
@@ -32640,6 +33280,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -32691,6 +33332,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 52.0,
@@ -32742,6 +33384,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -32793,6 +33436,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 96.0,
@@ -32844,6 +33488,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 88.0,
@@ -32895,6 +33540,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 13.0,
@@ -32946,6 +33592,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 94.4,
@@ -32997,6 +33644,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 100.0,
@@ -33048,6 +33696,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 132.0,
     "dano_recibido_agente": 268.0,
@@ -33099,6 +33748,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 168.0,
     "dano_recibido_agente": 272.0,
@@ -33150,6 +33800,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 26.4,
@@ -33201,6 +33852,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 67.6,
@@ -33252,6 +33904,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 14.4,
@@ -33303,6 +33956,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 19.2,
@@ -33354,6 +34008,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 101.2,
@@ -33405,6 +34060,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 65.6,
     "dano_recibido_agente": 23.4,
@@ -33456,6 +34112,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -33507,6 +34164,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -33558,6 +34216,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 192.0,
     "dano_recibido_agente": 273.8,
@@ -33609,6 +34268,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 16.0,
@@ -33660,6 +34320,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 26.4,
@@ -33711,6 +34372,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 67.6,
@@ -33762,6 +34424,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 14.4,
@@ -33813,6 +34476,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 19.2,
@@ -33864,6 +34528,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 101.2,
@@ -33915,6 +34580,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 65.6,
     "dano_recibido_agente": 23.4,
@@ -33966,6 +34632,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -34017,6 +34684,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -34068,6 +34736,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 192.0,
     "dano_recibido_agente": 273.8,
@@ -34119,6 +34788,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 16.0,
@@ -34170,6 +34840,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 26.4,
@@ -34221,6 +34892,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 67.6,
@@ -34272,6 +34944,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 14.4,
@@ -34323,6 +34996,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 19.2,
@@ -34374,6 +35048,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 101.2,
@@ -34425,6 +35100,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 65.6,
     "dano_recibido_agente": 23.4,
@@ -34476,6 +35152,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -34527,6 +35204,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -34578,6 +35256,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 192.0,
     "dano_recibido_agente": 273.8,
@@ -34629,6 +35308,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 16.0,
@@ -34680,6 +35360,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 26.4,
@@ -34731,6 +35412,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 67.6,
@@ -34782,6 +35464,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 14.4,
@@ -34833,6 +35516,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 19.2,
@@ -34884,6 +35568,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 101.2,
@@ -34935,6 +35620,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 65.6,
     "dano_recibido_agente": 23.4,
@@ -34986,6 +35672,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -35037,6 +35724,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -35088,6 +35776,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 192.0,
     "dano_recibido_agente": 273.8,
@@ -35139,6 +35828,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 16.0,
@@ -35190,6 +35880,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 26.4,
@@ -35241,6 +35932,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 67.6,
@@ -35292,6 +35984,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 14.4,
@@ -35343,6 +36036,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 19.2,
@@ -35394,6 +36088,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 12.0,
     "dano_recibido_agente": 101.2,
@@ -35445,6 +36140,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 65.6,
     "dano_recibido_agente": 23.4,
@@ -35496,6 +36192,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 96.0,
@@ -35547,6 +36244,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 99.2,
@@ -35598,6 +36296,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 192.0,
     "dano_recibido_agente": 273.8,
@@ -35649,6 +36348,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 16.0,
@@ -35700,6 +36400,7 @@
     "variable_barrida": "thresholding"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -35751,6 +36452,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 7.8,
@@ -35802,6 +36504,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -35853,6 +36556,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -35904,6 +36608,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 92.0,
     "dano_recibido_agente": 105.6,
@@ -35955,6 +36660,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 223.2,
     "dano_recibido_agente": 80.6,
@@ -36006,6 +36712,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 86.4,
@@ -36057,6 +36764,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 56.0,
     "dano_recibido_agente": 95.6,
@@ -36108,6 +36816,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 284.0,
     "dano_recibido_agente": 249.8,
@@ -36159,6 +36868,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -36210,6 +36920,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -36261,6 +36972,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 7.8,
@@ -36312,6 +37024,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -36363,6 +37076,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -36414,6 +37128,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 92.0,
     "dano_recibido_agente": 105.6,
@@ -36465,6 +37180,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 223.2,
     "dano_recibido_agente": 80.6,
@@ -36516,6 +37232,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 86.4,
@@ -36567,6 +37284,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 56.0,
     "dano_recibido_agente": 95.6,
@@ -36618,6 +37336,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 284.0,
     "dano_recibido_agente": 249.8,
@@ -36669,6 +37388,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -36720,6 +37440,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -36771,6 +37492,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 7.8,
@@ -36822,6 +37544,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -36873,6 +37596,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -36924,6 +37648,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 92.0,
     "dano_recibido_agente": 105.6,
@@ -36975,6 +37700,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 223.2,
     "dano_recibido_agente": 80.6,
@@ -37026,6 +37752,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 86.4,
@@ -37077,6 +37804,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 56.0,
     "dano_recibido_agente": 95.6,
@@ -37128,6 +37856,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 284.0,
     "dano_recibido_agente": 249.8,
@@ -37179,6 +37908,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -37230,6 +37960,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -37281,6 +38012,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 7.8,
@@ -37332,6 +38064,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -37383,6 +38116,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -37434,6 +38168,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 92.0,
     "dano_recibido_agente": 105.6,
@@ -37485,6 +38220,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 223.2,
     "dano_recibido_agente": 80.6,
@@ -37536,6 +38272,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 86.4,
@@ -37587,6 +38324,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 56.0,
     "dano_recibido_agente": 95.6,
@@ -37638,6 +38376,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 284.0,
     "dano_recibido_agente": 249.8,
@@ -37689,6 +38428,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -37740,6 +38480,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -37791,6 +38532,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 7.8,
@@ -37842,6 +38584,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 0.0,
     "dano_recibido_agente": 0.0,
@@ -37893,6 +38636,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -37944,6 +38688,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 92.0,
     "dano_recibido_agente": 105.6,
@@ -37995,6 +38740,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 223.2,
     "dano_recibido_agente": 80.6,
@@ -38046,6 +38792,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 86.4,
@@ -38097,6 +38844,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 56.0,
     "dano_recibido_agente": 95.6,
@@ -38148,6 +38896,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 284.0,
     "dano_recibido_agente": 249.8,
@@ -38199,6 +38948,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -38250,6 +39000,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 0.0,
@@ -38301,6 +39052,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -38352,6 +39104,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 12.0,
@@ -38403,6 +39156,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -38454,6 +39208,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -38505,6 +39260,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 65.0,
@@ -38556,6 +39312,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.0,
@@ -38607,6 +39364,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -38658,6 +39416,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 228.0,
     "dano_recibido_agente": 266.0,
@@ -38709,6 +39468,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -38760,6 +39520,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 0.0,
@@ -38811,6 +39572,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -38862,6 +39624,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 12.0,
@@ -38913,6 +39676,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -38964,6 +39728,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -39015,6 +39780,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 65.0,
@@ -39066,6 +39832,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.0,
@@ -39117,6 +39884,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -39168,6 +39936,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 228.0,
     "dano_recibido_agente": 266.0,
@@ -39219,6 +39988,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -39270,6 +40040,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 0.0,
@@ -39321,6 +40092,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -39372,6 +40144,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 12.0,
@@ -39423,6 +40196,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -39474,6 +40248,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -39525,6 +40300,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 65.0,
@@ -39576,6 +40352,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.0,
@@ -39627,6 +40404,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -39678,6 +40456,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 228.0,
     "dano_recibido_agente": 266.0,
@@ -39729,6 +40508,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -39780,6 +40560,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 0.0,
@@ -39831,6 +40612,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -39882,6 +40664,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 12.0,
@@ -39933,6 +40716,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -39984,6 +40768,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -40035,6 +40820,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 65.0,
@@ -40086,6 +40872,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.0,
@@ -40137,6 +40924,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -40188,6 +40976,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 228.0,
     "dano_recibido_agente": 266.0,
@@ -40239,6 +41028,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -40290,6 +41080,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 0.0,
@@ -40341,6 +41132,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 72.0,
     "dano_recibido_agente": 26.0,
@@ -40392,6 +41184,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 48.0,
     "dano_recibido_agente": 12.0,
@@ -40443,6 +41236,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 1.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
@@ -40494,6 +41288,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 36.0,
     "dano_recibido_agente": 88.0,
@@ -40545,6 +41340,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 108.0,
     "dano_recibido_agente": 65.0,
@@ -40596,6 +41392,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 60.0,
     "dano_recibido_agente": 96.0,
@@ -40647,6 +41444,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 1.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 24.0,
     "dano_recibido_agente": 90.0,
@@ -40698,6 +41496,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 0.0,
     "dano_hecho_agente": 228.0,
     "dano_recibido_agente": 266.0,
@@ -40749,6 +41548,7 @@
     "variable_barrida": "topologia"
   },
   {
+    "agentes_total": 3.0,
     "agentes_vivos": 3.0,
     "dano_hecho_agente": 144.0,
     "dano_recibido_agente": 0.0,
