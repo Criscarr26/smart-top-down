@@ -145,14 +145,21 @@ static func _observations(by_scenario: Dictionary) -> Array:
 		var wr := _win_rate(group)
 		var dps := _mean(group, "dps_agente")
 		var kills := _mean(group, "kills_agente")
-		if wr >= 0.5 and dps < 1.0 and kills < 0.25:
+		# El discriminador son los KILLS, no el dano por segundo.
+		#
+		# La primera version exigia ademas dps < 1.0 y por eso se callaba en el
+		# caso real: contra el Tipo A el agente hace 4.0 de dano por segundo y
+		# aun asi mata 0.00 oponentes. Pega pero no remata; quien remata es la
+		# pua. Un agente que hiere sin matar y aun asi "gana" es exactamente el
+		# caso que hay que senalar.
+		if wr >= 0.5 and kills < 0.25:
 			var label := str((group[0] as Dictionary).get("escenario_label", sid))
-			obs.append("AVISO en \"%s\": el agente gana el %.0f%% de las partidas pero su "
+			obs.append("AVISO en \"%s\": el agente gana el %.0f%% de las partidas pero solo "
 					% [label, wr * 100.0]
-					+ "DPS es %.1f y mata %.2f oponentes de media. Esas victorias NO son "
-					% [dps, kills]
-					+ "suyas: los oponentes estan muriendo en las puas del nivel. No "
-					+ "interpretar esta fila como desempeno del agente.")
+					+ "mata %.2f oponentes de media (hace %.1f de dano por segundo, o sea que "
+					% [kills, dps]
+					+ "pega pero no remata). Esas victorias NO son suyas: los oponentes mueren "
+					+ "en las puas del nivel. No interpretar esta fila como desempeno del agente.")
 
 	# Efecto de aumentar el numero de oponentes.
 	var solo := _mean_over(by_scenario, ["s01_A_1v1", "s02_B_1v1", "s03_C_1v1"], "tasa_exito")
@@ -264,13 +271,24 @@ static func _win_rate(group: Array) -> float:
 
 ## Fraccion media de decisiones dedicadas a una accion en un escenario.
 ## Devuelve -1 si no hay datos.
+##
+## Acepta las dos formas en que puede venir la mezcla de acciones: la columna
+## suelta `acc_<accion>` (la actual) y el diccionario `mezcla_acciones` (la de
+## las corridas antiguas). Sin el primer caso, el informe se quedaba mudo sobre
+## el comportamiento en cuanto se repartio la mezcla en columnas.
 static func _mean_action(by_scenario: Dictionary, scenario_id: String, action: String) -> float:
 	if not by_scenario.has(scenario_id):
 		return -1.0
+	var column := "acc_" + action
 	var total := 0.0
 	var n := 0
 	for r in by_scenario[scenario_id]:
-		var mix = (r as Dictionary).get("mezcla_acciones", null)
+		var row := r as Dictionary
+		if row.has(column):
+			total += float(row[column])
+			n += 1
+			continue
+		var mix = row.get("mezcla_acciones", null)
 		if mix is Dictionary and mix.has(action):
 			total += float(mix[action])
 			n += 1

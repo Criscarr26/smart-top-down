@@ -19,6 +19,10 @@ Generado automaticamente a partir de 800 corridas registradas.
 
 ## Observaciones
 
+- El agente practicamente no uso la huida en los duelos 1v1 (0.4% contra el Tipo A y 0.2% contra el Tipo C de sus decisiones): su politica es plantarse y pelear, sin importar el tipo de rival.
+- El agente apenas uso la defensa contra el Tipo B (15%): prefirio cerrar distancia antes que bloquear proyectiles.
+- AVISO en "Un enemigo tipo A vs 1 agente": el agente gana el 63% de las partidas pero solo mata 0.00 oponentes de media (hace 4.0 de dano por segundo, o sea que pega pero no remata). Esas victorias NO son suyas: los oponentes mueren en las puas del nivel. No interpretar esta fila como desempeno del agente.
+- AVISO en "Un enemigo tipo C vs 1 agente": el agente gana el 81% de las partidas pero solo mata 0.13 oponentes de media (hace 4.1 de dano por segundo, o sea que pega pero no remata). Esas victorias NO son suyas: los oponentes mueren en las puas del nivel. No interpretar esta fila como desempeno del agente.
 - La tasa de exito cae de 0.27 en los duelos 1v1 a 0.08 contra varios oponentes, que es la prueba de estres que pide la seccion 3.3.2 del PDF.
 - Con varios agentes contra el grupo mixto la tasa de exito mejora (0.21 vs 0.00 con un solo agente).
 - El escenario mas duro fue "Varios de todos los enemigos vs 1 agente": 0% de victorias y el agente aguanta solo 2.6 s de media. Hay 3 escenarios empatados a ese 0% de victorias; se desempata por tiempo de vida.
