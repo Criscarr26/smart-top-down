@@ -35,6 +35,16 @@ const LAYER_PICKUP: int = 1 << 4   # 16 - pociones
 const CELL_SIZE: float = 32.0
 const ACTOR_RADIUS: float = 11.0
 
+# --- Inercia -----------------------------------------------------------------
+## Aceleracion y frenado por defecto, en px/s^2.
+##
+## Calibrado sobre PLAYER_SPEED (165 px/s): a 1400 px/s^2 el jugador alcanza su
+## velocidad maxima en 0.12 s y a 2200 se detiene en 0.075 s. Es la ventana en la
+## que el movimiento tiene peso pero todavia responde; por encima de ~2500 la
+## inercia deja de notarse y por debajo de ~900 el personaje patina.
+const ACCEL_DEFAULT: float = 1400.0
+const FRICTION_DEFAULT: float = 2200.0
+
 # --- Jugador -----------------------------------------------------------------
 const PLAYER_MAX_HEALTH: float = 100.0
 const PLAYER_SPEED: float = 165.0

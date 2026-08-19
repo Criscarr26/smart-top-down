@@ -27,6 +27,21 @@ var idle_ticks: int = 0
 ## Cuantas veces se eligio cada accion; alimenta el benchmark cualitativo.
 var action_counts: Array = []
 
+# --- Introspeccion ------------------------------------------------------------
+## Ultima lectura de sensores y ultima salida cruda de la red.
+##
+## Se guardan siempre porque ya estaban calculadas: es una referencia, no
+## trabajo extra. Son lo que permite ENSENAR que percibe y que decide el agente
+## en vez de tener que creerselo, que es la diferencia entre una demo de IA y una
+## caja negra que se mueve sola.
+var last_inputs := PackedFloat32Array()
+var last_outputs := PackedFloat32Array()
+## Probabilidades softmax de la ultima decision, para dibujar las barras.
+var last_probs := PackedFloat32Array()
+## Ticks desde la ultima decision; con DECISION_INTERVAL da el ritmo del pulso
+## que dibuja el overlay.
+var ticks_since_decision: int = 0
+
 var _ticks_to_decision: int = 0
 
 
@@ -38,6 +53,8 @@ func configure(p_profile: EnemyProfile, p_nav: NavGrid, p_potions: Array,
 	max_health = p_profile.max_health
 	health = max_health
 	move_speed = p_profile.move_speed
+	accel = p_profile.accel
+	friction = p_profile.friction
 	melee_damage = p_profile.melee_damage
 	ranged_damage = p_profile.ranged_damage
 	can_defend = true
@@ -65,6 +82,9 @@ func think(_delta: float) -> void:
 	if _ticks_to_decision <= 0:
 		_decide()
 		_ticks_to_decision = DECISION_INTERVAL
+		ticks_since_decision = 0
+	else:
+		ticks_since_decision += 1
 	_ticks_to_decision -= 1
 	_execute(current_action)
 
@@ -72,6 +92,9 @@ func think(_delta: float) -> void:
 func _decide() -> void:
 	var inputs := AgentSensors.read(self, target, level_potions)
 	var outputs := net.forward(inputs)
+	last_inputs = inputs
+	last_outputs = outputs
+	last_probs = Thresholding.softmax(outputs)
 	current_action = Thresholding.select(
 			outputs, config.thresholding_mode, config.threshold_value, rng)
 	if current_action == Thresholding.NO_ACTION:

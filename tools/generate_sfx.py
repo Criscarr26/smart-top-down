@@ -25,7 +25,10 @@ import wave
 from pathlib import Path
 
 SAMPLE_RATE = 44100
-OUT_DIR = Path(__file__).resolve().parent.parent / "assets" / "audio"
+# Plano dentro de assets/, que es donde AssetLibrary los busca
+# (AUDIO_DIR = "res://assets/"). Antes apuntaba a assets/audio/ y los WAV
+# generados quedaban en una carpeta que el juego no mira.
+OUT_DIR = Path(__file__).resolve().parent.parent / "assets"
 
 
 # --- Bloques basicos ---------------------------------------------------------
@@ -183,6 +186,15 @@ def build_all() -> None:
     # necesita un top-down rapido: sabes que te vieron sin mirar la pantalla.
     write_wav("alert.wav",
               envelope(square(400, 900, 0.10, duty=0.5), attack=0.003, power=2.0))
+
+    # Impulso del jugador: golpe de aire mas largo y grave que el melee, con una
+    # cola de tono descendente que da la sensacion de desplazamiento.
+    # Va el ultimo a proposito: el generador consume un `rng` con semilla fija, y
+    # anadir sonidos al final deja intactos los de arriba.
+    write_wav("dash.wav", mix(
+        gain(envelope(lowpass(noise(0.22, rng), 0.12), attack=0.004, power=2.2), 0.9),
+        gain(envelope(sine(520, 160, 0.20), attack=0.005, power=2.6), 0.35),
+    ))
 
     print("Listo. Reimportalos en Godot (se detectan solos al abrir el editor).")
 

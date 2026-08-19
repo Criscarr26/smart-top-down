@@ -43,6 +43,23 @@ static func all(ga_config: GAConfig, genome: Genome,
 	specs.append(_make("s10_humano_varios", "Un jugador humano (bot) vs varios agentes",
 			ga_config, genome, level_name, [], MANY_AGENTS, ArenaSpec.Opponent.BOT))
 
+	# --- Escenarios con el Tipo D (sanador) ---------------------------------
+	# Van DESPUES de los diez del PDF y no los sustituyen: s01-s10 son los que
+	# exige la seccion 3.3.2 y renumerarlos romperia la correspondencia con el
+	# enunciado. Estos tres miden algo que los otros no pueden: si el agente
+	# aprende a PRIORIZAR. Mientras el sanador viva, el dano hecho al
+	# perseguidor se deshace, asi que matar en el orden equivocado se parece
+	# mucho a no hacer nada.
+	specs.append(_make("s11_D_1v1", "Un enemigo tipo D (sanador) vs 1 agente",
+			ga_config, genome, level_name, [{"type": "D", "count": 1}], 1))
+	specs.append(_make("s12_escolta", "Dos tipo A escoltados por un sanador vs 1 agente",
+			ga_config, genome, level_name,
+			[{"type": "A", "count": 2}, {"type": "D", "count": 1}], 1))
+	specs.append(_make("s13_mixto_sanador", "Uno de cada tipo, sanador incluido, vs 1 agente",
+			ga_config, genome, level_name,
+			[{"type": "A", "count": 2}, {"type": "B", "count": 1},
+			{"type": "C", "count": 1}, {"type": "D", "count": 1}], 1))
+
 	return specs
 
 

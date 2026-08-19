@@ -13,6 +13,11 @@ extends Resource
 # --- Atributos ---------------------------------------------------------------
 @export var max_health: float = 80.0
 @export var move_speed: float = 135.0
+## Inercia. Es una palanca de diseno, no un detalle: un perseguidor pesado se
+## pasa de frenada y deja huecos para contraatacar; un kiter ligero cambia de
+## sentido en seco y cuesta acorralarlo.
+@export var accel: float = GameConfig.ACCEL_DEFAULT
+@export var friction: float = GameConfig.FRICTION_DEFAULT
 @export var melee_damage: float = 20.0
 @export var ranged_damage: float = 12.0
 
@@ -22,8 +27,21 @@ extends Resource
 @export var can_defend: bool = false
 @export var can_flee: bool = false
 @export var can_seek_potion: bool = true
+## Tipo D: cura a los aliados heridos que tenga cerca.
+@export var can_heal: bool = false
 ## Si es false el enemigo no se desplaza en Idle: vigila girando sobre si mismo.
 @export var patrols: bool = true
+
+# --- Apoyo (Tipo D) -----------------------------------------------------------
+## Distancia a la que puede aplicar la curacion.
+@export var heal_range: float = 150.0
+## Distancia a la que busca pacientes. Mayor que heal_range: se desplaza hacia
+## quien lo necesita en vez de esperar a que venga.
+@export var heal_search_range: float = 460.0
+## Salud devuelta por tick de simulacion (a 60 Hz, x60 para tener el ritmo por
+## segundo). 0.35 son 21 de salud por segundo: suficiente para que ignorarlo
+## cueste la partida, poco para que sea imbatible.
+@export var heal_per_tick: float = 0.35
 
 # --- Umbrales de transicion (en pixeles) -------------------------------------
 ## Estado al que salta desde Idle cuando detecta al objetivo.
@@ -49,9 +67,13 @@ static func type_a() -> EnemyProfile:
 	var p := EnemyProfile.new()
 	p.type_id = "A"
 	p.display_name = "Enemigo A (perseguidor)"
-	p.body_color = Color(0.87, 0.30, 0.26)
+	p.body_color = UI.COLOR_A
 	p.max_health = 85.0
 	p.move_speed = 142.0
+	# Pesado: se pasa de frenada al perseguir, y ese sobrepaso es la ventana que
+	# tiene el jugador para rodearlo y contraatacar.
+	p.accel = 900.0
+	p.friction = 1300.0
 	p.melee_damage = 22.0
 	p.can_melee = true
 	p.can_ranged = false
@@ -69,7 +91,7 @@ static func type_b() -> EnemyProfile:
 	var p := EnemyProfile.new()
 	p.type_id = "B"
 	p.display_name = "Enemigo B (torreta)"
-	p.body_color = Color(0.36, 0.55, 0.92)
+	p.body_color = UI.COLOR_B
 	p.max_health = 70.0
 	p.move_speed = 0.0
 	p.ranged_damage = 13.0
@@ -90,9 +112,13 @@ static func type_c() -> EnemyProfile:
 	var p := EnemyProfile.new()
 	p.type_id = "C"
 	p.display_name = "Enemigo C (kiter)"
-	p.body_color = Color(0.93, 0.72, 0.24)
+	p.body_color = UI.COLOR_C
 	p.max_health = 65.0
 	p.move_speed = 152.0
+	# Ligero: cambia de sentido casi en seco, que es lo que hace dificil
+	# acorralarlo y justifica su papel de kiter.
+	p.accel = 2100.0
+	p.friction = 2800.0
 	p.melee_damage = 16.0
 	p.ranged_damage = 12.0
 	p.can_melee = true
@@ -107,13 +133,40 @@ static func type_c() -> EnemyProfile:
 	return p
 
 
+## Tipo D - Sanador de apoyo. No pelea de cerca: cura a los aliados heridos y
+## huye si lo presionan. Obliga a decidir a quien matar primero (ver
+## SupportState). Fragil a proposito.
+static func type_d() -> EnemyProfile:
+	var p := EnemyProfile.new()
+	p.type_id = "D"
+	p.display_name = "Enemigo D (sanador)"
+	p.body_color = UI.COLOR_D
+	p.max_health = 55.0
+	p.move_speed = 138.0
+	p.accel = 1500.0
+	p.friction = 2000.0
+	p.melee_damage = 0.0
+	p.ranged_damage = 8.0
+	p.can_melee = false
+	p.can_ranged = true
+	p.can_defend = false
+	p.can_flee = true
+	p.can_seek_potion = true
+	p.can_heal = true
+	p.patrols = true
+	p.detect_state = StateMachine.SUPPORT
+	p.flee_radius = 165.0
+	p.preferred_range = 240.0
+	return p
+
+
 ## Perfil base del agente entrenado: tiene TODAS las acciones disponibles
 ## (requisito 3.d del PDF). No usa FSM; la red neuronal decide.
 static func agent() -> EnemyProfile:
 	var p := EnemyProfile.new()
 	p.type_id = "AGENT"
 	p.display_name = "Agente (RL)"
-	p.body_color = Color(0.55, 0.95, 0.60)
+	p.body_color = UI.COLOR_AGENTE
 	p.max_health = 85.0
 	p.move_speed = 145.0
 	p.melee_damage = 20.0
@@ -132,6 +185,7 @@ static func by_type(type_id: String) -> EnemyProfile:
 		"A": return type_a()
 		"B": return type_b()
 		"C": return type_c()
+		"D": return type_d()
 		"AGENT": return agent()
 	push_error("EnemyProfile: tipo desconocido '%s'" % type_id)
 	return type_a()

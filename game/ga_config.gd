@@ -115,7 +115,16 @@ static func from_dict(d: Dictionary) -> GAConfig:
 	c.thresholding_mode = Thresholding.mode_from_name(str(d.get("thresholding", "softmax_argmax")))
 	c.threshold_value = float(d.get("valor_umbral", c.threshold_value))
 	if d.has("capas_ocultas"):
-		c.hidden_layers = d["capas_ocultas"]
+		# JSON devuelve TODO numero como float, asi que [10, 6] vuelve como
+		# [10.0, 6.0] y la topologia acabaria llevando floats donde
+		# NeuralNetwork espera enteros. Se convierte aqui, que es por donde
+		# entran las configuraciones guardadas en disco.
+		var capas: Array = []
+		for v in d["capas_ocultas"]:
+			var n := int(v)
+			if n > 0:
+				capas.append(n)
+		c.hidden_layers = capas
 	return c
 
 

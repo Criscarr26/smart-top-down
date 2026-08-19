@@ -12,6 +12,7 @@ const SCENARIO_ORDER := [
 	"s01_A_1v1", "s02_B_1v1", "s03_C_1v1", "s04_humano_1v1",
 	"s05_A_varios", "s06_B_varios", "s07_C_varios",
 	"s08_mixto_1agente", "s09_mixto_varios", "s10_humano_varios",
+	"s11_D_1v1", "s12_escolta", "s13_mixto_sanador",
 ]
 
 

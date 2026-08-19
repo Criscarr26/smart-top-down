@@ -37,27 +37,28 @@ extends RefCounted
 ##   matar                 +60 y +40 de victoria (domina todo lo demas)
 ## Castigar mas la muerte produce agentes cobardes; castigarla menos produce
 ## agentes suicidas. Estos valores son un punto de partida razonable, no un
-## optimo: ajustarlos es parte del trabajo experimental del informe.
+## optimo: ajustarlos es parte del trabajo experimental del informe, y para eso
+## esta la pantalla "Entrenar agente" del menu, que los edita en caliente.
 ##
-## Desglose de pesos:
+## Desglose de los 11 pesos:
 ##  DAMAGE_DEALT  (+1.0/punto)   Senal principal. Es la unica forma de ganar.
-##  DAMAGE_TAKEN  (-0.6/punto)   Menor que el dano hecho a proposito: si
+##  DAMAGE_TAKEN  (-0.25/punto)  Menor que el dano hecho a proposito: si
 ##                               castigara igual o mas, huir seria optimo.
 ##  DAMAGE_BLOCKED(+0.35/punto)  El "esquivar/evitar dano" del PDF. Por debajo
 ##                               de lo que cuesta recibir el golpe, para que
 ##                               bloquear no sea mejor que no ser alcanzado.
 ##  KILL          (+60.0)        Bono discreto grande: define la meta.
-##  DEATH         (-30.0)        Morir duele, pero menos que matar recompensa, o
-##                               el agente no arriesgaria nunca.
+##  DEATH         (-15.0)        Morir duele, pero mucho menos que matar
+##                               recompensa, o el agente no arriesgaria nunca.
 ##  TICK_ALIVE    (+0.004/tick)  Sobrevivir 30 s vale ~7 puntos: gradiente
 ##                               minimo, no una estrategia.
-##  TICK_ENGAGED  (+0.020/tick)  Estar en rango de combate vale 5x sobrevivir.
+##  TICK_ENGAGED  (+0.030/tick)  Estar en rango de combate vale 7.5x sobrevivir.
 ##                               Empuja a buscar pelea desde la generacion 1.
 ##  POTION_USED   (+8.0)         Empuja a descubrir la mecanica de curacion.
 ##  IDLE_TICK     (-0.004/tick)  Castiga los ticks sin accion (thresholding por
-##                               umbral). Evita el agente-estatua.
+##                               umbral). Evita el agente-estatua por esa via.
 ##  VICTORY       (+40.0)        Bono por dejar el campo sin oponentes vivos.
-##  DRAW          (-12.0)        Empate por tiempo agotado.
+##  DRAW          (-15.0)        Empate por tiempo agotado.
 
 const W_DAMAGE_DEALT := 1.0
 const W_DAMAGE_TAKEN := -0.25
@@ -75,40 +76,158 @@ const W_DRAW := -15.0
 const ENGAGE_RANGE := 210.0
 
 
+## Descripcion de cada peso editable: nombre del campo en Weights, etiqueta para
+## la interfaz, limites del control y una linea de ayuda.
+##
+## Esta lista es la UNICA fuente de la que salen los campos de la pantalla de
+## entrenamiento, la serializacion a JSON y el boton de restaurar. Anadir un peso
+## nuevo aqui lo hace aparecer en los tres sitios sin tocar nada mas; tenerlos
+## repetidos en la interfaz fue lo primero que se descarto, porque un peso que
+## exista en el codigo pero no en el formulario es invisible y no se documenta.
+const FIELDS := [
+	{"key": "damage_dealt", "label": "Dano hecho", "unidad": "por punto",
+		"min": 0.0, "max": 5.0, "step": 0.05,
+		"hint": "Senal principal: es la unica forma de ganar."},
+	{"key": "damage_taken", "label": "Dano recibido", "unidad": "por punto",
+		"min": -3.0, "max": 0.0, "step": 0.05,
+		"hint": "Si castiga igual o mas que el dano hecho, huir se vuelve optimo."},
+	{"key": "damage_blocked", "label": "Dano bloqueado", "unidad": "por punto",
+		"min": 0.0, "max": 3.0, "step": 0.05,
+		"hint": "El 'evitar dano' del PDF. Por debajo de lo que cuesta el golpe."},
+	{"key": "kill", "label": "Matar a un oponente", "unidad": "bono",
+		"min": 0.0, "max": 200.0, "step": 1.0,
+		"hint": "Bono discreto grande: es lo que define la meta."},
+	{"key": "death", "label": "Morir", "unidad": "castigo",
+		"min": -100.0, "max": 0.0, "step": 1.0,
+		"hint": "Muy negativo produce agentes cobardes; cerca de cero, suicidas."},
+	{"key": "tick_alive", "label": "Seguir vivo", "unidad": "por tick",
+		"min": -0.05, "max": 0.05, "step": 0.001,
+		"hint": "Subirlo mucho crea el agente-estatua: esconderse pasa a ser optimo."},
+	{"key": "tick_engaged", "label": "Estar en combate", "unidad": "por tick",
+		"min": -0.05, "max": 0.2, "step": 0.001,
+		"hint": "Termino de shaping: da gradiente antes de que nadie sepa hacer dano."},
+	{"key": "potion_used", "label": "Usar una pocion", "unidad": "bono",
+		"min": -20.0, "max": 40.0, "step": 0.5,
+		"hint": "Empuja a descubrir la mecanica de curacion."},
+	{"key": "idle_tick", "label": "Tick sin accion", "unidad": "por tick",
+		"min": -0.05, "max": 0.05, "step": 0.001,
+		"hint": "Solo se acumula con thresholding por umbral, que puede no actuar."},
+	{"key": "victory", "label": "Ganar el episodio", "unidad": "bono",
+		"min": 0.0, "max": 200.0, "step": 1.0,
+		"hint": "Se cobra al dejar el campo sin oponentes vivos."},
+	{"key": "draw", "label": "Empate por tiempo", "unidad": "castigo",
+		"min": -100.0, "max": 50.0, "step": 1.0,
+		"hint": "En positivo, dejar correr el reloj se convierte en estrategia."},
+	{"key": "engage_range", "label": "Radio de combate", "unidad": "pixeles",
+		"min": 40.0, "max": 600.0, "step": 10.0,
+		"hint": "Distancia a la que cuenta como 'en combate'. Afecta al shaping."},
+]
+
+
+## Los pesos como objeto editable, para poder cambiarlos sin tocar el codigo.
+##
+## Viaja POR EPISODIO dentro de ArenaSpec y no en una variable global mutable, a
+## proposito: el SimPool corre hasta 16 arenas a la vez, y con estado compartido
+## no se podria entrenar con unos pesos mientras el resto del proyecto evalua con
+## los de siempre, ni reproducir una corrida a partir de su semilla.
+##
+## Los valores por defecto son exactamente las constantes de arriba, asi que un
+## Weights recien creado da resultados identicos a la version anterior, que
+## llamaba a las constantes directamente. De eso depende que el Excel ya
+## entregado siga siendo reproducible.
+class Weights extends RefCounted:
+	var damage_dealt: float = Fitness.W_DAMAGE_DEALT
+	var damage_taken: float = Fitness.W_DAMAGE_TAKEN
+	var damage_blocked: float = Fitness.W_DAMAGE_BLOCKED
+	var kill: float = Fitness.W_KILL
+	var death: float = Fitness.W_DEATH
+	var tick_alive: float = Fitness.W_TICK_ALIVE
+	var tick_engaged: float = Fitness.W_TICK_ENGAGED
+	var potion_used: float = Fitness.W_POTION_USED
+	var idle_tick: float = Fitness.W_IDLE_TICK
+	var victory: float = Fitness.W_VICTORY
+	var draw: float = Fitness.W_DRAW
+	var engage_range: float = Fitness.ENGAGE_RANGE
+
+	func duplicate_weights() -> Weights:
+		var w := Weights.new()
+		for f in Fitness.FIELDS:
+			w.set(str(f["key"]), get(str(f["key"])))
+		return w
+
+	func to_dict() -> Dictionary:
+		var d := {}
+		for f in Fitness.FIELDS:
+			d[str(f["key"])] = float(get(str(f["key"])))
+		return d
+
+	## Lee solo las claves conocidas: un JSON de otra version o escrito a mano no
+	## puede inyectar campos sueltos ni tumbar la carga por una clave de mas.
+	func apply_dict(d: Dictionary) -> void:
+		for f in Fitness.FIELDS:
+			var key := str(f["key"])
+			if d.has(key):
+				set(key, clampf(float(d[key]), float(f["min"]), float(f["max"])))
+
+	static func from_dict(d: Dictionary) -> Weights:
+		var w := Weights.new()
+		w.apply_dict(d)
+		return w
+
+	## True si algun peso se aparta del valor por defecto. Lo usa la interfaz para
+	## avisar de que los resultados ya no son comparables con los del Excel.
+	func is_modified() -> bool:
+		var base := Weights.new()
+		for f in Fitness.FIELDS:
+			var key := str(f["key"])
+			if not is_equal_approx(float(get(key)), float(base.get(key))):
+				return true
+		return false
+
+
+## Pesos por defecto, los documentados arriba.
+static func defaults() -> Weights:
+	return Weights.new()
+
+
 static func evaluate(agent: Actor, victory: bool, draw: bool = false,
-		idle_ticks: int = 0) -> float:
+		idle_ticks: int = 0, w: Weights = null) -> float:
+	if w == null:
+		w = Weights.new()
 	var score := 0.0
-	score += agent.damage_dealt * W_DAMAGE_DEALT
-	score += agent.damage_taken * W_DAMAGE_TAKEN
-	score += agent.damage_blocked * W_DAMAGE_BLOCKED
-	score += float(agent.kills) * W_KILL
-	score += float(agent.deaths) * W_DEATH
-	score += float(agent.ticks_alive) * W_TICK_ALIVE
-	score += float(agent.ticks_engaged) * W_TICK_ENGAGED
-	score += float(agent.potions_used) * W_POTION_USED
-	score += float(idle_ticks) * W_IDLE_TICK
+	score += agent.damage_dealt * w.damage_dealt
+	score += agent.damage_taken * w.damage_taken
+	score += agent.damage_blocked * w.damage_blocked
+	score += float(agent.kills) * w.kill
+	score += float(agent.deaths) * w.death
+	score += float(agent.ticks_alive) * w.tick_alive
+	score += float(agent.ticks_engaged) * w.tick_engaged
+	score += float(agent.potions_used) * w.potion_used
+	score += float(idle_ticks) * w.idle_tick
 	if victory:
-		score += W_VICTORY
+		score += w.victory
 	if draw:
-		score += W_DRAW
+		score += w.draw
 	return score
 
 
 ## Desglose termino a termino, para poder mostrar en el informe de que se
 ## compone el fitness de un agente y no solo el numero final.
 static func breakdown(agent: Actor, victory: bool, draw: bool = false,
-		idle_ticks: int = 0) -> Dictionary:
+		idle_ticks: int = 0, w: Weights = null) -> Dictionary:
+	if w == null:
+		w = Weights.new()
 	return {
-		"dano_hecho": agent.damage_dealt * W_DAMAGE_DEALT,
-		"dano_recibido": agent.damage_taken * W_DAMAGE_TAKEN,
-		"dano_bloqueado": agent.damage_blocked * W_DAMAGE_BLOCKED,
-		"kills": float(agent.kills) * W_KILL,
-		"muertes": float(agent.deaths) * W_DEATH,
-		"tiempo_vida": float(agent.ticks_alive) * W_TICK_ALIVE,
-		"en_combate": float(agent.ticks_engaged) * W_TICK_ENGAGED,
-		"pociones": float(agent.potions_used) * W_POTION_USED,
-		"inactividad": float(idle_ticks) * W_IDLE_TICK,
-		"victoria": W_VICTORY if victory else 0.0,
-		"empate": W_DRAW if draw else 0.0,
-		"total": evaluate(agent, victory, draw, idle_ticks),
+		"dano_hecho": agent.damage_dealt * w.damage_dealt,
+		"dano_recibido": agent.damage_taken * w.damage_taken,
+		"dano_bloqueado": agent.damage_blocked * w.damage_blocked,
+		"kills": float(agent.kills) * w.kill,
+		"muertes": float(agent.deaths) * w.death,
+		"tiempo_vida": float(agent.ticks_alive) * w.tick_alive,
+		"en_combate": float(agent.ticks_engaged) * w.tick_engaged,
+		"pociones": float(agent.potions_used) * w.potion_used,
+		"inactividad": float(idle_ticks) * w.idle_tick,
+		"victoria": w.victory if victory else 0.0,
+		"empate": w.draw if draw else 0.0,
+		"total": evaluate(agent, victory, draw, idle_ticks, w),
 	}

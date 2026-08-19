@@ -13,6 +13,16 @@ var nav: NavGrid
 var target: Actor = null
 ## Referencia viva a las pociones del nivel; la inyecta el Arena.
 var level_potions: Array = []
+## Todos los actores de la arena, inyectados tras el spawn. Solo lo usa el
+## sanador (Tipo D) para encontrar aliados heridos. Es una referencia a la lista
+## viva del Arena, no una copia: los estados la consultan cada pocos ticks y
+## copiarla seria basura por tick.
+var squad: Array = []
+
+## Salud devuelta a aliados. Metrica del Tipo D, analoga a damage_dealt.
+var healing_done: float = 0.0
+## A quien esta curando ahora mismo, para dibujar el haz. null si a nadie.
+var healing_target: Actor = null
 
 var _free_cells_cache: Array = []
 
@@ -28,6 +38,8 @@ func configure(p_profile: EnemyProfile, p_nav: NavGrid, p_potions: Array) -> voi
 	max_health = profile.max_health
 	health = profile.max_health
 	move_speed = profile.move_speed
+	accel = profile.accel
+	friction = profile.friction
 	melee_damage = profile.melee_damage
 	ranged_damage = profile.ranged_damage
 	can_defend = profile.can_defend
@@ -57,6 +69,8 @@ func _build_state_machine() -> void:
 		machine.add_state(StateMachine.FLEE, FleeState.new(), self)
 	if profile.can_seek_potion:
 		machine.add_state(StateMachine.SEEK_POTION, SeekPotionState.new(), self)
+	if profile.can_heal:
+		machine.add_state(StateMachine.SUPPORT, SupportState.new(), self)
 	machine.start(StateMachine.IDLE)
 
 
@@ -76,6 +90,34 @@ func think(delta: float) -> void:
 ## ruta) porque hacerlo por A* costaria un pathfind por pocion y por tick.
 func nearest_potion() -> Potion:
 	return Steering.nearest_potion(global_position, level_potions)
+
+
+## El aliado vivo mas herido dentro del radio de busqueda, o null.
+##
+## Vive aqui y no en SupportState por la misma razon que nearest_potion(): los
+## estados toman decisiones, el enemigo responde preguntas sobre su entorno. Asi
+## IdleState puede consultar si hay trabajo que hacer sin duplicar la busqueda.
+##
+## Prioriza por FRACCION de salud, no por salud absoluta: curar al que le faltan
+## 40 de 70 rinde mas que al que le faltan 40 de 200.
+func wounded_ally(umbral: float = 0.92) -> Actor:
+	if not profile.can_heal:
+		return null
+	var mejor: Actor = null
+	var peor := umbral
+	for a in squad:
+		var otro := a as Actor
+		if otro == null or otro == self or not is_instance_valid(otro):
+			continue
+		if not otro.alive or otro.team != team:
+			continue
+		if otro.global_position.distance_to(global_position) > profile.heal_search_range:
+			continue
+		var f := otro.health_fraction()
+		if f < peor:
+			peor = f
+			mejor = otro
+	return mejor
 
 
 func pick_patrol_point() -> Vector2:
@@ -113,7 +155,19 @@ static var debug_draw: bool = false
 
 func _draw() -> void:
 	super._draw()
-	if not debug_draw or not alive:
+	if not alive:
+		return
+
+	# Haz de curacion del Tipo D. Se dibuja siempre (no solo en depuracion)
+	# porque es informacion de juego: sin verlo, que un enemigo recupere salud
+	# parece un fallo en vez de algo que hay que ir a cortar.
+	if healing_target != null and is_instance_valid(healing_target) and healing_target.alive:
+		var hacia: Vector2 = healing_target.global_position - global_position
+		draw_line(Vector2.ZERO, hacia, Color(0.55, 1.0, 0.65, 0.55), 2.5)
+		draw_arc(hacia, GameConfig.ACTOR_RADIUS + 4.0, 0.0, TAU, 16,
+				Color(0.55, 1.0, 0.65, 0.75), 1.5)
+
+	if not debug_draw:
 		return
 
 	# Cono de vision (el ejemplo del profesor usa un circulo; aqui la deteccion
@@ -168,6 +222,8 @@ func dispose() -> void:
 		pathing.nav = null
 		pathing = null
 	target = null
+	healing_target = null
+	squad = []
 	level_potions = []
 	_free_cells_cache = []
 	nav = null

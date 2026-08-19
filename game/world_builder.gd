@@ -68,6 +68,23 @@ static func draw_level(canvas: CanvasItem, data: LevelData) -> void:
 	else:
 		canvas.draw_rect(full, Color(0.13, 0.12, 0.16))
 
+	# Retícula tenue del grid de A*. Ademas de dar textura al suelo, hace visible
+	# la malla sobre la que planifica el pathfinding, que es justo lo que hay que
+	# poder ensenar al explicar el proyecto.
+	var lineas := Color(1, 1, 1, 0.030)
+	for x in range(1, data.width):
+		canvas.draw_line(Vector2(x * cs, 0.0), Vector2(x * cs, full.size.y), lineas, 1.0)
+	for y in range(1, data.height):
+		canvas.draw_line(Vector2(0.0, y * cs), Vector2(full.size.x, y * cs), lineas, 1.0)
+
+	# Las paredes se dibujan en tres pasadas para que tengan volumen: sombra
+	# proyectada, cuerpo y borde iluminado arriba. Es lo que separa un mapa de
+	# rectangulos planos de algo que parece un escenario.
+	for r in data.wall_runs():
+		var run: Rect2i = r
+		var rect := Rect2(Vector2(run.position) * cs, Vector2(run.size) * cs)
+		canvas.draw_rect(Rect2(rect.position + Vector2(3, 4), rect.size),
+				Color(0, 0, 0, 0.34))
 	for r in data.wall_runs():
 		var run: Rect2i = r
 		var rect := Rect2(Vector2(run.position) * cs, Vector2(run.size) * cs)
@@ -75,3 +92,6 @@ static func draw_level(canvas: CanvasItem, data: LevelData) -> void:
 			canvas.draw_texture_rect(wall_tex, rect, true)
 		else:
 			canvas.draw_rect(rect, Color(0.33, 0.30, 0.40))
+		canvas.draw_rect(Rect2(rect.position, Vector2(rect.size.x, 3.0)),
+				Color(1, 1, 1, 0.13))
+		canvas.draw_rect(rect, Color(0.05, 0.05, 0.08, 0.55), false, 1.0)

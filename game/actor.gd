@@ -12,6 +12,12 @@ enum Team { PLAYER, ENEMY }
 signal died(actor: Actor, killer: Actor)
 ## El Arena escucha esta senal y crea el proyectil; el actor no conoce la escena.
 signal projectile_requested(shooter: Actor, from: Vector2, dir: Vector2, damage: float)
+## Golpe recibido, para los numeros flotantes y las particulas.
+##
+## SOLO se emite en modo interactivo (ver `visuals_enabled`). En el barrido hay
+## decenas de millones de golpes y ninguno tiene a nadie escuchando: emitir la
+## senal de todas formas seria trabajo puro de descarte.
+signal damaged(actor: Actor, applied: float, blocked: float)
 
 @export var team: Team = Team.ENEMY
 @export var display_name: String = "Actor"
@@ -23,6 +29,10 @@ var health: float = 100.0
 var max_shield: float = GameConfig.MAX_SHIELD
 var shield: float = GameConfig.MAX_SHIELD
 var move_speed: float = 140.0
+## Aceleracion y frenado, en px/s^2. Los perfiles los ajustan: un perseguidor
+## pesado se pasa de frenada, un kiter cambia de sentido en seco.
+var accel: float = GameConfig.ACCEL_DEFAULT
+var friction: float = GameConfig.FRICTION_DEFAULT
 var melee_damage: float = 22.0
 var ranged_damage: float = 14.0
 var can_defend: bool = true
@@ -83,6 +93,9 @@ var _muzzle_ticks: int = 0
 var _hit_flash: int = 0
 ## Clave del sprite ("player", "a", "b", "c", "agent"). La fija cada subclase.
 var sprite_kind: String = "player"
+## True cuando el actor forma parte de una partida que se dibuja. Es la puerta
+## de todo lo que solo tiene sentido con alguien mirando.
+var visuals_enabled: bool = false
 
 
 func _ready() -> void:
@@ -204,19 +217,64 @@ func is_low_health() -> bool:
 # Movimiento
 # =============================================================================
 
-## Mueve en la direccion dada usando move_and_collide + deslizamiento manual.
+## Acelera hacia la direccion dada y aplica el desplazamiento del tick.
+##
 ## No usa move_and_slide() a proposito: ese metodo lee el delta escalado del
-## motor, que cambia con Engine.time_scale y romperia la determinismo del
-## benchmark (ver GameConfig).
+## motor, que cambia con Engine.time_scale y romperia el determinismo del
+## benchmark (ver GameConfig). Todo avanza con SIM_DT fijo.
+##
+## POR QUE HAY INERCIA. La primera version asignaba `velocity = dir * speed`,
+## asi que un actor pasaba de 0 a velocidad maxima y de vuelta a 0 en un solo
+## tick. Se movia con precision perfecta y por eso mismo no habia nada que
+## dominar: esquivar era apretar la tecla contraria. Con aceleracion y frenado
+## el posicionamiento pasa a ser una habilidad, el impulso tiene sentido (te
+## saca de una inercia que no puedes cancelar) y los enemigos se pasan de frenada
+## al perseguir, que es lo que abre huecos para contraatacar.
 func move_in_direction(dir: Vector2, speed_scale: float = 1.0) -> void:
 	if not alive:
 		return
-	if dir.length_squared() <= 0.0001:
-		velocity = Vector2.ZERO
+	var objetivo := Vector2.ZERO
+	if dir.length_squared() > 0.0001:
+		var dir_n := dir.normalized()
+		facing = dir_n
+		objetivo = dir_n * move_speed * speed_scale
+	var tasa: float = accel if objetivo != Vector2.ZERO else friction
+	velocity = velocity.move_toward(objetivo, tasa * GameConfig.SIM_DT)
+	_apply_motion()
+
+
+## Frenada progresiva. Para el corte seco (defender inmoviliza) esta halt().
+func stop() -> void:
+	if not alive:
 		return
-	var dir_n := dir.normalized()
-	facing = dir_n
-	velocity = dir_n * move_speed * speed_scale
+	velocity = velocity.move_toward(Vector2.ZERO, friction * GameConfig.SIM_DT)
+	if velocity.length_squared() > 1.0:
+		_apply_motion()
+	else:
+		velocity = Vector2.ZERO
+
+
+## Corta la velocidad en el acto, sin frenada. Lo usa la guardia, que segun el
+## requisito 2.e del PDF inmoviliza.
+func halt() -> void:
+	velocity = Vector2.ZERO
+
+
+## Empuje instantaneo, saltandose la aceleracion. Es lo que hace que el impulso
+## del jugador se sienta como un impulso y no como "correr un poco mas".
+func impulse(dir: Vector2, speed: float) -> void:
+	if not alive or dir.length_squared() <= 0.0001:
+		return
+	velocity = dir.normalized() * speed
+	_apply_motion()
+
+
+## Desplaza segun la velocidad actual, deslizando por las paredes.
+##
+## Al chocar, la velocidad se proyecta sobre la pared ademas del movimiento
+## restante. Sin eso el actor conservaba toda su inercia contra el muro y salia
+## disparado en cuanto lo esquivaba, o se quedaba pegado empujando contra el.
+func _apply_motion() -> void:
 	var motion := velocity * GameConfig.SIM_DT
 	# Hasta 4 deslizamientos por tick: suficiente para esquinas, y acotado para
 	# que el coste por tick sea constante.
@@ -226,11 +284,16 @@ func move_in_direction(dir: Vector2, speed_scale: float = 1.0) -> void:
 		var col := move_and_collide(motion)
 		if col == null:
 			break
-		motion = col.get_remainder().slide(col.get_normal())
+		var normal := col.get_normal()
+		velocity = velocity.slide(normal)
+		motion = col.get_remainder().slide(normal)
 
 
-func stop() -> void:
-	velocity = Vector2.ZERO
+## Velocidad actual como fraccion de la maxima. Para el HUD y los sensores.
+func speed_fraction() -> float:
+	if move_speed <= 0.0:
+		return 0.0
+	return clampf(velocity.length() / move_speed, 0.0, 1.0)
 
 
 func face_towards(point: Vector2) -> void:
@@ -306,7 +369,7 @@ func set_defending(value: bool) -> void:
 		return
 	is_defending = value
 	if value:
-		stop()  # defender inmoviliza (requisito 2.e del PDF)
+		halt()  # defender inmoviliza en el acto (requisito 2.e del PDF)
 
 
 func try_use_potion() -> bool:
@@ -338,6 +401,8 @@ func take_damage(amount: float, source: Actor = null) -> float:
 	damage_taken += applied
 	if source != null and is_instance_valid(source):
 		source.damage_dealt += applied
+	if visuals_enabled:
+		damaged.emit(self, applied, amount - applied)
 	if health <= 0.0:
 		health = 0.0
 		die(source)
@@ -401,6 +466,9 @@ func _process(_delta: float) -> void:
 ## Crea el sprite y el destello de disparo. Solo lo llama el Arena en modo
 ## interactivo: en el benchmark no hay nada que dibujar.
 func enable_visuals() -> void:
+	# Se marca ANTES de mirar si hay textura: sin arte generado el actor sigue
+	# dibujandose con primitivas, y los efectos deben salir igual.
+	visuals_enabled = true
 	var tex := AssetLibrary.actor_texture(sprite_kind)
 	if tex == null:
 		return   # sin arte generado, se cae al dibujado por primitivas

@@ -14,6 +14,7 @@ const RANGED := "AtacarADistancia"
 const DEFEND := "Defender"
 const FLEE := "Huir"
 const SEEK_POTION := "BuscarPocion"
+const SUPPORT := "Apoyar"
 
 var states: Dictionary = {}
 var current: EnemyState = null

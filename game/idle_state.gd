@@ -30,6 +30,12 @@ func update(delta: float) -> void:
 	if try_transition_to_potion():
 		return
 
+	# El sanador entra a apoyar aunque no vea al enemigo: su trabajo depende del
+	# estado de sus aliados, no de tener al rival delante.
+	if machine.has(StateMachine.SUPPORT) and enemy.wounded_ally() != null:
+		machine.change_to(StateMachine.SUPPORT)
+		return
+
 	if not enemy.profile.patrols or enemy.move_speed <= 0.0:
 		# Vigilancia estatica: gira el cono lentamente.
 		enemy.facing = enemy.facing.rotated(SCAN_SPEED * delta)

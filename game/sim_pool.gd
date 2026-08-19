@@ -17,6 +17,23 @@ signal episode_completed(index: int, result: Dictionary)
 
 var max_parallel: int = 8
 
+## Ranura que ademas se DIBUJA, para poder mirar un combate mientras corre el
+## lote. -1 = ninguna, que es lo que usa el barrido.
+##
+## Solo cambia la presentacion: `interactive` enciende los sprites, el _process
+## y el _draw de los actores, y ninguna de las tres cosas toca el estado de la
+## simulacion ni el generador aleatorio. Verificado midiendo: el mismo spec da
+## un resultado identico con la ranura visible y sin ella.
+var showcase_slot: int = -1
+## Se renderiza grande de una vez y luego se escala en cada sitio donde se
+## muestra (el recuadro del panel lo reduce, la ventana aparte lo agranda).
+## Cambiar el tamano en caliente obligaria a reencuadrar la camara a media
+## partida, y no compensa: es un render por fotograma, no por tick.
+var showcase_size := Vector2i(900, 560)
+## Arena que se esta dibujando ahora mismo, para que la interfaz pueda decir de
+## que episodio se trata. null cuando esa ranura esta libre.
+var showcase_arena: Arena = null
+
 var _slots: Array = []
 var _queue: Array = []
 var _results: Array = []
@@ -57,16 +74,35 @@ func run_batch(specs: Array) -> Array:
 
 func _ensure_slots(count: int) -> void:
 	while _slots.size() < count:
+		var es_vitrina: bool = _slots.size() == showcase_slot
 		var vp := SubViewport.new()
 		# World2D propio = espacio de fisica aislado.
 		vp.world_2d = World2D.new()
-		vp.size = Vector2i(1, 1)
 		vp.disable_3d = true
 		vp.physics_object_picking = false
-		# Nada que renderizar: el benchmark solo necesita la simulacion.
-		vp.render_target_update_mode = SubViewport.UPDATE_DISABLED
+		if es_vitrina:
+			vp.size = showcase_size
+			vp.render_target_update_mode = SubViewport.UPDATE_ALWAYS
+		else:
+			vp.size = Vector2i(1, 1)
+			# Nada que renderizar: el barrido solo necesita la simulacion.
+			vp.render_target_update_mode = SubViewport.UPDATE_DISABLED
 		add_child(vp)
-		_slots.append({"viewport": vp, "arena": null, "index": -1, "busy": false})
+
+		# La camara y el overlay cuelgan del viewport y no de la arena: asi
+		# sobreviven a los episodios, que se crean y se destruyen uno detras de
+		# otro.
+		var cam: Camera2D = null
+		var capa: AgentOverlay = null
+		if es_vitrina:
+			cam = Camera2D.new()
+			vp.add_child(cam)
+			cam.make_current()
+			capa = AgentOverlay.new()
+			vp.add_child(capa)
+
+		_slots.append({"viewport": vp, "arena": null, "index": -1, "busy": false,
+				"camera": cam, "overlay": capa, "vitrina": es_vitrina})
 
 
 func _try_start(slot: Dictionary) -> void:
@@ -83,8 +119,46 @@ func _try_start(slot: Dictionary) -> void:
 	slot["index"] = index
 	slot["busy"] = true
 
+	var vitrina: bool = slot.get("vitrina", false)
 	arena.episode_finished.connect(_on_episode_finished.bind(slot), CONNECT_ONE_SHOT)
-	arena.setup(spec, false)
+	arena.setup(spec, vitrina)
+	if vitrina:
+		showcase_arena = arena
+		_encuadrar(slot, arena)
+		var capa: AgentOverlay = slot.get("overlay")
+		if capa != null and is_instance_valid(capa):
+			capa.arena = arena
+			capa.limpiar()
+
+
+## Centra la camara en el nivel y ajusta el zoom para que quepa entero. Se
+## recalcula por episodio porque las etapas rotan entre niveles de distinto
+## tamano.
+func _encuadrar(slot: Dictionary, arena: Arena) -> void:
+	var cam: Camera2D = slot.get("camera")
+	if cam == null:
+		return
+	var mundo: Vector2 = arena.world_size()
+	if mundo.x <= 0.0 or mundo.y <= 0.0:
+		return
+	var vp: SubViewport = slot["viewport"]
+	cam.position = mundo * 0.5
+	var z: float = minf(float(vp.size.x) / mundo.x, float(vp.size.y) / mundo.y)
+	cam.zoom = Vector2(z, z)
+
+
+## Textura de la ranura visible, para colgarla de un TextureRect.
+func showcase_texture() -> Texture2D:
+	if showcase_slot < 0 or showcase_slot >= _slots.size():
+		return null
+	return (_slots[showcase_slot]["viewport"] as SubViewport).get_texture()
+
+
+## Capa que dibuja los sensores y las decisiones del agente observado.
+func showcase_overlay() -> AgentOverlay:
+	if showcase_slot < 0 or showcase_slot >= _slots.size():
+		return null
+	return _slots[showcase_slot].get("overlay")
 
 
 func _on_episode_finished(result: Dictionary, slot: Dictionary) -> void:
@@ -95,6 +169,8 @@ func _on_episode_finished(result: Dictionary, slot: Dictionary) -> void:
 	var arena: Arena = slot["arena"]
 	slot["arena"] = null
 	slot["busy"] = false
+	if arena == showcase_arena:
+		showcase_arena = null
 	if arena != null and is_instance_valid(arena):
 		# remove_child INMEDIATO antes de liberar, no solo queue_free().
 		#
@@ -121,6 +197,7 @@ func _on_episode_finished(result: Dictionary, slot: Dictionary) -> void:
 
 
 func shutdown() -> void:
+	showcase_arena = null
 	for slot in _slots:
 		var arena = slot.get("arena")
 		if arena != null and is_instance_valid(arena):

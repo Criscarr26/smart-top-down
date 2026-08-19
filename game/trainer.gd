@@ -27,6 +27,26 @@ var population: Population
 var training_levels: Array = []
 var log_enabled: bool = true
 
+## Pesos del fitness con los que se entrena. null = los documentados en Fitness.
+## La pantalla "Entrenar agente" pone aqui los que edite el usuario.
+var fitness_weights: Fitness.Weights = null
+## Duracion de cada episodio de entrenamiento, en ticks.
+var episode_ticks: int = GameConfig.TRAINING_EPISODE_TICKS
+
+## Peticion de parada. Se comprueba ENTRE generaciones, no dentro del lote: el
+## SimPool no sabe cancelar arenas a medias y cortarlo dejaria ranuras ocupadas y
+## un `await` sin resolver. El lote en curso termina (segundos) y ahi se sale,
+## devolviendo el mejor genoma que hubiera hasta ese momento.
+var abort: bool = false
+## Pausa cooperativa. Se comprueba entre generaciones, en el mismo punto que
+## `abort`: dejar un lote a medias obligaria a cancelar arenas, y el SimPool no
+## sabe hacerlo sin quedarse con ranuras ocupadas.
+var paused: bool = false
+
+## Resultados crudos del ultimo lote, para poder resumir la generacion con datos
+## reales (victorias, ticks, acciones) en vez de solo con el fitness.
+var _last_results: Array = []
+
 var _net_template: NeuralNetwork
 var _frozen: Dictionary = {}
 var _stage_bests: Array = []
@@ -47,6 +67,11 @@ static func default_curriculum() -> Array:
 		{"name": "vs_tipo_B", "type": "B", "count": 1, "opponent": ArenaSpec.Opponent.NONE},
 		{"name": "vs_tipo_C", "type": "C", "count": 1, "opponent": ArenaSpec.Opponent.NONE},
 		{"name": "vs_humano_bot", "type": "", "count": 0, "opponent": ArenaSpec.Opponent.BOT},
+		# Quinta etapa, anadida con el Tipo D. Va la ultima porque es la unica
+		# que exige priorizar entre dos objetivos, y sembrarla con un agente que
+		# ya sabe pelear es lo que le da alguna posibilidad de descubrirlo.
+		{"name": "vs_escolta_D", "type": "", "count": 0, "opponent": ArenaSpec.Opponent.NONE,
+			"squad": [{"type": "A", "count": 1}, {"type": "D", "count": 1}]},
 	]
 
 
@@ -62,6 +87,8 @@ func train(curriculum: Array = []) -> Genome:
 
 	var carried: Genome = null
 	for stage_index in curriculum.size():
+		if abort:
+			break
 		var stage: Dictionary = curriculum[stage_index]
 		stage_started.emit(stage_index, str(stage.get("name", "etapa")))
 
@@ -87,12 +114,20 @@ func train(curriculum: Array = []) -> Genome:
 				print("  [%s] gen %2d/%d  mejor=%8.2f  medio=%8.2f"
 						% [stage.get("name", ""), gen + 1, config.generations,
 						stats["mejor"], stats["medio"]])
+			if abort:
+				break
+			while paused and not abort:
+				await get_tree().process_frame
+			if abort:
+				break
 			# En la ultima generacion no hace falta reproducir.
 			if gen < config.generations - 1:
 				population.evolve()
 
-		carried = population.best().clone()
-		_stage_bests.append({"etapa": stage.get("name", ""), "fitness": carried.fitness})
+		var stage_best := population.best()
+		if stage_best != null:
+			carried = stage_best.clone()
+			_stage_bests.append({"etapa": stage.get("name", ""), "fitness": carried.fitness})
 
 	training_finished.emit(carried)
 	return carried
@@ -112,12 +147,20 @@ func _build_generation_specs(stage: Dictionary, stage_index: int, generation: in
 			var type_id := str(stage.get("type", ""))
 			if type_id != "" and int(stage.get("count", 0)) > 0:
 				spec.with_enemies(type_id, int(stage.get("count", 1)))
+			# Una etapa puede enfrentar a VARIOS tipos a la vez (la escolta del
+			# sanador). El campo "type" cubre el caso de un solo tipo, que son
+			# las cuatro etapas del PDF; "squad" cubre el resto.
+			if stage.get("squad") is Array:
+				for entrada in (stage["squad"] as Array):
+					spec.with_enemies(str((entrada as Dictionary).get("type", "A")),
+							int((entrada as Dictionary).get("count", 1)))
 			spec.agent_count = 1
 			spec.agent_genome = population.genomes[i]
 			spec.ga_config = config
 			spec.fsm_opposes_agent = true
+			spec.fitness_weights = fitness_weights
 			spec.seed = _episode_seed(stage_index, generation, i, e)
-			spec.max_ticks = GameConfig.TRAINING_EPISODE_TICKS
+			spec.max_ticks = episode_ticks
 			specs.append(spec)
 	return specs
 
@@ -135,6 +178,7 @@ func _episode_seed(stage_index: int, generation: int, individual: int, episode: 
 ## premiaria al que tuvo suerte con una semilla facil, y el GA acabaria
 ## seleccionando por suerte en vez de por politica.
 func _assign_fitness(results: Array) -> void:
+	_last_results = results
 	var per_individual: int = maxi(1, config.episodes_per_individual)
 	for i in population.genomes.size():
 		var genome: Genome = population.genomes[i]
@@ -154,8 +198,33 @@ func _assign_fitness(results: Array) -> void:
 		genome.fitness = 0.0 if counted == 0 else total / float(counted)
 
 
+## Resumen de la generacion. Ademas del fitness incluye lo que de verdad paso en
+## los episodios: cuantos se ganaron, cuantos ticks se simularon y en que se
+## gasto la decision. Sin esto, un panel de metricas solo podria ensenar el
+## fitness, que es un numero sin unidades; con esto puede ensenar "gana el 40%".
 func _generation_stats(stage_index: int, generation: int, stage_name: String) -> Dictionary:
 	var ranked := Selection.sorted_by_fitness(population.genomes)
+	var victorias := 0
+	var episodios := 0
+	var ticks := 0
+	var kills := 0
+	var acciones: Dictionary = {}
+	for r in _last_results:
+		if not (r is Dictionary):
+			continue
+		var d := r as Dictionary
+		episodios += 1
+		ticks += int(d.get("ticks", 0))
+		kills += int(d.get("kills_agente", 0))
+		if str(d.get("ganador", "")) == "agente":
+			victorias += 1
+		var mezcla = d.get("mezcla_acciones", null)
+		if mezcla is Dictionary:
+			for k in (mezcla as Dictionary):
+				acciones[k] = float(acciones.get(k, 0.0)) + float((mezcla as Dictionary)[k])
+	for k in acciones:
+		acciones[k] = float(acciones[k]) / float(maxi(1, episodios))
+
 	return {
 		"etapa_idx": stage_index,
 		"etapa": stage_name,
@@ -163,6 +232,12 @@ func _generation_stats(stage_index: int, generation: int, stage_name: String) ->
 		"mejor": (ranked[0] as Genome).fitness if not ranked.is_empty() else 0.0,
 		"medio": population.average_fitness(),
 		"peor": (ranked[ranked.size() - 1] as Genome).fitness if not ranked.is_empty() else 0.0,
+		"episodios": episodios,
+		"victorias": victorias,
+		"tasa_victoria": 0.0 if episodios == 0 else float(victorias) / float(episodios),
+		"ticks": ticks,
+		"kills": kills,
+		"acciones": acciones,
 	}
 
 
@@ -176,6 +251,10 @@ func _build_frozen_set(stage: Dictionary) -> Dictionary:
 	var opponent_type := str(stage.get("type", ""))
 	var opponent_can_defend: bool = opponent_type == "B" \
 			or int(stage.get("opponent", ArenaSpec.Opponent.NONE)) == ArenaSpec.Opponent.BOT
+	if stage.get("squad") is Array:
+		for entrada in (stage["squad"] as Array):
+			if str((entrada as Dictionary).get("type", "")) == "B":
+				opponent_can_defend = true
 
 	var common: Array = []
 	var first := true

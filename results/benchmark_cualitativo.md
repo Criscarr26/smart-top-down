@@ -1,31 +1,34 @@
 # Benchmark cualitativo del agente entrenado
 
-Generado automaticamente a partir de 800 corridas registradas.
+Generado automaticamente a partir de 1040 corridas registradas.
 
 ## Resumen por escenario
 
 | Escenario | Corridas | Victorias agente | Vida agente (s) | DPS agente | Tasa de exito |
 |---|---|---|---|---|---|
-| Un enemigo tipo A vs 1 agente | 80 | 63% | 12.0 | 4.0 | 0.00 |
-| Un enemigo tipo B vs 1 agente | 80 | 69% | 22.4 | 5.6 | 0.69 |
-| Un enemigo tipo C vs 1 agente | 80 | 81% | 12.1 | 4.1 | 0.13 |
-| Un jugador humano (bot) vs 1 agente | 80 | 31% | 16.9 | 4.6 | 0.25 |
-| Varios enemigos tipo A vs 1 agente | 80 | 0% | 3.2 | 12.8 | 0.00 |
-| Varios enemigos tipo B vs 1 agente | 80 | 6% | 40.8 | 2.6 | 0.21 |
-| Varios enemigos tipo C vs 1 agente | 80 | 0% | 7.3 | 6.6 | 0.02 |
-| Varios de todos los enemigos vs 1 agente | 80 | 0% | 2.6 | 11.6 | 0.00 |
-| Varios de todos los enemigos vs varios agentes | 80 | 13% | 12.1 | 16.9 | 0.21 |
-| Un jugador humano (bot) vs varios agentes | 80 | 50% | 24.2 | 8.0 | 0.50 |
+| Un enemigo tipo A vs 1 agente | 80 | 56% | 10.6 | 8.5 | 0.19 |
+| Un enemigo tipo B vs 1 agente | 80 | 69% | 24.9 | 5.7 | 0.69 |
+| Un enemigo tipo C vs 1 agente | 80 | 94% | 8.5 | 6.6 | 0.19 |
+| Un jugador humano (bot) vs 1 agente | 80 | 25% | 14.1 | 5.1 | 0.25 |
+| Varios enemigos tipo A vs 1 agente | 80 | 0% | 2.3 | 16.8 | 0.00 |
+| Varios enemigos tipo B vs 1 agente | 80 | 25% | 40.6 | 5.3 | 0.52 |
+| Varios enemigos tipo C vs 1 agente | 80 | 6% | 11.8 | 10.0 | 0.10 |
+| Varios de todos los enemigos vs 1 agente | 80 | 0% | 1.8 | 18.2 | 0.00 |
+| Varios de todos los enemigos vs varios agentes | 80 | 6% | 10.0 | 26.9 | 0.18 |
+| Un jugador humano (bot) vs varios agentes | 80 | 38% | 21.9 | 5.1 | 0.19 |
+| Un enemigo tipo D (sanador) vs 1 agente | 80 | 94% | 13.9 | 8.2 | 0.63 |
+| Dos tipo A escoltados por un sanador vs 1 agente | 80 | 0% | 3.1 | 15.1 | 0.02 |
+| Uno de cada tipo, sanador incluido, vs 1 agente | 80 | 0% | 2.4 | 16.5 | 0.01 |
 
 ## Observaciones
 
-- El agente practicamente no uso la huida en los duelos 1v1 (0.4% contra el Tipo A y 0.2% contra el Tipo C de sus decisiones): su politica es plantarse y pelear, sin importar el tipo de rival.
-- El agente apenas uso la defensa contra el Tipo B (15%): prefirio cerrar distancia antes que bloquear proyectiles.
-- AVISO en "Un enemigo tipo A vs 1 agente": el agente gana el 63% de las partidas pero solo mata 0.00 oponentes de media (hace 4.0 de dano por segundo, o sea que pega pero no remata). Esas victorias NO son suyas: los oponentes mueren en las puas del nivel. No interpretar esta fila como desempeno del agente.
-- AVISO en "Un enemigo tipo C vs 1 agente": el agente gana el 81% de las partidas pero solo mata 0.13 oponentes de media (hace 4.1 de dano por segundo, o sea que pega pero no remata). Esas victorias NO son suyas: los oponentes mueren en las puas del nivel. No interpretar esta fila como desempeno del agente.
-- La tasa de exito cae de 0.27 en los duelos 1v1 a 0.08 contra varios oponentes, que es la prueba de estres que pide la seccion 3.3.2 del PDF.
-- Con varios agentes contra el grupo mixto la tasa de exito mejora (0.21 vs 0.00 con un solo agente).
-- El escenario mas duro fue "Varios de todos los enemigos vs 1 agente": 0% de victorias y el agente aguanta solo 2.6 s de media. Hay 3 escenarios empatados a ese 0% de victorias; se desempata por tiempo de vida.
+- El agente huyo mas del Tipo A (3%) que del Tipo C (2%), lo que sugiere que aprendio a evitar el combate cuerpo a cuerpo.
+- El agente apenas uso la defensa contra el Tipo B (0%): prefirio cerrar distancia antes que bloquear proyectiles.
+- AVISO en "Un enemigo tipo A vs 1 agente": el agente gana el 56% de las partidas pero solo mata 0.19 oponentes de media (hace 8.5 de dano por segundo, o sea que pega pero no remata). Esas victorias NO son suyas: los oponentes mueren en las puas del nivel. No interpretar esta fila como desempeno del agente.
+- AVISO en "Un enemigo tipo C vs 1 agente": el agente gana el 94% de las partidas pero solo mata 0.19 oponentes de media (hace 6.6 de dano por segundo, o sea que pega pero no remata). Esas victorias NO son suyas: los oponentes mueren en las puas del nivel. No interpretar esta fila como desempeno del agente.
+- La tasa de exito cae de 0.35 en los duelos 1v1 a 0.21 contra varios oponentes, que es la prueba de estres que pide la seccion 3.3.2 del PDF.
+- Con varios agentes contra el grupo mixto la tasa de exito mejora (0.18 vs 0.00 con un solo agente).
+- El escenario mas duro fue "Varios de todos los enemigos vs 1 agente": 0% de victorias y el agente aguanta solo 1.8 s de media. Hay 4 escenarios empatados a ese 0% de victorias; se desempata por tiempo de vida.
 
 ## Limitaciones conocidas
 

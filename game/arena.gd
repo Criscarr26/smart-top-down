@@ -45,12 +45,22 @@ var _walls: StaticBody2D
 var _actor_container: Node2D
 var _projectile_container: Node2D
 
+## Pesos del fitness de este episodio, ya resueltos.
+var _weights: Fitness.Weights
+## Copia local del radio de combate: _tick_engagement lo consulta en cada tick y
+## por cada par de actores, y bajar por la propiedad del objeto en ese bucle se
+## nota cuando corren 16 arenas a la vez.
+var _engage_range: float = Fitness.ENGAGE_RANGE
+
 
 func setup(p_spec: ArenaSpec, p_interactive: bool = false) -> void:
 	spec = p_spec
 	interactive = p_interactive
 	rng.seed = p_spec.seed
 	rng.state = 0
+
+	_weights = spec.fitness_weights if spec.fitness_weights != null else Fitness.defaults()
+	_engage_range = _weights.engage_range
 
 	data = LevelMaps.by_name(spec.level_name)
 	nav = WorldBuilder.build_nav_grid(data)
@@ -151,6 +161,14 @@ func _spawn_all() -> void:
 			_spawn_fsm_enemy(type_id, opponent_points[idx])
 			idx += 1
 
+	# El sanador (Tipo D) necesita ver a sus companeros. Se le pasa la lista VIVA
+	# de actores, no una copia: se consulta cada pocos ticks y copiarla en cada
+	# consulta seria basura constante en un barrido de decenas de miles de
+	# episodios. Se inyecta al final porque hasta aqui no existen todos.
+	for a in actors:
+		if a is Enemy:
+			(a as Enemy).squad = actors
+
 
 ## Devuelve `count` posiciones de aparicion. Usa las del mapa mientras haya, y
 ## luego celdas libres al azar; nunca falla por falta de puntos definidos.
@@ -233,6 +251,47 @@ func _spawn_player(at: Vector2) -> void:
 func _enable_visuals(actor: Actor) -> void:
 	if interactive:
 		actor.enable_visuals()
+
+
+## Instancia un enemigo FSM en caliente, a `minimo` pixeles como poco de un
+## punto dado (normalmente el jugador). Lo usa el director de oleadas.
+##
+## El benchmark no lo llama nunca: sus escenarios se declaran enteros en el
+## ArenaSpec antes de empezar, que es lo que los hace reproducibles. Aparecer
+## enemigos a mitad de episodio es una mecanica del modo jugable.
+func spawn_wave_enemy(type_id: String, lejos_de: Vector2, minimo: float = 250.0) -> Enemy:
+	var candidatas := _shuffled(nav.free_cells())
+	var punto := Vector2.ZERO
+	var encontrado := false
+	for c in candidatas:
+		var mundo: Vector2 = nav.cell_to_world(c)
+		if mundo.distance_to(lejos_de) >= minimo:
+			punto = mundo
+			encontrado = true
+			break
+	if not encontrado:
+		# Nivel pequeno o jugador en el centro: se acepta el punto mas lejano
+		# que haya en vez de no aparecer.
+		var mejor := -1.0
+		for c in candidatas:
+			var mundo: Vector2 = nav.cell_to_world(c)
+			var d := mundo.distance_to(lejos_de)
+			if d > mejor:
+				mejor = d
+				punto = mundo
+		if mejor < 0.0:
+			return null
+
+	_spawn_fsm_enemy(type_id, punto)
+	var nuevo := actors[actors.size() - 1] as Enemy
+	if interactive and nuevo != null:
+		nuevo.enable_visuals()
+	# La escuadra es la lista viva, pero los que ya existian la recibieron antes
+	# de que este naciera; basta con darsela al nuevo.
+	if nuevo != null:
+		nuevo.squad = actors
+	_assign_targets()
+	return nuevo
 
 
 ## Fisher-Yates con el generador de la arena.
@@ -361,7 +420,7 @@ func _tick_engagement() -> void:
 			var other := b as Actor
 			if other == actor or not other.alive or other.team == actor.team:
 				continue
-			if actor.global_position.distance_to(other.global_position) <= Fitness.ENGAGE_RANGE:
+			if actor.global_position.distance_to(other.global_position) <= _engage_range:
 				actor.ticks_engaged += 1
 				break
 
@@ -382,7 +441,7 @@ func _check_end_conditions() -> void:
 			if actor.alive:
 				enemy_alive += 1
 
-	if enemy_total > 0 and enemy_alive == 0:
+	if spec.finish_on_side_wipe and enemy_total > 0 and enemy_alive == 0:
 		_finish("bando_enemigo_eliminado")
 	elif player_total > 0 and player_alive == 0:
 		_finish("bando_jugador_eliminado")
@@ -466,7 +525,8 @@ func build_result() -> Dictionary:
 	var fitness_total := 0.0
 	var engaged_ticks := 0
 	for a in agents:
-		fitness_total += Fitness.evaluate(a as Actor, victory, draw, (a as AgentEnemy).idle_ticks)
+		fitness_total += Fitness.evaluate(
+				a as Actor, victory, draw, (a as AgentEnemy).idle_ticks, _weights)
 		engaged_ticks += (a as Actor).ticks_engaged
 
 	return {
@@ -514,7 +574,8 @@ func agent_fitness() -> float:
 	var draw := finished_reason == "tiempo_agotado"
 	var total := 0.0
 	for a in agents:
-		total += Fitness.evaluate(a as Actor, victory, draw, (a as AgentEnemy).idle_ticks)
+		total += Fitness.evaluate(
+				a as Actor, victory, draw, (a as AgentEnemy).idle_ticks, _weights)
 	return total
 
 

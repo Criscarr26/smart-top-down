@@ -19,7 +19,10 @@ from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFilter
 
-OUT_DIR = Path(__file__).resolve().parent.parent / "assets" / "sprites"
+# Plano dentro de assets/, que es donde AssetLibrary los busca
+# (SPRITE_DIR = "res://assets/"). Antes apuntaba a assets/sprites/ y los PNG
+# generados quedaban en una carpeta que el juego no mira.
+OUT_DIR = Path(__file__).resolve().parent.parent / "assets"
 
 # Se dibuja a 4x y se reduce: da bordes limpios sin tener que antialiasear a mano.
 SS = 4

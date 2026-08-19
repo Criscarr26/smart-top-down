@@ -1,802 +1,2627 @@
 [
   {
+    "acciones": {
+      "BuscarPocion": 0.141319166921284,
+      "Defender": 0.232301033495438,
+      "Distancia": 0.134086444193062,
+      "Huir": 0.141579388079987,
+      "Melee": 0.320386678254479,
+      "Perseguir": 0.0303272890557504
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 0,
-    "medio": 24.8712,
-    "mejor": 68.512,
-    "peor": -28.334
+    "kills": 0,
+    "medio": 32.74815,
+    "mejor": 49.402,
+    "peor": -22.619,
+    "tasa_victoria": 0.775,
+    "ticks": 51329,
+    "victorias": 31
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.192934948629802,
+      "Defender": 0.154153361344538,
+      "Distancia": 0.122312324929972,
+      "Huir": 0.35018727147036,
+      "Melee": 0.0728263888888889,
+      "Perseguir": 0.10758570473644
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 1,
-    "medio": 41.60465,
-    "mejor": 75.78,
-    "peor": -30.323
+    "kills": 0,
+    "medio": 15.7748,
+    "mejor": 48.952,
+    "peor": -31.3,
+    "tasa_victoria": 0.4,
+    "ticks": 55973,
+    "victorias": 16
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0235673076923077,
+      "Defender": 0.0974727564102564,
+      "Distancia": 0.28806959643664,
+      "Huir": 0.532804949725345,
+      "Melee": 0.0164077031725337,
+      "Perseguir": 0.0416776865629172
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 2,
-    "medio": 59.09895,
-    "mejor": 145.634,
-    "peor": -22.493
+    "kills": 0,
+    "medio": 29.9496,
+    "mejor": 59.715,
+    "peor": -6.523,
+    "tasa_victoria": 0.125,
+    "ticks": 67546,
+    "victorias": 5
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0320560294161442,
+      "Defender": 0.150192123468198,
+      "Distancia": 0.202677525586037,
+      "Huir": 0.495575993174746,
+      "Melee": 0.06602635045553,
+      "Perseguir": 0.0534719778993448
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 3,
-    "medio": 45.30555,
-    "mejor": 146.576,
-    "peor": -28.102
+    "kills": 0,
+    "medio": 41.2451,
+    "mejor": 75.352,
+    "peor": 9.553,
+    "tasa_victoria": 0.55,
+    "ticks": 58341,
+    "victorias": 22
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0281330532212885,
+      "Distancia": 0.352473389355742,
+      "Huir": 0.579450980392157,
+      "Melee": 0.0375735294117647,
+      "Perseguir": 0.00236904761904762
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 4,
-    "medio": 48.181,
-    "mejor": 98.115,
-    "peor": 42.581
+    "kills": 0,
+    "medio": 35.4565,
+    "mejor": 55.027,
+    "peor": 18.952,
+    "tasa_victoria": 0.5,
+    "ticks": 64520,
+    "victorias": 20
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00310983263598326,
+      "Defender": 0.0109166666666667,
+      "Distancia": 0.439973362389795,
+      "Huir": 0.446712570587083,
+      "Melee": 0.0746080946263505,
+      "Perseguir": 0.0246794730941216
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 5,
-    "medio": 74.9127,
-    "mejor": 151.488,
-    "peor": 26.006
+    "kills": 0,
+    "medio": 38.5856,
+    "mejor": 86.315,
+    "peor": -10.697,
+    "tasa_victoria": 0.1,
+    "ticks": 66631,
+    "victorias": 4
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.025,
+      "Distancia": 0.337283630426228,
+      "Huir": 0.384150742039668,
+      "Melee": 0.0885933265284695,
+      "Perseguir": 0.164972301005634
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 6,
-    "medio": 60.99555,
-    "mejor": 187.522,
-    "peor": 24.598
+    "kills": 0,
+    "medio": 40.58995,
+    "mejor": 76.992,
+    "peor": -18.016,
+    "tasa_victoria": 0.6,
+    "ticks": 56447,
+    "victorias": 24
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00401104616603923,
+      "Defender": 0.0,
+      "Distancia": 0.327912505646867,
+      "Huir": 0.360251033526731,
+      "Melee": 0.0891528779156772,
+      "Perseguir": 0.218672536744686
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 7,
-    "medio": 92.96875,
-    "mejor": 230.876,
-    "peor": -9.579
+    "kills": 1,
+    "medio": 35.5793,
+    "mejor": 127.343,
+    "peor": 0.418,
+    "tasa_victoria": 0.4,
+    "ticks": 55013,
+    "victorias": 16
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0735356953716251,
+      "Defender": 0.0442946653274478,
+      "Distancia": 0.323133815637154,
+      "Huir": 0.262278198219873,
+      "Melee": 0.100231161069943,
+      "Perseguir": 0.196526464373958
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 8,
-    "medio": 81.23655,
-    "mejor": 218.575,
-    "peor": -24.953
+    "kills": 2,
+    "medio": 38.6717,
+    "mejor": 157.023,
+    "peor": -29.085,
+    "tasa_victoria": 0.15,
+    "ticks": 56687,
+    "victorias": 6
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.049953609513981,
+      "Defender": 0.0323146020646021,
+      "Distancia": 0.176965342594402,
+      "Huir": 0.0858821798382274,
+      "Melee": 0.270766638855725,
+      "Perseguir": 0.384117627133063
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 9,
-    "medio": 57.05215,
-    "mejor": 187.522,
-    "peor": -1.211
+    "kills": 7,
+    "medio": 64.4666,
+    "mejor": 126.32,
+    "peor": -5.416,
+    "tasa_victoria": 0.375,
+    "ticks": 36356,
+    "victorias": 15
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0137920735358058,
+      "Defender": 0.0177725952480051,
+      "Distancia": 0.431543992080914,
+      "Huir": 0.00979461335877435,
+      "Melee": 0.239600739697095,
+      "Perseguir": 0.287495986079405
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 10,
-    "medio": 53.3275,
-    "mejor": 209.811,
-    "peor": 1.546
+    "kills": 0,
+    "medio": 38.6584,
+    "mejor": 91.112,
+    "peor": -6.874,
+    "tasa_victoria": 0.175,
+    "ticks": 46584,
+    "victorias": 7
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0365821122852886,
+      "Defender": 0.0991111640826356,
+      "Distancia": 0.310066389685147,
+      "Huir": 0.0183629906612245,
+      "Melee": 0.260946041725877,
+      "Perseguir": 0.274931301559827
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 11,
-    "medio": 64.91155,
-    "mejor": 218.575,
-    "peor": -7.087
+    "kills": 4,
+    "medio": 58.60065,
+    "mejor": 163.773,
+    "peor": -17.886,
+    "tasa_victoria": 0.3,
+    "ticks": 47094,
+    "victorias": 12
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0151349504474504,
+      "Defender": 0.045011514221073,
+      "Distancia": 0.338352742717019,
+      "Huir": 0.010911475241361,
+      "Melee": 0.206562632941061,
+      "Perseguir": 0.384026684432036
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 12,
-    "medio": 59.79935,
-    "mejor": 187.522,
-    "peor": -6.225
+    "kills": 2,
+    "medio": 51.0197,
+    "mejor": 123.405,
+    "peor": -7.773,
+    "tasa_victoria": 0.375,
+    "ticks": 37377,
+    "victorias": 15
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0632495826057232,
+      "Distancia": 0.379999264024429,
+      "Huir": 0.0116705206244727,
+      "Melee": 0.130281529013435,
+      "Perseguir": 0.414799103731941
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 13,
-    "medio": 75.3461,
-    "mejor": 209.811,
-    "peor": 8.766
+    "kills": 7,
+    "medio": 65.994,
+    "mejor": 135.316,
+    "peor": -0.0410000000000004,
+    "tasa_victoria": 0.25,
+    "ticks": 36540,
+    "victorias": 10
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00455678068270995,
+      "Defender": 0.0422096265395745,
+      "Distancia": 0.743369677107324,
+      "Huir": 0.0206985061807012,
+      "Melee": 0.0362713462260964,
+      "Perseguir": 0.152894063263594
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 14,
-    "medio": 89.892,
-    "mejor": 218.575,
-    "peor": 2.006
+    "kills": 4,
+    "medio": 55.93885,
+    "mejor": 216.402,
+    "peor": -4.554,
+    "tasa_victoria": 0.425,
+    "ticks": 53286,
+    "victorias": 17
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0109827739355329,
+      "Defender": 0.172248810262703,
+      "Distancia": 0.405061241710856,
+      "Huir": 0.0184309932832034,
+      "Melee": 0.169257560231285,
+      "Perseguir": 0.22401862057642
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 15,
-    "medio": 61.4324,
-    "mejor": 187.522,
-    "peor": -3.419
+    "kills": 2,
+    "medio": 46.3978,
+    "mejor": 156.257,
+    "peor": -31.334,
+    "tasa_victoria": 0.625,
+    "ticks": 45713,
+    "victorias": 25
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.021895905365829,
+      "Defender": 0.2406293767507,
+      "Distancia": 0.318291970955036,
+      "Huir": 0.0390807491972293,
+      "Melee": 0.142316940861574,
+      "Perseguir": 0.237785056869631
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 16,
-    "medio": 83.75685,
-    "mejor": 209.811,
-    "peor": 14.302
+    "kills": 4,
+    "medio": 61.9966,
+    "mejor": 126.796,
+    "peor": 18.952,
+    "tasa_victoria": 0.35,
+    "ticks": 48351,
+    "victorias": 14
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0390250128961823,
+      "Defender": 0.0719808024778479,
+      "Distancia": 0.321907014165024,
+      "Huir": 0.0901066270893857,
+      "Melee": 0.16550399770107,
+      "Perseguir": 0.311476545670491
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 17,
-    "medio": 103.27865,
-    "mejor": 260.578,
-    "peor": 16.523
+    "kills": 8,
+    "medio": 75.0737,
+    "mejor": 213.434,
+    "peor": -26.153,
+    "tasa_victoria": 0.275,
+    "ticks": 47622,
+    "victorias": 11
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0207590321557898,
+      "Defender": 0.101793138479312,
+      "Distancia": 0.416697338639594,
+      "Huir": 0.0554751740403077,
+      "Melee": 0.0930639054851396,
+      "Perseguir": 0.312211411199858
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 18,
-    "medio": 55.25985,
-    "mejor": 187.522,
-    "peor": -27.497
+    "kills": 6,
+    "medio": 76.65125,
+    "mejor": 169.85,
+    "peor": -11.518,
+    "tasa_victoria": 0.425,
+    "ticks": 43270,
+    "victorias": 17
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.022653734112488,
+      "Defender": 0.00119341144457967,
+      "Distancia": 0.601003256628747,
+      "Huir": 0.0259898402237663,
+      "Melee": 0.13000666071038,
+      "Perseguir": 0.21915309688004
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 19,
-    "medio": 88.02675,
-    "mejor": 232.971,
-    "peor": 15.194
+    "kills": 8,
+    "medio": 73.75555,
+    "mejor": 158.09,
+    "peor": 14.64,
+    "tasa_victoria": 0.4,
+    "ticks": 47343,
+    "victorias": 16
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00602900873875278,
+      "Defender": 0.016456159075166,
+      "Distancia": 0.666138685603216,
+      "Huir": 0.0157650610923916,
+      "Melee": 0.105833350748612,
+      "Perseguir": 0.189777734741861
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 20,
-    "medio": 89.3305,
-    "mejor": 260.578,
-    "peor": -9.542
+    "kills": 10,
+    "medio": 83.0298,
+    "mejor": 214.771,
+    "peor": 18.59,
+    "tasa_victoria": 0.45,
+    "ticks": 51523,
+    "victorias": 18
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00315455702562134,
+      "Defender": 0.0322983264714659,
+      "Distancia": 0.246650605060289,
+      "Huir": 0.00146254784034992,
+      "Melee": 0.216029492526084,
+      "Perseguir": 0.50040447107619
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 21,
-    "medio": 76.61945,
-    "mejor": 227.957,
-    "peor": -6.36
+    "kills": 15,
+    "medio": 97.64305,
+    "mejor": 212.439,
+    "peor": 6.616,
+    "tasa_victoria": 0.475,
+    "ticks": 29238,
+    "victorias": 19
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0109388843751355,
+      "Defender": 0.00773029705946286,
+      "Distancia": 0.580785490088982,
+      "Huir": 0.0,
+      "Melee": 0.112884124672563,
+      "Perseguir": 0.287661203803856
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 22,
-    "medio": 62.42325,
-    "mejor": 210.287,
-    "peor": -7.092
+    "kills": 7,
+    "medio": 74.972,
+    "mejor": 233.252,
+    "peor": 18.952,
+    "tasa_victoria": 0.35,
+    "ticks": 45130,
+    "victorias": 14
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0382709143431308,
+      "Defender": 0.0826908056276701,
+      "Distancia": 0.531144053536208,
+      "Huir": 0.00132743362831858,
+      "Melee": 0.0961520783299241,
+      "Perseguir": 0.250414714534749
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 23,
-    "medio": 82.8959,
-    "mejor": 236.023,
-    "peor": 10.841
+    "kills": 12,
+    "medio": 111.9584,
+    "mejor": 216.167,
+    "peor": 18.59,
+    "tasa_victoria": 0.5,
+    "ticks": 47409,
+    "victorias": 20
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.105408267420971,
+      "Defender": 0.00175,
+      "Distancia": 0.443110344967222,
+      "Huir": 0.0166701680672269,
+      "Melee": 0.135880840637973,
+      "Perseguir": 0.297180378906608
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_A",
     "etapa_idx": 0,
     "generacion": 24,
-    "medio": 70.01775,
-    "mejor": 210.174,
-    "peor": 2.403
+    "kills": 10,
+    "medio": 84.6079,
+    "mejor": 214.564,
+    "peor": -4.88,
+    "tasa_victoria": 0.55,
+    "ticks": 37034,
+    "victorias": 22
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.159527455001139,
+      "Defender": 0.0,
+      "Distancia": 0.636001073813973,
+      "Huir": 0.0,
+      "Melee": 0.159709088898717,
+      "Perseguir": 0.044762382286171
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 0,
-    "medio": 50.1062,
-    "mejor": 196.27,
-    "peor": -15.348
+    "kills": 3,
+    "medio": 6.10365,
+    "mejor": 83.2,
+    "peor": -20.495,
+    "tasa_victoria": 0.075,
+    "ticks": 66814,
+    "victorias": 3
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0985553636867654,
+      "Defender": 0.0,
+      "Distancia": 0.585734091005748,
+      "Huir": 0.0,
+      "Melee": 0.301574561403509,
+      "Perseguir": 0.014135983903978
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 1,
-    "medio": 91.35855,
-    "mejor": 199.494,
-    "peor": -15.261
+    "kills": 1,
+    "medio": -1.2678,
+    "mejor": 90.815,
+    "peor": -8.078,
+    "tasa_victoria": 0.025,
+    "ticks": 68957,
+    "victorias": 1
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.17631427235634,
+      "Defender": 0.000265957446808511,
+      "Distancia": 0.597841719407771,
+      "Huir": 0.000381679389312977,
+      "Melee": 0.0999545366043614,
+      "Perseguir": 0.125241834795406
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 2,
-    "medio": 93.98595,
-    "mejor": 199.162,
-    "peor": -15.261
+    "kills": 7,
+    "medio": 29.1243,
+    "mejor": 170.57,
+    "peor": -22.908,
+    "tasa_victoria": 0.175,
+    "ticks": 61103,
+    "victorias": 7
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.302658976640029,
+      "Defender": 0.0,
+      "Distancia": 0.429223970135172,
+      "Huir": 0.00962955182072829,
+      "Melee": 0.173546216732307,
+      "Perseguir": 0.0849412846717634
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 3,
-    "medio": 86.6376,
-    "mejor": 199.33,
-    "peor": -7.8
+    "kills": 10,
+    "medio": 41.7565,
+    "mejor": 184.924,
+    "peor": -7.8,
+    "tasa_victoria": 0.25,
+    "ticks": 60825,
+    "victorias": 10
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.262319776926255,
+      "Defender": 0.0,
+      "Distancia": 0.185373793128024,
+      "Huir": 0.0310413913807713,
+      "Melee": 0.226704847291242,
+      "Perseguir": 0.294560191273708
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 4,
-    "medio": 85.23495,
-    "mejor": 199.684,
-    "peor": -22.809
+    "kills": 14,
+    "medio": 56.26135,
+    "mejor": 173.409,
+    "peor": -25.627,
+    "tasa_victoria": 0.35,
+    "ticks": 51586,
+    "victorias": 14
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.176073702060058,
+      "Defender": 0.0,
+      "Distancia": 0.444416570491847,
+      "Huir": 0.06803125,
+      "Melee": 0.100794236094825,
+      "Perseguir": 0.21068424135327
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 5,
-    "medio": 130.00705,
-    "mejor": 200.182,
-    "peor": -15.261
+    "kills": 13,
+    "medio": 55.56625,
+    "mejor": 129.681,
+    "peor": -7.8,
+    "tasa_victoria": 0.325,
+    "ticks": 55960,
+    "victorias": 13
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.239361648070107,
+      "Defender": 0.0,
+      "Distancia": 0.183186038408329,
+      "Huir": 0.0131388888888889,
+      "Melee": 0.153066428719423,
+      "Perseguir": 0.411246995913252
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 6,
-    "medio": 53.8607,
-    "mejor": 200.452,
-    "peor": -15.348
+    "kills": 20,
+    "medio": 96.47575,
+    "mejor": 188.044,
+    "peor": -7.8,
+    "tasa_victoria": 0.5,
+    "ticks": 45740,
+    "victorias": 20
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.06499813635166,
+      "Defender": 0.0,
+      "Distancia": 0.00874271811369219,
+      "Huir": 0.000555555555555556,
+      "Melee": 0.114225801322997,
+      "Perseguir": 0.811477788656095
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 7,
-    "medio": 90.29525,
-    "mejor": 200.806,
-    "peor": -7.8
+    "kills": 28,
+    "medio": 140.75405,
+    "mejor": 198.288,
+    "peor": 0.307999999999998,
+    "tasa_victoria": 0.7,
+    "ticks": 38968,
+    "victorias": 28
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.13447505895105,
+      "Defender": 0.0,
+      "Distancia": 0.09395092905433,
+      "Huir": 0.0357734997344663,
+      "Melee": 0.171745129051287,
+      "Perseguir": 0.564055383208867
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 8,
-    "medio": 93.35595,
-    "mejor": 200.182,
-    "peor": -15.261
+    "kills": 18,
+    "medio": 88.26765,
+    "mejor": 197.902,
+    "peor": -15.349,
+    "tasa_victoria": 0.45,
+    "ticks": 52194,
+    "victorias": 18
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0729271373456281,
+      "Defender": 0.0,
+      "Distancia": 0.0841777498620324,
+      "Huir": 0.07175,
+      "Melee": 0.152699846950663,
+      "Perseguir": 0.618445265841676
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 9,
-    "medio": 94.76925,
-    "mejor": 200.452,
-    "peor": -15.331
+    "kills": 21,
+    "medio": 105.29965,
+    "mejor": 199.264,
+    "peor": -7.8,
+    "tasa_victoria": 0.525,
+    "ticks": 47099,
+    "victorias": 21
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00283513250049305,
+      "Defender": 0.0,
+      "Distancia": 0.0175949717664722,
+      "Huir": 0.00319047619047619,
+      "Melee": 0.0637409911983171,
+      "Perseguir": 0.912638428344242
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 10,
-    "medio": 40.3337,
-    "mejor": 200.806,
-    "peor": -24.135
+    "kills": 25,
+    "medio": 136.95865,
+    "mejor": 199.864,
+    "peor": 36.99,
+    "tasa_victoria": 0.625,
+    "ticks": 45489,
+    "victorias": 25
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.0989995772201655,
+      "Huir": 0.00432692307692308,
+      "Melee": 0.0429276193515473,
+      "Perseguir": 0.853745880351364
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 11,
-    "medio": 80.9057,
-    "mejor": 200.182,
-    "peor": -15.351
+    "kills": 20,
+    "medio": 112.02555,
+    "mejor": 199.522,
+    "peor": 38.28,
+    "tasa_victoria": 0.5,
+    "ticks": 49718,
+    "victorias": 20
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.0256822690376702,
+      "Huir": 0.0128457471915416,
+      "Melee": 0.0702230927524013,
+      "Perseguir": 0.891248891018387
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 12,
-    "medio": 95.4852,
-    "mejor": 200.452,
-    "peor": -16.158
+    "kills": 26,
+    "medio": 139.94415,
+    "mejor": 200.692,
+    "peor": 37.92,
+    "tasa_victoria": 0.65,
+    "ticks": 44094,
+    "victorias": 26
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00581306177771437,
+      "Defender": 0.0320833333333333,
+      "Distancia": 0.00626737994546096,
+      "Huir": 0.00118686688543301,
+      "Melee": 0.052511341351205,
+      "Perseguir": 0.902138016706854
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 13,
-    "medio": 70.3503,
-    "mejor": 201.478,
-    "peor": -23.079
+    "kills": 22,
+    "medio": 125.08595,
+    "mejor": 201.088,
+    "peor": 36.99,
+    "tasa_victoria": 0.55,
+    "ticks": 50092,
+    "victorias": 22
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.0404325513196481,
+      "Huir": 0.0,
+      "Melee": 0.0511163386175677,
+      "Perseguir": 0.908451110062784
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 14,
-    "medio": 55.31965,
-    "mejor": 201.058,
-    "peor": -16.563
+    "kills": 20,
+    "medio": 115.6187,
+    "mejor": 200.338,
+    "peor": 38.28,
+    "tasa_victoria": 0.5,
+    "ticks": 50212,
+    "victorias": 20
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.0482215507736299,
+      "Huir": 0.000208333333333333,
+      "Melee": 0.0523169286090402,
+      "Perseguir": 0.899253187283997
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 15,
-    "medio": 46.21755,
-    "mejor": 201.064,
-    "peor": -7.8
+    "kills": 21,
+    "medio": 120.51645,
+    "mejor": 200.692,
+    "peor": 37.83,
+    "tasa_victoria": 0.525,
+    "ticks": 50117,
+    "victorias": 21
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00215970149253731,
+      "Defender": 0.0,
+      "Distancia": 0.000827350427350427,
+      "Huir": 0.0,
+      "Melee": 0.0639077339726859,
+      "Perseguir": 0.933105214107427
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 16,
-    "medio": 46.68375,
-    "mejor": 201.478,
-    "peor": -22.809
+    "kills": 25,
+    "medio": 136.7223,
+    "mejor": 201.088,
+    "peor": 36.99,
+    "tasa_victoria": 0.625,
+    "ticks": 46453,
+    "victorias": 25
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.019375,
+      "Huir": 0.0,
+      "Melee": 0.0684541421299906,
+      "Perseguir": 0.912170857870009
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 17,
-    "medio": 46.0533,
-    "mejor": 201.058,
-    "peor": -15.261
+    "kills": 24,
+    "medio": 134.2259,
+    "mejor": 200.644,
+    "peor": 38.28,
+    "tasa_victoria": 0.6,
+    "ticks": 47224,
+    "victorias": 24
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.0264118198874296,
+      "Huir": 0.0,
+      "Melee": 0.0625731539305234,
+      "Perseguir": 0.911015026182047
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 18,
-    "medio": 49.66295,
-    "mejor": 201.064,
-    "peor": -7.8
+    "kills": 22,
+    "medio": 124.70825,
+    "mejor": 200.284,
+    "peor": 37.92,
+    "tasa_victoria": 0.55,
+    "ticks": 49570,
+    "victorias": 22
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.00243584796449932,
+      "Distancia": 0.0,
+      "Huir": 0.0,
+      "Melee": 0.094424570923165,
+      "Perseguir": 0.903139581112336
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 19,
-    "medio": 62.8715,
-    "mejor": 201.478,
-    "peor": -7.8
+    "kills": 20,
+    "medio": 115.9784,
+    "mejor": 200.884,
+    "peor": -7.8,
+    "tasa_victoria": 0.5,
+    "ticks": 52874,
+    "victorias": 20
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.00358197862721856,
+      "Huir": 0.0,
+      "Melee": 0.0799241445091805,
+      "Perseguir": 0.916493876863601
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 20,
-    "medio": 48.4621,
-    "mejor": 201.058,
-    "peor": -21.475
+    "kills": 22,
+    "medio": 125.03375,
+    "mejor": 201.512,
+    "peor": 38.085,
+    "tasa_victoria": 0.55,
+    "ticks": 48575,
+    "victorias": 22
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.154154910649829,
+      "Huir": 0.0,
+      "Melee": 0.0634374073437353,
+      "Perseguir": 0.782407682006436
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 21,
-    "medio": 56.4366,
-    "mejor": 201.064,
-    "peor": -15.675
+    "kills": 23,
+    "medio": 124.531,
+    "mejor": 201.254,
+    "peor": -7.8,
+    "tasa_victoria": 0.575,
+    "ticks": 48125,
+    "victorias": 23
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.00703389379677436,
+      "Huir": 0.0,
+      "Melee": 0.0934664321813317,
+      "Perseguir": 0.899499674021894
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 22,
-    "medio": 56.8554,
-    "mejor": 201.478,
-    "peor": -24.72
+    "kills": 25,
+    "medio": 134.4201,
+    "mejor": 200.884,
+    "peor": -23.356,
+    "tasa_victoria": 0.625,
+    "ticks": 44866,
+    "victorias": 25
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0,
+      "Distancia": 0.177210025906308,
+      "Huir": 0.0,
+      "Melee": 0.0292789940909755,
+      "Perseguir": 0.793510980002716
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 23,
-    "medio": 75.0095,
-    "mejor": 201.058,
-    "peor": -13.071
+    "kills": 17,
+    "medio": 99.0748,
+    "mejor": 200.542,
+    "peor": 14.775,
+    "tasa_victoria": 0.425,
+    "ticks": 52768,
+    "victorias": 17
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.0299285714285714,
+      "Distancia": 0.0666248127923029,
+      "Huir": 0.00518292682926829,
+      "Melee": 0.0633495325956701,
+      "Perseguir": 0.834914156354188
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_B",
     "etapa_idx": 1,
     "generacion": 24,
-    "medio": 64.80575,
-    "mejor": 201.064,
-    "peor": -7.8
+    "kills": 24,
+    "medio": 128.2456,
+    "mejor": 200.284,
+    "peor": -3.939,
+    "tasa_victoria": 0.6,
+    "ticks": 44976,
+    "victorias": 24
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00302850625415433,
+      "Defender": 0.0,
+      "Distancia": 0.0285510117544446,
+      "Huir": 0.0521975516519622,
+      "Melee": 0.207442189983311,
+      "Perseguir": 0.708780740356128
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 0,
-    "medio": 36.60135,
-    "mejor": 86.443,
-    "peor": -27.422
+    "kills": 3,
+    "medio": 19.9176,
+    "mejor": 127.682,
+    "peor": -30.284,
+    "tasa_victoria": 0.25,
+    "ticks": 34191,
+    "victorias": 10
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.000739583333333333,
+      "Defender": 0.0534211275774311,
+      "Distancia": 0.0942934903910544,
+      "Huir": 0.0326044757602882,
+      "Melee": 0.157023716703668,
+      "Perseguir": 0.661917606234225
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 1,
-    "medio": 71.16565,
-    "mejor": 187.844,
-    "peor": -29.634
+    "kills": 6,
+    "medio": 61.4444,
+    "mejor": 192.136,
+    "peor": -30.412,
+    "tasa_victoria": 0.35,
+    "ticks": 33334,
+    "victorias": 14
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.013617051823364,
+      "Defender": 0.0125422891633476,
+      "Distancia": 0.12216105596221,
+      "Huir": 0.00473925786143439,
+      "Melee": 0.190790148255144,
+      "Perseguir": 0.656150196934499
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 2,
-    "medio": 99.28865,
-    "mejor": 212.794,
-    "peor": 11.506
+    "kills": 8,
+    "medio": 67.8326,
+    "mejor": 196.066,
+    "peor": -11.343,
+    "tasa_victoria": 0.3,
+    "ticks": 38161,
+    "victorias": 12
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0000833333333333333,
+      "Defender": 0.249579783075848,
+      "Distancia": 0.0240129746620521,
+      "Huir": 0.00202516294191902,
+      "Melee": 0.117433908419235,
+      "Perseguir": 0.606864837567613
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 3,
-    "medio": 70.8848,
-    "mejor": 140.242,
-    "peor": 30.088
+    "kills": 14,
+    "medio": 76.57235,
+    "mejor": 176.582,
+    "peor": -18.662,
+    "tasa_victoria": 0.45,
+    "ticks": 36461,
+    "victorias": 18
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0023056464811784,
+      "Defender": 0.282233060828007,
+      "Distancia": 0.0689570795183777,
+      "Huir": 0.00361167353309524,
+      "Melee": 0.0819790419256922,
+      "Perseguir": 0.56091349771365
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 4,
-    "medio": 72.8193,
-    "mejor": 168.547,
-    "peor": 11.52
+    "kills": 9,
+    "medio": 71.79455,
+    "mejor": 201.615,
+    "peor": -17.08,
+    "tasa_victoria": 0.4,
+    "ticks": 37708,
+    "victorias": 16
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00168740573152338,
+      "Defender": 0.345287042144288,
+      "Distancia": 0.122185215450401,
+      "Huir": 0.00171769527483124,
+      "Melee": 0.0621151246394144,
+      "Perseguir": 0.467007516759542
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 5,
-    "medio": 54.14435,
-    "mejor": 147.169,
-    "peor": -27.701
+    "kills": 12,
+    "medio": 99.81015,
+    "mejor": 228.042,
+    "peor": -19.897,
+    "tasa_victoria": 0.525,
+    "ticks": 49454,
+    "victorias": 21
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0,
+      "Defender": 0.189132045368136,
+      "Distancia": 0.103686173077645,
+      "Huir": 0.0,
+      "Melee": 0.0506411818903847,
+      "Perseguir": 0.656540599663834
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 6,
-    "medio": 53.1869,
-    "mejor": 107.212,
-    "peor": 13.442
+    "kills": 9,
+    "medio": 67.1555,
+    "mejor": 201.47,
+    "peor": -4.252,
+    "tasa_victoria": 0.3,
+    "ticks": 37715,
+    "victorias": 12
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00763026334657956,
+      "Defender": 0.188349188820602,
+      "Distancia": 0.137854148408356,
+      "Huir": 0.000834893882646692,
+      "Melee": 0.0322974017620626,
+      "Perseguir": 0.633034103779753
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 7,
-    "medio": 65.286,
-    "mejor": 150.572,
-    "peor": 15.288
+    "kills": 15,
+    "medio": 104.3173,
+    "mejor": 228.433,
+    "peor": -29.435,
+    "tasa_victoria": 0.575,
+    "ticks": 34283,
+    "victorias": 23
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0032728832674284,
+      "Defender": 0.316735993208503,
+      "Distancia": 0.105112188207113,
+      "Huir": 0.00703985621649748,
+      "Melee": 0.0634557487262582,
+      "Perseguir": 0.504383330374199
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 8,
-    "medio": 60.16635,
-    "mejor": 208.469,
-    "peor": -24.406
+    "kills": 7,
+    "medio": 62.81515,
+    "mejor": 193.364,
+    "peor": -15.227,
+    "tasa_victoria": 0.275,
+    "ticks": 48149,
+    "victorias": 11
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0148908125290956,
+      "Defender": 0.249389429273135,
+      "Distancia": 0.105342366247702,
+      "Huir": 0.011862616523414,
+      "Melee": 0.0715526548928976,
+      "Perseguir": 0.546962120533756
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 9,
-    "medio": 52.06565,
-    "mejor": 108.471,
-    "peor": 11.436
+    "kills": 12,
+    "medio": 85.0261,
+    "mejor": 183.75,
+    "peor": -17.37,
+    "tasa_victoria": 0.475,
+    "ticks": 45386,
+    "victorias": 19
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00811203993520551,
+      "Defender": 0.306362275882149,
+      "Distancia": 0.0906976479287337,
+      "Huir": 0.00587323301413589,
+      "Melee": 0.0174783288479167,
+      "Perseguir": 0.571476474391859
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 10,
-    "medio": 61.4898,
-    "mejor": 151.777,
-    "peor": -24.285
+    "kills": 10,
+    "medio": 86.27305,
+    "mejor": 198.67,
+    "peor": 19.033,
+    "tasa_victoria": 0.6,
+    "ticks": 34218,
+    "victorias": 24
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0102439901319586,
+      "Defender": 0.279472762572669,
+      "Distancia": 0.189471282298643,
+      "Huir": 0.0114309977635656,
+      "Melee": 0.0242598896081288,
+      "Perseguir": 0.485121077625035
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 11,
-    "medio": 85.044,
-    "mejor": 212.351,
-    "peor": 43.434
+    "kills": 13,
+    "medio": 103.3811,
+    "mejor": 207.915,
+    "peor": 19.854,
+    "tasa_victoria": 0.475,
+    "ticks": 50561,
+    "victorias": 19
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0173079478031403,
+      "Defender": 0.379598498289731,
+      "Distancia": 0.132363530013004,
+      "Huir": 0.000110132158590308,
+      "Melee": 0.00862583394887686,
+      "Perseguir": 0.461994057786658
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 12,
-    "medio": 53.81625,
-    "mejor": 106.473,
-    "peor": -23.384
+    "kills": 11,
+    "medio": 77.76785,
+    "mejor": 179.189,
+    "peor": -3.52100000000001,
+    "tasa_victoria": 0.35,
+    "ticks": 48841,
+    "victorias": 14
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0391279118710587,
+      "Defender": 0.419106038129282,
+      "Distancia": 0.131782355870651,
+      "Huir": 0.00111607142857143,
+      "Melee": 0.00850131789375584,
+      "Perseguir": 0.400366304806681
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 13,
-    "medio": 95.2054,
-    "mejor": 200.65,
-    "peor": 44.297
+    "kills": 9,
+    "medio": 82.10545,
+    "mejor": 197.902,
+    "peor": -7.529,
+    "tasa_victoria": 0.55,
+    "ticks": 41772,
+    "victorias": 22
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0476840486412335,
+      "Defender": 0.432655262536102,
+      "Distancia": 0.147052188735345,
+      "Huir": 0.00255494505494505,
+      "Melee": 0.00468520554813348,
+      "Perseguir": 0.365368349484241
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 14,
-    "medio": 72.6292,
-    "mejor": 195.684,
-    "peor": -27.132
+    "kills": 13,
+    "medio": 102.20905,
+    "mejor": 208.88,
+    "peor": 3.225,
+    "tasa_victoria": 0.575,
+    "ticks": 52578,
+    "victorias": 23
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0188771954058571,
+      "Defender": 0.502914721768164,
+      "Distancia": 0.0915772496731038,
+      "Huir": 0.00227775740328979,
+      "Melee": 0.0189434521636054,
+      "Perseguir": 0.36540962358598
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 15,
-    "medio": 62.57645,
-    "mejor": 114.498,
-    "peor": -24.056
+    "kills": 13,
+    "medio": 94.8877,
+    "mejor": 182.047,
+    "peor": -6.974,
+    "tasa_victoria": 0.525,
+    "ticks": 53447,
+    "victorias": 21
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0169439031405229,
+      "Defender": 0.366558701582646,
+      "Distancia": 0.103728559903939,
+      "Huir": 0.0141701104372127,
+      "Melee": 0.0432742489006551,
+      "Perseguir": 0.455324476035024
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 16,
-    "medio": 61.46835,
-    "mejor": 135.88,
-    "peor": 11.137
+    "kills": 12,
+    "medio": 98.4437,
+    "mejor": 216.789,
+    "peor": -13.825,
+    "tasa_victoria": 0.6,
+    "ticks": 41037,
+    "victorias": 24
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00906616613535287,
+      "Defender": 0.302874391157537,
+      "Distancia": 0.169338361106938,
+      "Huir": 0.001,
+      "Melee": 0.0154697364499082,
+      "Perseguir": 0.502251345150263
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 17,
-    "medio": 52.0333,
-    "mejor": 131.186,
-    "peor": -25.084
+    "kills": 18,
+    "medio": 129.66845,
+    "mejor": 241.698,
+    "peor": 29.019,
+    "tasa_victoria": 0.55,
+    "ticks": 51772,
+    "victorias": 22
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0257145919810037,
+      "Defender": 0.315567093025884,
+      "Distancia": 0.094216935765863,
+      "Huir": 0.00698374634725158,
+      "Melee": 0.0188016874481266,
+      "Perseguir": 0.538715945431871
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 18,
-    "medio": 57.8933,
-    "mejor": 112.296,
-    "peor": 44.342
+    "kills": 6,
+    "medio": 65.99215,
+    "mejor": 172.165,
+    "peor": 10.776,
+    "tasa_victoria": 0.325,
+    "ticks": 46679,
+    "victorias": 13
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00966183999017521,
+      "Defender": 0.223738317400589,
+      "Distancia": 0.191196955728088,
+      "Huir": 0.0164868195922864,
+      "Melee": 0.0315005861756211,
+      "Perseguir": 0.52741548111324
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 19,
-    "medio": 59.50445,
-    "mejor": 88.804,
-    "peor": 18.983
+    "kills": 5,
+    "medio": 78.1926,
+    "mejor": 156.566,
+    "peor": 11.751,
+    "tasa_victoria": 0.575,
+    "ticks": 38621,
+    "victorias": 23
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00709051229152505,
+      "Defender": 0.16252526536158,
+      "Distancia": 0.242248558870699,
+      "Huir": 0.0282474274021036,
+      "Melee": 0.00859911823953272,
+      "Perseguir": 0.551289117834561
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 20,
-    "medio": 72.75315,
-    "mejor": 147.592,
-    "peor": 7.744
+    "kills": 14,
+    "medio": 109.0703,
+    "mejor": 241.698,
+    "peor": -15.432,
+    "tasa_victoria": 0.475,
+    "ticks": 44263,
+    "victorias": 19
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0333889465092585,
+      "Defender": 0.2863500223502,
+      "Distancia": 0.152409843841154,
+      "Huir": 0.0159963164419558,
+      "Melee": 0.00247598870056497,
+      "Perseguir": 0.509378882156867
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 21,
-    "medio": 56.3447,
-    "mejor": 127.243,
-    "peor": 8.214
+    "kills": 6,
+    "medio": 78.60375,
+    "mejor": 172.165,
+    "peor": 16.422,
+    "tasa_victoria": 0.35,
+    "ticks": 45470,
+    "victorias": 14
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0390755290078782,
+      "Defender": 0.402598450487345,
+      "Distancia": 0.162531379250104,
+      "Huir": 0.0129218600997382,
+      "Melee": 0.0240707587577805,
+      "Perseguir": 0.358802022397155
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 22,
-    "medio": 60.7317,
-    "mejor": 215.06,
-    "peor": -23.62
+    "kills": 5,
+    "medio": 80.7454,
+    "mejor": 191.016,
+    "peor": 10.556,
+    "tasa_victoria": 0.375,
+    "ticks": 42704,
+    "victorias": 15
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.130268592246843,
+      "Defender": 0.228473747265297,
+      "Distancia": 0.225218658842264,
+      "Huir": 0.0243180567487682,
+      "Melee": 0.0687211912763378,
+      "Perseguir": 0.32299975362049
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 23,
-    "medio": 75.7929,
-    "mejor": 155.775,
-    "peor": 17.506
+    "kills": 14,
+    "medio": 123.56365,
+    "mejor": 250.974,
+    "peor": -2.377,
+    "tasa_victoria": 0.425,
+    "ticks": 50189,
+    "victorias": 17
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.181958250309988,
+      "Defender": 0.44830833267889,
+      "Distancia": 0.150212476650418,
+      "Huir": 0.0351735867706048,
+      "Melee": 0.019342601090901,
+      "Perseguir": 0.165004752499198
+    },
+    "episodios": 40,
     "etapa": "vs_tipo_C",
     "etapa_idx": 2,
     "generacion": 24,
-    "medio": 64.87445,
-    "mejor": 137.26,
-    "peor": 8.529
+    "kills": 5,
+    "medio": 68.3024,
+    "mejor": 166.622,
+    "peor": -17.043,
+    "tasa_victoria": 0.425,
+    "ticks": 53809,
+    "victorias": 17
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0215,
+      "Defender": 0.641527146614154,
+      "Distancia": 0.110203689248119,
+      "Huir": 0.000604838709677419,
+      "Melee": 0.0,
+      "Perseguir": 0.22616432542805
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 0,
-    "medio": 18.4835,
-    "mejor": 105.222,
-    "peor": -22.465
+    "kills": 0,
+    "medio": 1.4615,
+    "mejor": 47.28,
+    "peor": -22.869,
+    "tasa_victoria": 0.0,
+    "ticks": 56340,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0495494791666667,
+      "Defender": 0.212310408883101,
+      "Distancia": 0.563501008576433,
+      "Huir": 0.00408333333333333,
+      "Melee": 0.0,
+      "Perseguir": 0.170555770040466
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 1,
-    "medio": -10.497,
-    "mejor": 68.21,
-    "peor": -20.024
+    "kills": 0,
+    "medio": -5.8753,
+    "mejor": 31.041,
+    "peor": -23.016,
+    "tasa_victoria": 0.0,
+    "ticks": 65017,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0076820987654321,
+      "Defender": 0.305698964976314,
+      "Distancia": 0.475954450816753,
+      "Huir": 0.0,
+      "Melee": 0.0,
+      "Perseguir": 0.210664485441501
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 2,
-    "medio": 26.1266,
-    "mejor": 127.702,
-    "peor": -27.105
+    "kills": 0,
+    "medio": 4.03745,
+    "mejor": 59.645,
+    "peor": -32.289,
+    "tasa_victoria": 0.0,
+    "ticks": 55812,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00028735632183908,
+      "Defender": 0.49188673586536,
+      "Distancia": 0.247120605106411,
+      "Huir": 0.0,
+      "Melee": 0.0,
+      "Perseguir": 0.26070530270639
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 3,
-    "medio": 25.2514,
-    "mejor": 116.405,
-    "peor": -22.871
+    "kills": 0,
+    "medio": 13.74545,
+    "mejor": 46.77,
+    "peor": -11.937,
+    "tasa_victoria": 0.0,
+    "ticks": 52362,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.020264192139738,
+      "Defender": 0.551025929678079,
+      "Distancia": 0.312050700272786,
+      "Huir": 0.0,
+      "Melee": 0.0,
+      "Perseguir": 0.116659177909397
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 4,
-    "medio": 0.47575,
-    "mejor": 44.705,
-    "peor": -19.131
+    "kills": 0,
+    "medio": -1.8989,
+    "mejor": 43.261,
+    "peor": -9.565,
+    "tasa_victoria": 0.0,
+    "ticks": 67351,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00543879519719852,
+      "Defender": 0.272203664962222,
+      "Distancia": 0.428342169148503,
+      "Huir": 0.000168918918918919,
+      "Melee": 0.000186567164179104,
+      "Perseguir": 0.293659884608979
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 5,
-    "medio": 24.05285,
-    "mejor": 83.941,
-    "peor": -30.115
+    "kills": 0,
+    "medio": 36.2998,
+    "mejor": 82.014,
+    "peor": -19.049,
+    "tasa_victoria": 0.05,
+    "ticks": 45818,
+    "victorias": 2
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0221607537432925,
+      "Defender": 0.332475901639265,
+      "Distancia": 0.363155693215378,
+      "Huir": 0.0,
+      "Melee": 0.0,
+      "Perseguir": 0.282207651402065
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 6,
-    "medio": 24.61955,
-    "mejor": 118.624,
-    "peor": -22.871
+    "kills": 0,
+    "medio": 11.04025,
+    "mejor": 43.845,
+    "peor": -10.436,
+    "tasa_victoria": 0.0,
+    "ticks": 50555,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0280813953488372,
+      "Defender": 0.337372045375092,
+      "Distancia": 0.390965847160177,
+      "Huir": 0.000517241379310345,
+      "Melee": 0.0,
+      "Perseguir": 0.243063470736583
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 7,
-    "medio": 4.6729,
-    "mejor": 68.913,
-    "peor": -21.884
+    "kills": 0,
+    "medio": -0.0481999999999994,
+    "mejor": 38.56,
+    "peor": -12.532,
+    "tasa_victoria": 0.0,
+    "ticks": 60728,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0127233247299641,
+      "Defender": 0.38125969542472,
+      "Distancia": 0.316251479237947,
+      "Huir": 0.00813039460136151,
+      "Melee": 0.00622192755325076,
+      "Perseguir": 0.275413178452757
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 8,
-    "medio": 33.8353,
-    "mejor": 105.944,
-    "peor": -27.794
+    "kills": 0,
+    "medio": 26.34395,
+    "mejor": 83.347,
+    "peor": -8.343,
+    "tasa_victoria": 0.025,
+    "ticks": 43832,
+    "victorias": 1
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.105785241104004,
+      "Defender": 0.285190354907862,
+      "Distancia": 0.309142475961796,
+      "Huir": 0.00877540837370509,
+      "Melee": 0.0415797349165726,
+      "Perseguir": 0.24952678473606
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 9,
-    "medio": 20.00105,
-    "mejor": 77.285,
-    "peor": -22.871
+    "kills": 1,
+    "medio": 24.5543,
+    "mejor": 145.611,
+    "peor": -13.956,
+    "tasa_victoria": 0.025,
+    "ticks": 54228,
+    "victorias": 1
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.168106957747496,
+      "Defender": 0.170918251617204,
+      "Distancia": 0.473193735316934,
+      "Huir": 0.0000833333333333333,
+      "Melee": 0.00149812734082397,
+      "Perseguir": 0.186199594644209
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 10,
-    "medio": 4.6982,
-    "mejor": 60.917,
-    "peor": -19.266
+    "kills": 0,
+    "medio": -0.15745,
+    "mejor": 42.401,
+    "peor": -7.8,
+    "tasa_victoria": 0.025,
+    "ticks": 66343,
+    "victorias": 1
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0424844383151204,
+      "Defender": 0.146212182014762,
+      "Distancia": 0.542450919692707,
+      "Huir": 0.00107142857142857,
+      "Melee": 0.00521672771672772,
+      "Perseguir": 0.262564303689254
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 11,
-    "medio": 39.66205,
-    "mejor": 154.317,
-    "peor": -27.105
+    "kills": 0,
+    "medio": 11.0179,
+    "mejor": 41.063,
+    "peor": -20.027,
+    "tasa_victoria": 0.025,
+    "ticks": 43034,
+    "victorias": 1
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.232253193087306,
+      "Defender": 0.295221130628661,
+      "Distancia": 0.17673596694049,
+      "Huir": 0.0,
+      "Melee": 0.00100981038143349,
+      "Perseguir": 0.29477989896211
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 12,
-    "medio": 50.9861,
-    "mejor": 154.317,
-    "peor": -10.947
+    "kills": 0,
+    "medio": 3.43775,
+    "mejor": 71.31,
+    "peor": -19.814,
+    "tasa_victoria": 0.0,
+    "ticks": 47725,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.127079576650189,
+      "Defender": 0.168878675520304,
+      "Distancia": 0.418199952249913,
+      "Huir": 0.00626422764227642,
+      "Melee": 0.00258333333333333,
+      "Perseguir": 0.276994234603984
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 13,
-    "medio": -4.1336,
-    "mejor": 33.518,
-    "peor": -24.188
+    "kills": 0,
+    "medio": 5.91195,
+    "mejor": 67.317,
+    "peor": -19.933,
+    "tasa_victoria": 0.025,
+    "ticks": 61772,
+    "victorias": 1
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0342894706684795,
+      "Defender": 0.111628780208413,
+      "Distancia": 0.547795677713296,
+      "Huir": 0.00397923548523602,
+      "Melee": 0.00982479848269322,
+      "Perseguir": 0.292482037441882
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 14,
-    "medio": 55.8436,
-    "mejor": 174.681,
-    "peor": -27.105
+    "kills": 0,
+    "medio": 38.36505,
+    "mejor": 87.317,
+    "peor": -4.787,
+    "tasa_victoria": 0.025,
+    "ticks": 42418,
+    "victorias": 1
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0600488125417581,
+      "Defender": 0.430772801059156,
+      "Distancia": 0.293603076949628,
+      "Huir": 0.00439268845189898,
+      "Melee": 0.00323510553032327,
+      "Perseguir": 0.207947515467235
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 15,
-    "medio": 34.49165,
-    "mejor": 137.301,
-    "peor": -24.564
+    "kills": 0,
+    "medio": 14.1143,
+    "mejor": 61.381,
+    "peor": -19.62,
+    "tasa_victoria": 0.0,
+    "ticks": 57413,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0242389162561576,
+      "Defender": 0.205851698330823,
+      "Distancia": 0.56546365452652,
+      "Huir": 0.00922043165255686,
+      "Melee": 0.00177755541871921,
+      "Perseguir": 0.193447743815223
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 16,
-    "medio": -0.207700000000001,
-    "mejor": 33.518,
-    "peor": -19.063
+    "kills": 0,
+    "medio": 1.6754,
+    "mejor": 37.769,
+    "peor": -10.428,
+    "tasa_victoria": 0.0,
+    "ticks": 65914,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0383281276338398,
+      "Defender": 0.31469937021692,
+      "Distancia": 0.356448002868502,
+      "Huir": 0.0250926272500151,
+      "Melee": 0.0222823549138458,
+      "Perseguir": 0.243149517116877
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 17,
-    "medio": 27.64145,
-    "mejor": 166.281,
-    "peor": -27.105
+    "kills": 0,
+    "medio": 28.49675,
+    "mejor": 87.317,
+    "peor": -7.8,
+    "tasa_victoria": 0.0,
+    "ticks": 49090,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0310767957352038,
+      "Defender": 0.419234801643692,
+      "Distancia": 0.330887197503469,
+      "Huir": 0.016357202680067,
+      "Melee": 0.0112426355917519,
+      "Perseguir": 0.191201366845816
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 18,
-    "medio": 34.91875,
-    "mejor": 130.549,
-    "peor": -31.012
+    "kills": 0,
+    "medio": 3.29275,
+    "mejor": 47.445,
+    "peor": -10.214,
+    "tasa_victoria": 0.0,
+    "ticks": 61885,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.00491666666666667,
+      "Defender": 0.486629193512947,
+      "Distancia": 0.338877599518341,
+      "Huir": 0.00239007034757255,
+      "Melee": 0.0245833333333333,
+      "Perseguir": 0.14260313662114
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 19,
-    "medio": 10.3128,
-    "mejor": 45.281,
-    "peor": -19.063
+    "kills": 0,
+    "medio": 7.7054,
+    "mejor": 43.144,
+    "peor": -7.8,
+    "tasa_victoria": 0.0,
+    "ticks": 65064,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0155558269856319,
+      "Defender": 0.470971211484577,
+      "Distancia": 0.346337914605586,
+      "Huir": 0.00435943895866088,
+      "Melee": 0.0100331926574771,
+      "Perseguir": 0.152742415308068
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 20,
-    "medio": 25.01595,
-    "mejor": 100.126,
-    "peor": -27.733
+    "kills": 0,
+    "medio": 32.56725,
+    "mejor": 91.318,
+    "peor": -9.631,
+    "tasa_victoria": 0.0,
+    "ticks": 52850,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0259721716052914,
+      "Defender": 0.513021478976449,
+      "Distancia": 0.294821263923183,
+      "Huir": 0.00325,
+      "Melee": 0.0472340545413568,
+      "Perseguir": 0.11570103095372
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 21,
-    "medio": 32.2335,
-    "mejor": 134.858,
-    "peor": -13.718
+    "kills": 1,
+    "medio": 15.84515,
+    "mejor": 127.601,
+    "peor": -9.496,
+    "tasa_victoria": 0.025,
+    "ticks": 64979,
+    "victorias": 1
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0400910931174089,
+      "Defender": 0.504197900523274,
+      "Distancia": 0.306865540240489,
+      "Huir": 0.00428061258640161,
+      "Melee": 0.0303458114897335,
+      "Perseguir": 0.114219042042693
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 22,
-    "medio": 2.00725,
-    "mejor": 123.491,
-    "peor": -19.126
+    "kills": 0,
+    "medio": -1.1063,
+    "mejor": 28.273,
+    "peor": -7.905,
+    "tasa_victoria": 0.0,
+    "ticks": 67132,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0124072456347236,
+      "Defender": 0.434500304690995,
+      "Distancia": 0.292676783867031,
+      "Huir": 0.0180719141185161,
+      "Melee": 0.0697150055295391,
+      "Perseguir": 0.172628746159195
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 23,
-    "medio": 24.7939,
-    "mejor": 126.065,
-    "peor": -27.105
+    "kills": 0,
+    "medio": 23.45925,
+    "mejor": 80.325,
+    "peor": -7.8,
+    "tasa_victoria": 0.0,
+    "ticks": 53430,
+    "victorias": 0
   },
   {
+    "acciones": {
+      "BuscarPocion": 0.0129680564533506,
+      "Defender": 0.32833276870939,
+      "Distancia": 0.390072929833031,
+      "Huir": 0.0173907506322367,
+      "Melee": 0.0878680773185613,
+      "Perseguir": 0.16336741705343
+    },
+    "episodios": 40,
     "etapa": "vs_humano_bot",
     "etapa_idx": 3,
     "generacion": 24,
-    "medio": 40.80265,
-    "mejor": 133.268,
-    "peor": -22.871
+    "kills": 0,
+    "medio": 11.57885,
+    "mejor": 67.888,
+    "peor": -16.696,
+    "tasa_victoria": 0.0,
+    "ticks": 67751,
+    "victorias": 0
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0368703471600785,
+      "Defender": 0.039180242672423,
+      "Distancia": 0.275252152675333,
+      "Huir": 0.0129240643477225,
+      "Melee": 0.122040090248477,
+      "Perseguir": 0.513733102895966
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 0,
+    "kills": 7,
+    "medio": 104.3294,
+    "mejor": 221.07,
+    "peor": 47.845,
+    "tasa_victoria": 0.05,
+    "ticks": 28624,
+    "victorias": 2
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0128024880577794,
+      "Defender": 0.0520094658658901,
+      "Distancia": 0.31821924415256,
+      "Huir": 0.0462530914000902,
+      "Melee": 0.0923305218371596,
+      "Perseguir": 0.478385188686521
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 1,
+    "kills": 6,
+    "medio": 106.19385,
+    "mejor": 204.722,
+    "peor": 6.506,
+    "tasa_victoria": 0.05,
+    "ticks": 30291,
+    "victorias": 2
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.00500650528019238,
+      "Defender": 0.0902268107366853,
+      "Distancia": 0.233262720297828,
+      "Huir": 0.0377992988202602,
+      "Melee": 0.100544022417757,
+      "Perseguir": 0.533160642447276
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 2,
+    "kills": 10,
+    "medio": 129.53265,
+    "mejor": 249.505,
+    "peor": 7.889,
+    "tasa_victoria": 0.15,
+    "ticks": 32174,
+    "victorias": 6
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0288837518927222,
+      "Defender": 0.0629416752336225,
+      "Distancia": 0.285436318883334,
+      "Huir": 0.0433705695900604,
+      "Melee": 0.130509215831133,
+      "Perseguir": 0.448858468569128
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 3,
+    "kills": 14,
+    "medio": 147.9448,
+    "mejor": 261.16,
+    "peor": 56.656,
+    "tasa_victoria": 0.15,
+    "ticks": 37478,
+    "victorias": 6
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0182890621836728,
+      "Defender": 0.0212354465219016,
+      "Distancia": 0.276075888687138,
+      "Huir": 0.0735240371109217,
+      "Melee": 0.179981770348988,
+      "Perseguir": 0.430893795147377
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 4,
+    "kills": 15,
+    "medio": 114.1571,
+    "mejor": 229.905,
+    "peor": 22.353,
+    "tasa_victoria": 0.025,
+    "ticks": 35006,
+    "victorias": 1
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.00733571509219647,
+      "Defender": 0.0187696854638861,
+      "Distancia": 0.294663698058109,
+      "Huir": 0.138189401031382,
+      "Melee": 0.1479795233447,
+      "Perseguir": 0.393061977009726
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 5,
+    "kills": 7,
+    "medio": 100.1204,
+    "mejor": 161.177,
+    "peor": 28.572,
+    "tasa_victoria": 0.025,
+    "ticks": 31589,
+    "victorias": 1
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0519525465211313,
+      "Defender": 0.0371808781173295,
+      "Distancia": 0.237267128181971,
+      "Huir": 0.11356054239197,
+      "Melee": 0.1376802327246,
+      "Perseguir": 0.422358672062999
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 6,
+    "kills": 9,
+    "medio": 120.51255,
+    "mejor": 260.849,
+    "peor": 35.484,
+    "tasa_victoria": 0.125,
+    "ticks": 38348,
+    "victorias": 5
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0663410367249937,
+      "Defender": 0.0550085668199542,
+      "Distancia": 0.158033559107628,
+      "Huir": 0.116486828650122,
+      "Melee": 0.153038191649629,
+      "Perseguir": 0.451091817047673
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 7,
+    "kills": 9,
+    "medio": 101.83065,
+    "mejor": 240.593,
+    "peor": -1.691,
+    "tasa_victoria": 0.05,
+    "ticks": 32049,
+    "victorias": 2
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0621326274575142,
+      "Defender": 0.129530388482139,
+      "Distancia": 0.119715282022101,
+      "Huir": 0.0856134179990444,
+      "Melee": 0.194339422698114,
+      "Perseguir": 0.408668861341088
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 8,
+    "kills": 7,
+    "medio": 101.1108,
+    "mejor": 231.842,
+    "peor": 26.069,
+    "tasa_victoria": 0.1,
+    "ticks": 30738,
+    "victorias": 4
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.09544808710196,
+      "Defender": 0.0161859136872913,
+      "Distancia": 0.196787278102006,
+      "Huir": 0.0715964252495427,
+      "Melee": 0.119486776330395,
+      "Perseguir": 0.500495519528805
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 9,
+    "kills": 11,
+    "medio": 132.2686,
+    "mejor": 262.036,
+    "peor": 33.214,
+    "tasa_victoria": 0.175,
+    "ticks": 38811,
+    "victorias": 7
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0708524290023761,
+      "Defender": 0.00176862657792776,
+      "Distancia": 0.207775974820005,
+      "Huir": 0.0837600310261797,
+      "Melee": 0.115935844966399,
+      "Perseguir": 0.519907093607113
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 10,
+    "kills": 16,
+    "medio": 119.35755,
+    "mejor": 286.903,
+    "peor": 18.205,
+    "tasa_victoria": 0.1,
+    "ticks": 30258,
+    "victorias": 4
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0781649360492335,
+      "Defender": 0.000808966861598441,
+      "Distancia": 0.219235716141102,
+      "Huir": 0.117768728115581,
+      "Melee": 0.0810794558673901,
+      "Perseguir": 0.502942196965096
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 11,
+    "kills": 11,
+    "medio": 111.0477,
+    "mejor": 266.837,
+    "peor": 28.149,
+    "tasa_victoria": 0.125,
+    "ticks": 31452,
+    "victorias": 5
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0731512122581587,
+      "Defender": 0.000228310502283105,
+      "Distancia": 0.287496979171987,
+      "Huir": 0.116268820544465,
+      "Melee": 0.0663707432299744,
+      "Perseguir": 0.456483934293132
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 12,
+    "kills": 18,
+    "medio": 129.35475,
+    "mejor": 243.236,
+    "peor": -16.487,
+    "tasa_victoria": 0.075,
+    "ticks": 31100,
+    "victorias": 3
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.117407960308285,
+      "Defender": 0.000484533760426415,
+      "Distancia": 0.189259494363656,
+      "Huir": 0.0855362735585696,
+      "Melee": 0.0724491518804713,
+      "Perseguir": 0.534862586128591
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 13,
+    "kills": 17,
+    "medio": 104.9839,
+    "mejor": 267.158,
+    "peor": -0.464000000000001,
+    "tasa_victoria": 0.05,
+    "ticks": 27619,
+    "victorias": 2
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.105119862567576,
+      "Defender": 0.00170093795093795,
+      "Distancia": 0.283806405397104,
+      "Huir": 0.107246918123368,
+      "Melee": 0.0650064845152557,
+      "Perseguir": 0.437119391445758
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 14,
+    "kills": 7,
+    "medio": 89.4106,
+    "mejor": 266.837,
+    "peor": -4.6,
+    "tasa_victoria": 0.075,
+    "ticks": 27456,
+    "victorias": 3
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0639952210206138,
+      "Defender": 0.00059457766642806,
+      "Distancia": 0.293427788731167,
+      "Huir": 0.0988740916134918,
+      "Melee": 0.0480333193171052,
+      "Perseguir": 0.495075001651194
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 15,
+    "kills": 21,
+    "medio": 147.91175,
+    "mejor": 251.393,
+    "peor": -14.675,
+    "tasa_victoria": 0.175,
+    "ticks": 35655,
+    "victorias": 7
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0538437554070018,
+      "Defender": 0.0,
+      "Distancia": 0.263265709740089,
+      "Huir": 0.109119166358726,
+      "Melee": 0.0666240311029255,
+      "Perseguir": 0.507147337391258
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 16,
+    "kills": 17,
+    "medio": 117.31755,
+    "mejor": 251.492,
+    "peor": 18.005,
+    "tasa_victoria": 0.05,
+    "ticks": 29158,
+    "victorias": 2
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0184893021656673,
+      "Defender": 0.0,
+      "Distancia": 0.322589967982488,
+      "Huir": 0.134161737064182,
+      "Melee": 0.0469386801858052,
+      "Perseguir": 0.477820312601857
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 17,
+    "kills": 7,
+    "medio": 82.43145,
+    "mejor": 416.938,
+    "peor": 6.43,
+    "tasa_victoria": 0.05,
+    "ticks": 28997,
+    "victorias": 2
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0632007858978001,
+      "Defender": 0.0,
+      "Distancia": 0.307900867954486,
+      "Huir": 0.0837354746824972,
+      "Melee": 0.115170987184524,
+      "Perseguir": 0.429991884280693
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 18,
+    "kills": 11,
+    "medio": 103.73815,
+    "mejor": 266.914,
+    "peor": -1.408,
+    "tasa_victoria": 0.025,
+    "ticks": 31719,
+    "victorias": 1
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.06014065798603,
+      "Defender": 0.00630805515239478,
+      "Distancia": 0.208978649329596,
+      "Huir": 0.113300867111214,
+      "Melee": 0.104070353273239,
+      "Perseguir": 0.507201417147525
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 19,
+    "kills": 15,
+    "medio": 117.82035,
+    "mejor": 251.492,
+    "peor": 28.51,
+    "tasa_victoria": 0.075,
+    "ticks": 29521,
+    "victorias": 3
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0407874232395786,
+      "Defender": 0.00254033975850506,
+      "Distancia": 0.183919448761319,
+      "Huir": 0.101673088069696,
+      "Melee": 0.161491138103421,
+      "Perseguir": 0.50958856206748
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 20,
+    "kills": 13,
+    "medio": 120.07565,
+    "mejor": 416.938,
+    "peor": 46.954,
+    "tasa_victoria": 0.1,
+    "ticks": 30394,
+    "victorias": 4
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0508893466661505,
+      "Defender": 0.000414141414141414,
+      "Distancia": 0.216790195214823,
+      "Huir": 0.0768963306962383,
+      "Melee": 0.0866150864123839,
+      "Perseguir": 0.568394899596263
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 21,
+    "kills": 8,
+    "medio": 103.41545,
+    "mejor": 266.914,
+    "peor": 10.822,
+    "tasa_victoria": 0.05,
+    "ticks": 32457,
+    "victorias": 2
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0309084365778924,
+      "Defender": 0.00061026936026936,
+      "Distancia": 0.233007175437116,
+      "Huir": 0.11180172451388,
+      "Melee": 0.0653609787968975,
+      "Perseguir": 0.558311415313945
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 22,
+    "kills": 16,
+    "medio": 108.91,
+    "mejor": 266.584,
+    "peor": -20.399,
+    "tasa_victoria": 0.05,
+    "ticks": 28280,
+    "victorias": 2
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0279093544324912,
+      "Defender": 0.000370689655172414,
+      "Distancia": 0.215251290836175,
+      "Huir": 0.167350890204871,
+      "Melee": 0.0723707439272825,
+      "Perseguir": 0.516747030944008
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 23,
+    "kills": 13,
+    "medio": 112.7886,
+    "mejor": 416.938,
+    "peor": 15.363,
+    "tasa_victoria": 0.125,
+    "ticks": 30546,
+    "victorias": 5
+  },
+  {
+    "acciones": {
+      "BuscarPocion": 0.0686519147823642,
+      "Defender": 0.00123198744471394,
+      "Distancia": 0.29548324285291,
+      "Huir": 0.120137025764895,
+      "Melee": 0.0760320917596493,
+      "Perseguir": 0.438463737395468
+    },
+    "episodios": 40,
+    "etapa": "vs_escolta_D",
+    "etapa_idx": 4,
+    "generacion": 24,
+    "kills": 11,
+    "medio": 129.6025,
+    "mejor": 266.914,
+    "peor": 20.577,
+    "tasa_victoria": 0.075,
+    "ticks": 38805,
+    "victorias": 3
   }
 ]

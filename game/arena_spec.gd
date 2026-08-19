@@ -15,8 +15,21 @@ var agent_count: int = 1
 ## Genoma que cargan los agentes. Si es null, se usan pesos aleatorios.
 var agent_genome: Genome = null
 var ga_config: GAConfig = null
+## Pesos de la funcion de fitness de ESTE episodio. Si es null se usan los de
+## Fitness. Viaja aqui y no en un global mutable porque el SimPool corre varias
+## arenas a la vez: con estado compartido, cambiar los pesos para entrenar
+## alteraria tambien los episodios que se estuvieran evaluando.
+var fitness_weights: Fitness.Weights = null
 var seed: int = 0
 var max_ticks: int = GameConfig.MAX_EPISODE_TICKS
+
+## Si el episodio termina al quedarse un bando sin nadie vivo.
+##
+## Es true en TODOS los escenarios del benchmark: ahi el fin de bando es
+## exactamente la condicion que se mide. La partida por oleadas lo pone en false
+## porque entre oleada y oleada el bando enemigo esta legitimamente vacio; ahi el
+## final lo decide el director de oleadas o la muerte del jugador.
+var finish_on_side_wipe: bool = true
 
 ## MODELADO IMPORTANTE:
 ## En el juego, los enemigos A/B/C y el agente son todos enemigos del jugador.
@@ -58,8 +71,10 @@ func duplicate_spec() -> ArenaSpec:
 	s.agent_count = agent_count
 	s.agent_genome = agent_genome
 	s.ga_config = ga_config
+	s.fitness_weights = fitness_weights
 	s.seed = seed
 	s.max_ticks = max_ticks
+	s.finish_on_side_wipe = finish_on_side_wipe
 	s.fsm_opposes_agent = fsm_opposes_agent
 	s.scenario_id = scenario_id
 	s.scenario_label = scenario_label
