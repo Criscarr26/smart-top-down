@@ -4,9 +4,18 @@ Juego top-down 2D estilo *Hotline Miami* con enemigos por máquina de estado fin
 
 Proyecto personal. Godot 4.7.1 · GDScript · sin dependencias externas.
 
+![El laboratorio de entrenamiento](docs/laboratorio.png)
+
+*El laboratorio: a la izquierda la función de fitness y el algoritmo genético editables en caliente; en el centro un episodio real dibujándose, con los sensores del agente y las probabilidades de su red superpuestos; a la derecha las métricas y las gráficas de la corrida.*
+
+| Menú | Partida |
+|---|---|
+| ![Menú principal](docs/menu.png) | ![Modo oleadas](docs/partida.png) |
+
 ## Estructura
 
 ```
+docs/      capturas del README
 game/      todo el código (.gd) y las escenas (.tscn)
 assets/    sprites y sonidos (generados por tools/)
 tools/     scripts de Python: generar assets y analizar resultados
@@ -148,3 +157,7 @@ Tres capas que no se conocen entre sí más de lo necesario:
 - El paralelismo es de simulación, no de CPU. Para usar varios núcleos, lanza varios procesos con distinta `--seed` y `--out`.
 - El agente recibe distancia y ángulo al objetivo aunque no lo vea; la oclusión va aparte en el sensor de línea de visión.
 - El agente **no tiene un sensor específico del sanador**: lo percibe como un objetivo más. Los escenarios s11–s13 miden si aun así aprende a priorizarlo, no dan por hecho que pueda.
+
+## Licencia
+
+MIT. Ver [LICENSE](LICENSE).
