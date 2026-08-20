@@ -12,3 +12,6 @@ __pycache__/
 
 # NOTA: results/ SI se versiona. Los CSV, las curvas y los genomas del
 # benchmark son parte del entregable del informe, no artefactos temporales.
+
+# Logs de corridas: son de trabajo, no resultados.
+*.log
