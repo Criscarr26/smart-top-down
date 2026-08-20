@@ -2,7 +2,7 @@ class_name Population
 extends RefCounted
 ## Poblacion del algoritmo genetico y su bucle generacional:
 ##   inicializacion -> simulacion -> evaluacion -> reproduccion -> repeticion
-## (seccion 2.2 del PDF). La simulacion y la evaluacion las hace el Trainer;
+## (el bucle generacional). La simulacion y la evaluacion las hace el Trainer;
 ## esta clase se ocupa de la reproduccion.
 
 var config: GAConfig
@@ -33,7 +33,7 @@ func initialize() -> void:
 
 ## Siembra la poblacion a partir de un individuo ya entrenado.
 ##
-## Implementa la recomendacion IV.1 del PDF: "al iniciar el entrenamiento de un
+## Implementa la siembra entre etapas: "al iniciar el entrenamiento de un
 ## escenario tomar el mejor agente del anterior". El elite entra intacto y el
 ## resto son copias mutadas suyas, de forma que la nueva poblacion arranca
 ## alrededor de una solucion que ya funciona en vez de desde cero.

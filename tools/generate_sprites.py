@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Genera los sprites del juego a assets/sprites/*.png
+"""Genera los sprites del juego a assets/*.png
 
 Mismo criterio que generate_sfx.py: arte 100% original y regenerable, sin
-descargas ni dudas de licencia frente a la clausula de honestidad academica.
+descargas ni dudas de licencia.
 
 Los personajes se dibujan vistos DESDE ARRIBA y mirando a la DERECHA (+X),
 porque en Godot una rotacion de 0 rad apunta a +X: el sprite se rota con

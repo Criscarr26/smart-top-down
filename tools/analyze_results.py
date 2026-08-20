@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Analiza results/benchmark.csv y genera las tablas y graficas del informe.
 
-Produce exactamente los dos formatos de tabla que muestra el PDF del profesor
-(seccion 3.3.4.d):
+Produce los dos formatos de tabla del informe:
 
   Tabla 1 - "escenario x variable" para UNA metrica, ordenada por dificultad.
   Tabla 2 - por escenario, una fila por valor de variable y una columna por
@@ -36,7 +35,7 @@ except ImportError:
     print("[aviso] matplotlib no esta instalado; se generaran tablas pero no graficas.")
 
 
-# Metricas de la seccion 3.3.4.b del PDF.
+# Metricas del informe.
 METRICS = {
     "tasa_exito": "Tasa de exito",
     "tiempo_vida_agente_s": "Tiempo de vida (s)",
@@ -44,7 +43,7 @@ METRICS = {
     "victoria_agente": "Ratio de victorias",
 }
 
-# Escenarios ordenados por dificultad creciente, como sugiere el PDF.
+# Escenarios ordenados por dificultad creciente, de menos a mas oponentes.
 SCENARIO_ORDER = [
     "s01_A_1v1", "s02_B_1v1", "s03_C_1v1", "s04_humano_1v1",
     "s05_A_varios", "s06_B_varios", "s07_C_varios",

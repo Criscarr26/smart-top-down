@@ -103,7 +103,7 @@ func _ready() -> void:
 	_build_melee_query()
 	# Los actores se dibujan con formas primitivas para que el proyecto corra
 	# sin depender de assets externos. Sustituir por Sprite2D/AnimatedSprite2D
-	# al integrar el arte definitivo (requisito 10 del PDF).
+	# al integrar el arte definitivo.
 	queue_redraw()
 
 
@@ -254,8 +254,8 @@ func stop() -> void:
 		velocity = Vector2.ZERO
 
 
-## Corta la velocidad en el acto, sin frenada. Lo usa la guardia, que segun el
-## requisito 2.e del PDF inmoviliza.
+## Corta la velocidad en el acto, sin frenada. Lo usa la guardia, que que por diseno
+## inmoviliza.
 func halt() -> void:
 	velocity = Vector2.ZERO
 
@@ -369,7 +369,7 @@ func set_defending(value: bool) -> void:
 		return
 	is_defending = value
 	if value:
-		halt()  # defender inmoviliza en el acto (requisito 2.e del PDF)
+		halt()  # defender inmoviliza en el acto, por diseno
 
 
 func try_use_potion() -> bool:

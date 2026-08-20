@@ -58,7 +58,7 @@ func set_params(values: PackedFloat32Array) -> void:
 ##
 ## Activacion oculta: tanh. Se eligio sobre ReLU porque acota la salida en
 ## [-1, 1] y mantiene las magnitudes comparables entre capas, que es justo lo
-## que pide la recomendacion IV.4 del PDF ("normalizar las salidas de las
+## que pide la normalizacion de salidas ("normalizar las salidas de las
 ## neuronas para que las ponderaciones tengan sentido"). Con ReLU las
 ## activaciones pueden crecer sin techo y el algoritmo genetico acaba premiando
 ## genomas con pesos enormes en vez de mejores politicas.
@@ -93,7 +93,7 @@ func forward(inputs: PackedFloat32Array) -> PackedFloat32Array:
 
 ## Indices dentro de `params` de los pesos que salen de una neurona de ENTRADA
 ## concreta. Los usa la mascara de congelacion que implementa la recomendacion
-## IV.2 del PDF ("frisar la optimizacion de los sensores relacionados a
+## la congelacion de sensores irrelevantes ("frisar la optimizacion de los sensores relacionados a
 ## mecanicas no relacionadas con el nivel").
 func input_weight_indices(input_index: int) -> Array:
 	var out: Array = []

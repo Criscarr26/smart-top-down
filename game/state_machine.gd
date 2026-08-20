@@ -4,8 +4,8 @@ extends RefCounted
 ##
 ## Los tres tipos (A, B, C) comparten esta infraestructura y el mismo script de
 ## Enemy; lo unico que cambia es QUE estados se registran y con que umbrales,
-## definido en EnemyProfile. Es la misma idea que mostro el profesor en clase al
-## cambiar el estado de un enemigo en vivo sin tocar su codigo.
+## definido en EnemyProfile. Cambiar el comportamiento de un enemigo
+## es cambiar su perfil, no tocar su codigo.
 
 const IDLE := "Idle"
 const CHASE := "Perseguir"

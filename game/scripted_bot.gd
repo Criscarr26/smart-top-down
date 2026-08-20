@@ -2,8 +2,8 @@ class_name ScriptedBot
 extends Actor
 ## Sustituto automatizado del jugador humano en el benchmark.
 ##
-## LIMITACION CONOCIDA, declarada explicitamente (seccion 6 del prompt de
-## benchmark): los escenarios 4 y 10 del PDF piden "jugador humano vs agente".
+## LIMITACION CONOCIDA, declarada explicitamente: los escenarios 4 y 10 son
+## "jugador humano vs agente".
 ## Un humano no se puede meter en un barrido de miles de partidas headless, asi
 ## que se sustituye por este bot de reglas fijas con ruido acotado. Los
 ## resultados de esos dos escenarios miden al agente contra un oponente

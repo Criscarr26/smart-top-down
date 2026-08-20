@@ -1,10 +1,10 @@
 class_name AgentSensors
 extends RefCounted
 ## Los 7 sensores que forman la capa de entrada de la red (supera el minimo de 5
-## que exige la seccion 3.2 del PDF).
+## que exige el diseno del agente).
 ##
 ## TODOS salen normalizados: seis en [0, 1] y el angulo en [-1, 1]. Es la
-## recomendacion IV.4 del PDF y no es cosmetica: si un sensor entregara pixeles
+## la normalizacion de entradas y salidas y no es cosmetica: si un sensor entregara pixeles
 ## crudos (0-320) y otro un booleano (0-1), el algoritmo genetico tendria que
 ## gastar generaciones solo en descubrir la escala de cada peso, y el sensor de
 ## rango grande dominaria la suma ponderada por accidente de unidades.
@@ -31,9 +31,8 @@ const MAX_SENSE_RANGE := 420.0
 
 
 ## Indices de sensores que no aportan informacion en una etapa concreta del
-## curriculum. Alimenta la mascara de congelacion del GA (recomendacion IV.2 del
-## PDF: "frisar la optimizacion de los sensores relacionados a mecanicas no
-## relacionadas con el nivel").
+## curriculum. Alimenta la mascara de congelacion del GA: no se optimizan los
+## pesos de los sensores que no aportan nada en esa etapa.
 ##
 ## Se evalua POR ETAPA y no una sola vez para todo el entrenamiento, porque el
 ## caso que de verdad se da en este proyecto es el del escudo: solo el enemigo

@@ -3,7 +3,7 @@ extends RefCounted
 ## Un individuo: el vector plano de pesos y sesgos de la red, mas su fitness.
 
 ## Estrategias de inicializacion de pesos. Es la variable (iii) del benchmark
-## cuantitativo del PDF: "configuracion de peso inicial (aleatorio, pesos
+## cuantitativo: "configuracion de peso inicial (aleatorio, pesos
 ## iguales, pesos nulos)".
 enum Init { RANDOM, EQUAL, ZERO }
 
@@ -37,8 +37,8 @@ static func create(size: int, mode: int, scale: float = 1.0) -> Genome:
 		Init.ZERO:
 			# Con todos los pesos a cero la red devuelve la misma salida para
 			# cualquier entrada, asi que la primera generacion es ciega y todo
-			# el progreso depende de la mutacion. Se incluye porque el PDF lo
-			# pide como configuracion a comparar, y sirve justo para mostrar eso.
+			# el progreso depende de la mutacion. Se incluye porque es una de las
+			# inicializaciones que se comparan, y sirve justo para mostrar eso.
 			for i in size:
 				g.params[i] = 0.0
 		Init.EQUAL:

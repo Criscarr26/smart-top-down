@@ -2,7 +2,7 @@
 
 Juego top-down 2D estilo *Hotline Miami* con enemigos por máquina de estado finito, pathfinding A\*, y un enemigo entrenado por red neuronal optimizada con algoritmos genéticos.
 
-Introducción a la IA — Juegos Inteligentes 2026-C1, ITLA · Prof. Carlos B. Ogando M. · Godot 4.7.1
+Proyecto personal. Godot 4.7.1 · GDScript · sin dependencias externas.
 
 ## Estructura
 
@@ -56,7 +56,7 @@ Menú → **ENTRENAR** → *Abrir el laboratorio*. Pantalla completa, tres colum
 
 **Izquierda — configuración.** Se edita en caliente, sin tocar código:
 - **Función de fitness**: los 11 pesos más el radio de combate. Es *la heurística*: cambiarla cambia el problema, no solo la búsqueda.
-- **Algoritmo genético**: las ocho variables del §3.3.4.c más la topología de la red.
+- **Algoritmo genético**: las ocho variables del barrido más la topología de la red.
 - **Corrida**: qué etapas del currículum, duración del episodio, arenas en paralelo, aceleración y semilla.
 
 **Centro — la arena de verdad, dibujándose.** Con **la IA hecha visible** encima del agente:

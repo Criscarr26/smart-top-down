@@ -1,6 +1,6 @@
 class_name LevelMaps
 extends RefCounted
-## Los tres niveles base (requisito 9 del PDF) mas un nivel de validacion.
+## Los tres niveles base mas un nivel de validacion.
 ##
 ## Todas las filas deben medir exactamente lo mismo; LevelData valida y avisa.
 
@@ -74,8 +74,8 @@ const LEVEL_03 := [
 ]
 
 ## Nivel 4 - NO se usa en entrenamiento. Reservado para el paso de validacion
-## que pide el PDF ("validar el desempeno en niveles nunca vistos por el
-## agente"). Mantenerlo fuera del curriculum es lo que hace valida esa medida.
+## que pide generalizacion: medir el desempeno en un nivel nunca visto.
+## Mantenerlo fuera del curriculum es lo que hace valida esa medida.
 const LEVEL_VALIDATION := [
 	"################################",
 	"#..............................#",

@@ -1,7 +1,6 @@
 class_name ScenarioCatalog
 extends RefCounted
-## Los 10 escenarios de validacion de la seccion 3.3.4.a del PDF, tal cual y en
-## el mismo orden.
+## Los 10 escenarios de validacion base, en orden de dificultad creciente.
 
 ## Cuantos enemigos son "varios".
 const MANY_ENEMIES := 3
@@ -9,8 +8,8 @@ const MANY_ENEMIES := 3
 const MANY_AGENTS := 3
 
 ## Nivel por defecto de la evaluacion. Es el de VALIDACION, no uno de los tres
-## de entrenamiento: el PDF pide medir el desempeno "en niveles nunca vistos por
-## el agente" (seccion 2.2.6), y evaluar en un nivel entrenado mediria memoria
+## de entrenamiento: el desempeno se mide en un nivel que el agente nunca vio;
+## evaluar en uno entrenado mediria memoria
 ## del mapa en vez de politica.
 const DEFAULT_EVAL_LEVEL := "validation"
 
@@ -44,9 +43,9 @@ static func all(ga_config: GAConfig, genome: Genome,
 			ga_config, genome, level_name, [], MANY_AGENTS, ArenaSpec.Opponent.BOT))
 
 	# --- Escenarios con el Tipo D (sanador) ---------------------------------
-	# Van DESPUES de los diez del PDF y no los sustituyen: s01-s10 son los que
-	# exige la seccion 3.3.2 y renumerarlos romperia la correspondencia con el
-	# enunciado. Estos tres miden algo que los otros no pueden: si el agente
+	# Van DESPUES de los diez base y no los sustituyen: s01-s10 son los que
+	# exige el catalogo de escenarios y renumerarlos romperia la comparabilidad
+	# con las corridas anteriores. Estos tres miden algo que los otros no pueden: si el agente
 	# aprende a PRIORIZAR. Mientras el sanador viva, el dano hecho al
 	# perseguidor se deshace, asi que matar en el orden equivocado se parece
 	# mucho a no hacer nada.

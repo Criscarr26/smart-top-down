@@ -1,6 +1,6 @@
 class_name Mutation
 extends RefCounted
-## Tecnicas de mutacion. El PDF exige al menos dos (seccion 3.2); son la
+## Tecnicas de mutacion. Se implementan dos para poder compararlas; son la
 ## variable (v) del benchmark cuantitativo.
 
 enum Mode { GAUSSIAN, RANDOM_RESET }
@@ -25,7 +25,7 @@ static func mode_from_name(text: String) -> int:
 ## Muta el genoma EN SITIO.
 ##   rate     probabilidad por peso de ser mutado
 ##   strength desviacion tipica (GAUSSIAN) o amplitud del nuevo valor (RESET)
-##   frozen   indices excluidos de la mutacion (recomendacion IV.2 del PDF)
+##   frozen indices excluidos de la mutacion (la congelacion de sensores irrelevantes)
 static func apply(genome: Genome, mode: int, rate: float, strength: float,
 		frozen: Dictionary = {}) -> void:
 	match mode:

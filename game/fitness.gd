@@ -2,8 +2,8 @@ class_name Fitness
 extends RefCounted
 ## Funcion de rendimiento del agente.
 ##
-## El PDF (seccion 3.2) deja la recompensa "definida de forma arbitraria" pero
-## exige documentar los pesos elegidos. Estos son, y estos son los porques.
+## La recompensa es una eleccion de diseno, no una verdad. Lo unico que no es
+## opcional es documentar por que vale lo que vale cada peso. Aqui estan.
 ##
 ## NOTA DE DISENO (importante, salio de medir):
 ## La primera version pesaba el tiempo de vida a +0.015/tick. Con episodios de
@@ -44,7 +44,7 @@ extends RefCounted
 ##  DAMAGE_DEALT  (+1.0/punto)   Senal principal. Es la unica forma de ganar.
 ##  DAMAGE_TAKEN  (-0.25/punto)  Menor que el dano hecho a proposito: si
 ##                               castigara igual o mas, huir seria optimo.
-##  DAMAGE_BLOCKED(+0.35/punto)  El "esquivar/evitar dano" del PDF. Por debajo
+##  DAMAGE_BLOCKED(+0.35/punto)  El "esquivar/evitar dano". Por debajo
 ##                               de lo que cuesta recibir el golpe, para que
 ##                               bloquear no sea mejor que no ser alcanzado.
 ##  KILL          (+60.0)        Bono discreto grande: define la meta.
@@ -93,7 +93,7 @@ const FIELDS := [
 		"hint": "Si castiga igual o mas que el dano hecho, huir se vuelve optimo."},
 	{"key": "damage_blocked", "label": "Dano bloqueado", "unidad": "por punto",
 		"min": 0.0, "max": 3.0, "step": 0.05,
-		"hint": "El 'evitar dano' del PDF. Por debajo de lo que cuesta el golpe."},
+		"hint": "El 'evitar dano'. Por debajo de lo que cuesta el golpe."},
 	{"key": "kill", "label": "Matar a un oponente", "unidad": "bono",
 		"min": 0.0, "max": 200.0, "step": 1.0,
 		"hint": "Bono discreto grande: es lo que define la meta."},

@@ -1,6 +1,6 @@
 class_name Crossover
 extends RefCounted
-## Tecnicas de cruce. El PDF exige al menos una (seccion 3.2); es la variable
+## Tecnicas de cruce. Se implementan dos para poder compararlas; es la variable
 ## (vii) del benchmark. Se implementan dos para poder comparar.
 
 enum Mode { UNIFORM, ONE_POINT }
@@ -23,7 +23,7 @@ static func mode_from_name(text: String) -> int:
 
 
 ## `frozen` son indices de parametros que NO se recombinan: el hijo los hereda
-## siempre del primer padre. Implementa la recomendacion IV.2 del PDF (congelar
+## siempre del primer padre. Implementa la congelacion de sensores irrelevantes (congelar
 ## los sensores irrelevantes para el nivel).
 static func combine(a: Genome, b: Genome, mode: int, frozen: Dictionary = {}) -> Genome:
 	match mode:

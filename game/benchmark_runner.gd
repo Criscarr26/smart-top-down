@@ -1,6 +1,5 @@
 extends Node
-## Punto de entrada UNICO de toda la bateria de pruebas (seccion 8.1 del prompt
-## de benchmark). Entrena, evalua los 10 escenarios sobre la matriz de
+## Punto de entrada UNICO de toda la bateria de pruebas. Entrena, evalua los 10 escenarios sobre la matriz de
 ## configuraciones, y deja CSV + JSON + informe cualitativo. Sin intervencion
 ## manual entre corridas.
 ##
@@ -201,7 +200,7 @@ func _write_xlsx() -> void:
 	_add_sheet(w, "Resumen por escenario", BenchmarkTables.per_scenario(_recorder.rows))
 	_add_sheet(w, "Efecto de variables", BenchmarkTables.per_variable(_recorder.rows))
 
-	# Hoja 4: la tabla cruzada escenario x configuracion del PDF (3.3.4.d).
+	# Hoja 4: la tabla cruzada escenario x configuracion.
 	var cross := BenchmarkTables.scenario_by_variable(_recorder.rows, "tasa_exito")
 	var cross_fmt: Array = [XlsxWriter.FMT_TEXT]
 	for i in range(1, (cross[0] as Array).size()):

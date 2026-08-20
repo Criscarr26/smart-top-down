@@ -1,6 +1,6 @@
 class_name Potion
 extends Node2D
-## Pocion de curacion. Utilizable por CUALQUIER actor (requisito 7 del PDF):
+## Pocion de curacion. Utilizable por CUALQUIER actor:
 ## el jugador la guarda en inventario y la usa cuando quiere, los enemigos la
 ## consumen al recogerla.
 ##

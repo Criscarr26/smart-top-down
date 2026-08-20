@@ -2,7 +2,7 @@ class_name EnemyProfile
 extends Resource
 ## Configuracion de un tipo de enemigo.
 ##
-## Los tres tipos del PDF no son tres clases distintas: son el mismo Enemy con
+## Los tipos de enemigo no son tres clases distintas: son el mismo Enemy con
 ## distinto perfil. Anadir un "Tipo D" es escribir otra factoria aqui, no otro
 ## script.
 
@@ -59,7 +59,7 @@ extends Resource
 
 
 # =============================================================================
-# Factorias de los tres tipos del PDF (seccion 3.1.3)
+# Factorias de los tipos de enemigo
 # =============================================================================
 
 ## Tipo A - Persigue y golpea cuerpo a cuerpo. Busca pocion si esta herido.
@@ -161,7 +161,7 @@ static func type_d() -> EnemyProfile:
 
 
 ## Perfil base del agente entrenado: tiene TODAS las acciones disponibles
-## (requisito 3.d del PDF). No usa FSM; la red neuronal decide.
+##. No usa FSM; la red neuronal decide.
 static func agent() -> EnemyProfile:
 	var p := EnemyProfile.new()
 	p.type_id = "AGENT"

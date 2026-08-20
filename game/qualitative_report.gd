@@ -1,6 +1,6 @@
 class_name QualitativeReport
 extends RefCounted
-## Genera el benchmark CUALITATIVO (seccion 3.3.3 del PDF) a partir de los datos
+## Genera el benchmark CUALITATIVO (el analisis cualitativo) a partir de los datos
 ## del cuantitativo.
 ##
 ## No sustituye al analisis escrito a mano: produce las observaciones que se
@@ -80,7 +80,7 @@ static func limitations(bot_scenarios: Array = []) -> Array:
 			+ "no factorial completo. Mide efectos marginales; no detecta interacciones entre "
 			+ "variables.",
 		"El agente recibe distancia y angulo al objetivo aunque no lo vea; la oclusion va "
-			+ "aparte en el sensor de linea de vision. Es la lista de sensores que fija el PDF, "
+			+ "aparte en el sensor de linea de vision. Es una decision de diseno, "
 			+ "pero implica que el agente no tiene que resolver busqueda con informacion parcial.",
 	]
 
@@ -154,12 +154,24 @@ static func _observations(by_scenario: Dictionary) -> Array:
 		# caso que hay que senalar.
 		if wr >= 0.5 and kills < 0.25:
 			var label := str((group[0] as Dictionary).get("escenario_label", sid))
+			var oponentes: float = maxf(1.0, _mean(group, "oponentes_total"))
+			# Cuanta de esa tasa de victoria se gano rematando, y cuanta no.
+			#
+			# La version anterior afirmaba en absoluto que "esas victorias NO son
+			# suyas". Con la fisica actual eso quedo INCORRECTO: el agente si
+			# remata en una parte de los episodios. Repartir los puntos entre lo
+			# que se gano y lo que le regalo el nivel es igual de contundente y
+			# ademas es cierto.
+			var propias: float = clampf(kills / oponentes, 0.0, 1.0)
+			var ajenas: float = maxf(0.0, wr - propias)
 			obs.append("AVISO en \"%s\": el agente gana el %.0f%% de las partidas pero solo "
 					% [label, wr * 100.0]
-					+ "mata %.2f oponentes de media (hace %.1f de dano por segundo, o sea que "
-					% [kills, dps]
-					+ "pega pero no remata). Esas victorias NO son suyas: los oponentes mueren "
-					+ "en las puas del nivel. No interpretar esta fila como desempeno del agente.")
+					+ "remata al %.0f%% de sus oponentes (%.2f de media, con %.1f de dano por "
+					% [propias * 100.0, kills, dps]
+					+ "segundo: pega, pero no siempre remata). Unos %.0f puntos de esa tasa de "
+					% [ajenas * 100.0]
+					+ "victoria vienen de rivales que mueren en las puas del nivel, no de el. "
+					+ "Leer esta fila junto a la tasa de exito, nunca sola.")
 
 	# Efecto de aumentar el numero de oponentes.
 	var solo := _mean_over(by_scenario, ["s01_A_1v1", "s02_B_1v1", "s03_C_1v1"], "tasa_exito")
@@ -168,7 +180,7 @@ static func _observations(by_scenario: Dictionary) -> Array:
 		var verb := "cae" if many < solo else ("sube" if many > solo else "se mantiene")
 		obs.append("La tasa de exito %s de %.2f en los duelos 1v1 a %.2f contra varios "
 				% [verb, solo, many]
-				+ "oponentes, que es la prueba de estres que pide la seccion 3.3.2 del PDF.")
+				+ "oponentes, que es la prueba de estres del catalogo.")
 
 	# Ventaja de jugar en grupo.
 	var one_agent := _mean_over(by_scenario, ["s08_mixto_1agente"], "tasa_exito")

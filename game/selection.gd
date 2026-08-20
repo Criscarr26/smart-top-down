@@ -1,6 +1,6 @@
 class_name Selection
 extends RefCounted
-## Tecnicas de seleccion. El PDF exige probar al menos dos (seccion 3.2), y son
+## Tecnicas de seleccion. Se implementan dos para poder compararlas, y son
 ## la variable (vi) del benchmark cuantitativo.
 
 enum Mode { TOURNAMENT, ROULETTE }

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Genera los efectos de sonido del juego por sintesis, a assets/audio/*.wav
+"""Genera los efectos de sonido del juego por sintesis, a assets/*.wav
 
 Por que generarlos en vez de descargarlos:
   - No dependen de ninguna descarga ni de una conexion; el proyecto se clona y
     suena.
   - No hay duda de licencia ni de atribucion, cosa que importa con la clausula
-    de honestidad academica del PDF: son 100% originales y este script es la
+    de licencia: son 100% originales y este script es la
     prueba de como se hicieron.
   - Son regenerables y ajustables: cambia un numero y vuelve a correr.
 

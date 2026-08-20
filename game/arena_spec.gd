@@ -33,7 +33,7 @@ var finish_on_side_wipe: bool = true
 
 ## MODELADO IMPORTANTE:
 ## En el juego, los enemigos A/B/C y el agente son todos enemigos del jugador.
-## Pero los escenarios del PDF ("un enemigo tipo A vs 1 agente") los enfrentan
+## Pero los escenarios del benchmark ("un enemigo tipo A vs 1 agente") los enfrentan
 ## ENTRE SI. Cuando esto es true, los enemigos FSM se colocan en el bando
 ## contrario al agente para que puedan pelear. En la partida jugable es false y
 ## todos comparten bando contra el jugador humano.

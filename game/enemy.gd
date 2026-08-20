@@ -144,7 +144,7 @@ func state_name() -> String:
 # =============================================================================
 # Overlay de depuracion
 # =============================================================================
-## Replica el Draw_0 del ejemplo del profesor: estado actual, vida, radios de
+## Estado actual, vida, radios de
 ## transicion y linea de vision al objetivo (verde si lo ve, roja si no).
 ##
 ## Se activa con la tecla F1 en la partida jugable. Sirve para dos cosas:
@@ -170,7 +170,7 @@ func _draw() -> void:
 	if not debug_draw:
 		return
 
-	# Cono de vision (el ejemplo del profesor usa un circulo; aqui la deteccion
+	# Cono de vision (la deteccion
 	# es un cono, asi que se dibuja lo que de verdad se comprueba).
 	var half := GameConfig.VISION_HALF_ANGLE
 	var base := facing.angle()

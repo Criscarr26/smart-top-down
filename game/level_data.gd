@@ -59,8 +59,7 @@ func region() -> Rect2i:
 ## Celdas no transitables para A*.
 ##
 ## Las puas SI entran aqui aunque no sean solidas fisicamente. Es deliberado:
-## un actor que planifica su ruta las esquiva (requisito 4: "moverse
-## adecuadamente en el nivel"), pero uno que se mueve en linea recta -- huyendo,
+## un actor que planifica su ruta las esquiva, pero uno que se mueve en linea recta -- huyendo,
 ## persiguiendo a la vista, o siguiendo la salida cruda de la red neuronal --
 ## puede pisarlas y morir. Esa asimetria es justo lo que hace que las puas sean
 ## una presion de seleccion real para el algoritmo genetico.

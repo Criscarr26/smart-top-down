@@ -1,7 +1,7 @@
 class_name Spike
 extends Node2D
 ## Obstaculo tipo "pua": mata instantaneamente al jugador o al enemigo que la
-## toque (requisito 5 del PDF).
+## toque.
 ##
 ## No es un cuerpo solido. Es solida solo en el grid de A* (ver
 ## LevelData.blocked_cells), de modo que quien planifica ruta la esquiva y

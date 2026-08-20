@@ -2,9 +2,8 @@ class_name AgentActions
 extends RefCounted
 ## Los 6 actuadores = las 6 neuronas de la capa de salida.
 ##
-## La seccion 3.2 del PDF exige "tantos actuadores como acciones posibles tiene
-## el enemigo". El agente es el enemigo con TODAS las acciones disponibles
-## (requisito 3.d), asi que estas 6 cubren lo que saben hacer los tipos A, B y C
+## Hay tantos actuadores como acciones posibles tiene el enemigo, y el agente
+## es el enemigo con TODAS las acciones disponibles, asi que estas 6 cubren lo que saben hacer los tipos A, B y C
 ## juntos: perseguir y golpear (A), disparar y defender (B), huir (C), y
 ## curarse (A y C).
 

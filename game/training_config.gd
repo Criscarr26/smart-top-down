@@ -13,7 +13,7 @@ signal cambio
 
 const RUTA_AJUSTES := "user://ajustes_entrenamiento.json"
 
-## Etapas del curriculum de la seccion 3.3.1. La cuarta usa el bot sustituto: un
+## Etapas del curriculum. La cuarta usa el bot sustituto: un
 ## humano no cabe dentro de un bucle de miles de episodios.
 const ETAPAS := [
 	["vs_tipo_A", "Contra Tipo A (persigue y golpea)"],
@@ -57,8 +57,8 @@ func construir(col: VBoxContainer) -> void:
 	col.add_child(_aviso)
 
 	col.add_child(UI.seccion("ALGORITMO GENETICO"))
-	col.add_child(UI.parrafo("Como se busca la solucion: las ocho variables de la "
-			+ "seccion 3.3.4.c del PDF, mas la topologia."))
+	col.add_child(UI.parrafo("Como se busca la solucion: las ocho variables del barrido, "
+			+ "mas la topologia de la red."))
 	_campos_ga["population_size"] = _fila_num(col, "Pobladores (i)", ga.population_size,
 			2, 200, 1, "Mas exploracion por generacion, y mas coste.")
 	_campos_ga["generations"] = _fila_num(col, "Generaciones", ga.generations,
@@ -99,11 +99,11 @@ func construir(col: VBoxContainer) -> void:
 	_campos_ga["threshold_value"] = _fila_num(col, "Valor umbral", ga.threshold_value,
 			0.0, 1.0, 0.01, "Solo lo usa 'umbral_fijo'.")
 	_capas = _fila_texto(col, "Capas ocultas", _capas_a_texto(ga.hidden_layers),
-			"Comas: 10,6. Vacio = red shallow (IV.3 del PDF).")
+			"Comas: 10,6. Vacio = red shallow (alternativa a la profunda).")
 
 	col.add_child(UI.seccion("CORRIDA"))
 	col.add_child(UI.parrafo("Cada etapa arranca con el mejor agente de la anterior "
-			+ "(recomendacion IV.1). Desmarcar etapas abarata la corrida."))
+			+ "sembrando con el mejor. Desmarcar etapas abarata la corrida."))
 	for e in ETAPAS:
 		var chk := CheckBox.new()
 		chk.text = str(e[1])

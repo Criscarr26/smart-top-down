@@ -1,7 +1,7 @@
 class_name AgentEnemy
 extends Actor
 ## El enemigo entrenado: mismas acciones que los tipos A, B y C juntos
-## (requisito 3.d del PDF), pero sin FSM. Quien decide es la red neuronal.
+##, pero sin FSM. Quien decide es la red neuronal.
 ##
 ## Cadencia de decision: la red se consulta cada DECISION_INTERVAL ticks, no
 ## cada tick. Dos motivos:

@@ -3,7 +3,7 @@ extends RefCounted
 ## Todos los hiperparametros del optimizador en un solo objeto.
 ##
 ## Cada campo de aqui es una columna del CSV del benchmark y una de las
-## "variables para comparar" de la seccion 3.3.4.c del PDF. Tenerlos juntos y
+## "variables para comparar" del barrido. Tenerlos juntos y
 ## serializables es lo que permite que el harness barra la matriz de
 ## experimentos sin tocar codigo.
 
@@ -39,8 +39,8 @@ var thresholding_mode: int = Thresholding.Mode.SOFTMAX_ARGMAX
 var threshold_value: float = 0.25
 
 # --- Topologia ---------------------------------------------------------------
-## Capas ocultas. [] = red shallow (solo entrada y salida), que el PDF
-## recomienda probar explicitamente en IV.3.
+## Capas ocultas. [] = red shallow (solo entrada y salida), que vale la pena
+## comparar contra la profunda.
 var hidden_layers: Array = [10, 6]
 
 

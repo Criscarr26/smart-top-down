@@ -1,17 +1,14 @@
 class_name ExperimentMatrix
 extends RefCounted
-## Matriz de configuraciones a comparar (seccion 3.3.4.c del PDF).
+## Matriz de configuraciones a comparar (el barrido de variables).
 ##
 ## Se barre UNA VARIABLE A LA VEZ (OFAT) partiendo de una configuracion base, no
 ## el producto cartesiano completo. El motivo es de coste: con 3 tamanos de
 ## poblacion x 3 tasas de mutacion x 3 inicializaciones x 2 tasas de seleccion x
 ## 2 mutaciones x 2 selecciones x 2 cruces x 3 thresholdings x 2 topologias, el
 ## factorial completo son 2592 entrenamientos. OFAT son 19 y responde la
-## pregunta que pide el PDF ("comparar el efecto de cada variable"), que es
-## marginal, no de interacciones.
-##
-## Las tablas de ejemplo del propio PDF confirman esta lectura: sus filas son
-## valores sueltos de una variable, no combinaciones.
+## pregunta que interesa -- el efecto de cada variable -- que es marginal y no
+## de interacciones.
 
 
 static func baseline() -> GAConfig:
@@ -89,7 +86,7 @@ static func ofat(base: GAConfig = null) -> Array:
 		c.thresholding_mode = t
 		out.append({"config": c, "variable": "thresholding", "valor": Thresholding.mode_name(t)})
 
-	# Extra: red shallow (recomendacion IV.3 del PDF, "sumamente recomendable")
+	# Extra: red shallow (recomendacion vale la pena compararla)
 	var c_shallow := base.duplicate_config()
 	c_shallow.hidden_layers = []
 	out.append({"config": c_shallow, "variable": "topologia", "valor": "shallow"})

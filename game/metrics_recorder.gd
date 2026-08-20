@@ -2,7 +2,7 @@ class_name MetricsRecorder
 extends RefCounted
 ## Acumula filas de resultados y las escribe a CSV y JSON.
 ##
-## Requisito explicito de la seccion 5 del prompt de benchmark: NADA se registra
+## Regla del harness: NADA se registra
 ## solo por consola. Cada corrida acaba en un archivo estructurado con su
 ## escenario, su configuracion completa y sus 4 metricas, listo para pandas o
 ## Excel sin post-proceso manual.

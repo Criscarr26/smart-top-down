@@ -22,7 +22,7 @@ func build(grid_region: Rect2i, solid_cells: Array) -> void:
 
 	# Heuristica euclidiana: es la unica del proyecto y esta justificada porque
 	# el movimiento permite diagonales (Manhattan sobreestimaria y dejaria de
-	# ser admisible). El PDF pide comparar multiples variantes solo para el
+	# ser admisible). Solo se comparan multiples variantes para el
 	# optimizador genetico, no para el pathfinding.
 	astar.default_compute_heuristic = AStarGrid2D.HEURISTIC_EUCLIDEAN
 	astar.default_estimate_heuristic = AStarGrid2D.HEURISTIC_EUCLIDEAN

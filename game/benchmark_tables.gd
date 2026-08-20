@@ -1,13 +1,12 @@
 class_name BenchmarkTables
 extends RefCounted
-## Agregaciones de los resultados crudos, en el formato de tabla que muestra el
-## PDF del profesor (seccion 3.3.4.d).
+## Agregaciones de los resultados crudos, en el formato de tabla del informe.
 ##
 ## Se calculan aqui, en GDScript, y no solo en el script de Python, para que el
 ## Excel salga completo del propio benchmark sin depender de que alguien tenga
 ## pandas instalado.
 
-## Orden de escenarios por dificultad creciente, como sugiere el PDF.
+## Orden de escenarios por dificultad creciente, de menos a mas oponentes.
 const SCENARIO_ORDER := [
 	"s01_A_1v1", "s02_B_1v1", "s03_C_1v1", "s04_humano_1v1",
 	"s05_A_varios", "s06_B_varios", "s07_C_varios",
@@ -16,7 +15,7 @@ const SCENARIO_ORDER := [
 ]
 
 
-## Tabla 1: una fila por escenario, con las 4 metricas del PDF promediadas.
+## Tabla 1: una fila por escenario, con las 4 metricas promediadas.
 static func per_scenario(rows: Array) -> Array:
 	var groups := _group_by(rows, "escenario")
 	var out: Array = []
@@ -71,7 +70,7 @@ static func per_variable(rows: Array) -> Array:
 	return out
 
 
-## Tabla 3: la tabla cruzada del PDF -- filas = configuracion, columnas =
+## Tabla 3: la tabla cruzada -- filas = configuracion, columnas =
 ## escenario, celdas = una metrica. Devuelve [columnas, filas] para pasarla
 ## directamente a XlsxWriter.add_sheet.
 static func scenario_by_variable(rows: Array, metric: String = "tasa_exito") -> Array:

@@ -385,7 +385,7 @@ func _tick_potions() -> void:
 				if potion.take():
 					actor.potions += 1
 					# Los enemigos la beben en el acto; el jugador y el bot la
-					# guardan y deciden cuando usarla (requisito 2.d del PDF).
+					# guardan y deciden cuando usarla.
 					if actor.auto_use_potions:
 						actor.try_use_potion()
 				break
@@ -458,7 +458,7 @@ func _finish(reason: String) -> void:
 
 
 # =============================================================================
-# Resultado del episodio (las 4 metricas de la seccion 3.3.3 del PDF)
+# Resultado del episodio (las 4 metricas del informe)
 # =============================================================================
 
 func build_result() -> Dictionary:
@@ -537,7 +537,7 @@ func build_result() -> Dictionary:
 		"motivo_fin": finished_reason,
 		"duracion_s": seconds,
 		"ticks": tick,
-		# --- las 4 metricas que pide el PDF ---
+		# --- las 4 metricas del informe ---
 		"ganador": winner,
 		"tiempo_vida_agente_s": agent_life,
 		"tiempo_vida_oponente_s": opp_life,

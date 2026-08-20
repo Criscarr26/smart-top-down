@@ -2,7 +2,7 @@ class_name Thresholding
 extends RefCounted
 ## Convierte la salida cruda de la red en UNA accion.
 ##
-## Es la variable (viii) del benchmark cuantitativo del PDF: "tecnica de
+## Es la variable (viii) del benchmark cuantitativo: "tecnica de
 ## thresholding de la red neuronal para activar las acciones". Estan
 ## implementadas tres para poder compararlas, no una sola.
 

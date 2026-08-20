@@ -2,12 +2,12 @@ class_name Trainer
 extends Node
 ## Bucle de entrenamiento neuroevolutivo con curriculum incremental.
 ##
-## Implementa la seccion 2.2 del PDF (inicializacion -> simulacion -> evaluacion
-## -> reproduccion -> repeticion -> validacion) y su recomendacion IV.1: el
+## Implementa el bucle generacional (inicializacion -> simulacion -> evaluacion
+## -> reproduccion -> repeticion -> validacion) con siembra entre etapas: el
 ## entrenamiento avanza escenario por escenario y cada etapa ARRANCA CON EL
 ## MEJOR AGENTE DE LA ANTERIOR, en vez de empezar de cero cada vez.
 ##
-## Etapas del curriculum, en el orden que exige la seccion 3.3.1:
+## Etapas del curriculum, en el orden que exige el curriculum:
 ##   1. contra enemigo Tipo A
 ##   2. contra enemigo Tipo B
 ##   3. contra enemigo Tipo C
@@ -60,7 +60,7 @@ func _init(p_config: GAConfig, p_pool: SimPool) -> void:
 	training_levels = LevelMaps.training_levels()
 
 
-## Etapas por defecto: los 4 oponentes de la seccion 3.3.1.
+## Etapas por defecto: los 4 oponentes base del curriculum.
 static func default_curriculum() -> Array:
 	return [
 		{"name": "vs_tipo_A", "type": "A", "count": 1, "opponent": ArenaSpec.Opponent.NONE},
@@ -100,7 +100,7 @@ func train(curriculum: Array = []) -> Genome:
 		if carried == null:
 			population.initialize()
 		else:
-			# Recomendacion IV.1 del PDF: sembrar con el mejor de la etapa previa.
+			# Siembra entre etapas: sembrar con el mejor de la etapa previa.
 			population.seed_from(carried)
 
 		for gen in config.generations:
@@ -149,7 +149,7 @@ func _build_generation_specs(stage: Dictionary, stage_index: int, generation: in
 				spec.with_enemies(type_id, int(stage.get("count", 1)))
 			# Una etapa puede enfrentar a VARIOS tipos a la vez (la escolta del
 			# sanador). El campo "type" cubre el caso de un solo tipo, que son
-			# las cuatro etapas del PDF; "squad" cubre el resto.
+			# las cuatro etapas base; "squad" cubre el resto.
 			if stage.get("squad") is Array:
 				for entrada in (stage["squad"] as Array):
 					spec.with_enemies(str((entrada as Dictionary).get("type", "A")),
@@ -242,7 +242,7 @@ func _generation_stats(stage_index: int, generation: int, stage_name: String) ->
 
 
 ## Congela los pesos de los sensores irrelevantes para ESTA etapa
-## (recomendacion IV.2 del PDF). Solo congela un sensor si es irrelevante en
+## (la congelacion de sensores irrelevantes). Solo congela un sensor si es irrelevante en
 ## TODOS los niveles que rota la etapa: si en alguno importa, hay que seguir
 ## optimizandolo.
 func _build_frozen_set(stage: Dictionary) -> Dictionary:
@@ -272,7 +272,7 @@ func _build_frozen_set(stage: Dictionary) -> Dictionary:
 			print("  [%s] sin sensores congelados" % stage.get("name", ""))
 		else:
 			var names: Array = common.map(func(s: int) -> String: return AgentSensors.NAMES[s])
-			print("  [%s] sensores congelados (IV.2 del PDF): %s"
+			print("  [%s] sensores congelados (la congelacion de sensores irrelevantes): %s"
 					% [stage.get("name", ""), ", ".join(names)])
 	return Mutation.frozen_set(_net_template, common)
 
